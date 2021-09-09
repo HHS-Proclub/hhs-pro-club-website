@@ -1,5 +1,7 @@
 # Programming Club Website
 
+[Website Info / Procedures document](https://docs.google.com/document/d/1Zw9ksafxAa277_JSmIswpcsdpLkF2rFLWdJ6P6KTazc/edit?usp=sharing)
+
 ## IMPORTANT
 
 The files here will be **mirrored** on the actual Programming Club server! That means that anything you change here will appear on the Programming Club website.
