@@ -1,0 +1,1230 @@
+{
+    "PRB1": {
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2019-08-09T02:18:42-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "sarada.subha@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2019-08-09T19:10:53-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "krutavshah@icloud.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:46:39-06:00",
+            "time": 0.096,
+            "mem": 32656
+        },
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:48:08-06:00",
+            "time": 0.056,
+            "mem": 32500
+        },
+        "abhethan631@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T14:48:07-06:00",
+            "time": 0.024,
+            "mem": 9128
+        },
+        "cocochief4@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T14:50:36-06:00",
+            "time": 0.016,
+            "mem": 9160
+        },
+        "alanyu08@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T14:53:32-06:00",
+            "time": 0.016,
+            "mem": 9132
+        },
+        "rohanf6219@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T14:52:20-06:00",
+            "time": 0.024,
+            "mem": 9128
+        },
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:52:55-06:00",
+            "time": 0.06,
+            "mem": 32360
+        },
+        "tobychadyeung@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:59:39-06:00",
+            "time": 0.06,
+            "mem": 32360
+        },
+        "3nthus3dkeyx@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:01:07-06:00",
+            "time": 0.064,
+            "mem": 32556
+        },
+        "leletinger@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:07:08-06:00",
+            "time": 0.088,
+            "mem": 32472
+        },
+        "itamar1zohar@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:03:26-06:00",
+            "time": 0.024,
+            "mem": 9052
+        },
+        "ameya.va12@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:05:52-06:00",
+            "time": 0.064,
+            "mem": 32452
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:15:33-06:00",
+            "time": 0.064,
+            "mem": 32648
+        },
+        "shannon.kunz1@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:07:53-06:00",
+            "time": 0.088,
+            "mem": 35296
+        },
+        "karenminzhang@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:17:29-06:00",
+            "time": 0.12,
+            "mem": 35268
+        },
+        "kevinschwindt455@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:15:21-06:00",
+            "time": 0.016,
+            "mem": 9108
+        },
+        "upasanapuranik1@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:27:33-06:00",
+            "time": 0.056,
+            "mem": 32492
+        },
+        "isaac22chang@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:18:07-06:00",
+            "time": 0.024,
+            "mem": 9048
+        },
+        "lekhaa26@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:13:33-06:00",
+            "time": 0.024,
+            "mem": 9172
+        },
+        "riya.zingade@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:20:30-06:00",
+            "time": 0.092,
+            "mem": 35116
+        },
+        "366799@cusdk8.org": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:23:06-06:00",
+            "time": 0.016,
+            "mem": 9164
+        },
+        "351769@cusdk8.org": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2020-01-25T15:38:53-06:00",
+            "err_msg": "Runtime error."
+        },
+        "cherryminion2008@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T18:01:25-06:00",
+            "time": 0.016,
+            "mem": 9228
+        },
+        "alexlorian@icloud.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T18:03:53-06:00",
+            "time": 0.124,
+            "mem": 35172
+        }
+    },
+    "PRA1": {
+        "sarada.subha@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2019-08-09T22:52:32-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:49:00-06:00",
+            "time": 0.128,
+            "mem": 36552
+        },
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:56:47-06:00",
+            "time": 0.176,
+            "mem": 36564
+        }
+    },
+    "PRB3": {
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:49:51-06:00",
+            "time": 0.1,
+            "mem": 35264
+        },
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:51:33-06:00",
+            "time": 0.14,
+            "mem": 35308
+        },
+        "cocochief4@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T14:54:55-06:00",
+            "time": 0.016,
+            "mem": 9280
+        },
+        "abhethan631@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:02:44-06:00",
+            "time": 0.016,
+            "mem": 9296
+        },
+        "alanyu08@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:28:11-06:00",
+            "time": 0.016,
+            "mem": 9296
+        },
+        "rohanf6219@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:04:47-06:00",
+            "time": 0.016,
+            "mem": 9176
+        },
+        "3nthus3dkeyx@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:20:19-06:00",
+            "time": 0.112,
+            "mem": 35472
+        },
+        "krutavshah@icloud.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:09:15-06:00",
+            "time": 0.16,
+            "mem": 35436
+        },
+        "tobychadyeung@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:18:53-06:00",
+            "time": 0.096,
+            "mem": 35492
+        },
+        "itamar1zohar@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:25:41-06:00",
+            "time": 0.016,
+            "mem": 9408
+        },
+        "kevinschwindt455@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:31:02-06:00",
+            "time": 0.016,
+            "mem": 9292
+        },
+        "366799@cusdk8.org": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:47:53-06:00",
+            "time": 0.028,
+            "mem": 9364
+        },
+        "isaac22chang@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:38:04-06:00",
+            "time": 0.016,
+            "mem": 9172
+        },
+        "lekhaa26@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T16:10:42-06:00",
+            "time": 0.024,
+            "mem": 9408
+        },
+        "upasanapuranik1@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T17:32:33-06:00",
+            "time": 0.136,
+            "mem": 35544
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2020-01-25T16:23:17-06:00",
+            "err_msg": "Compilation error."
+        },
+        "ameya.va12@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T17:43:45-06:00",
+            "time": 0.12,
+            "mem": 35356
+        },
+        "alexlorian@icloud.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T19:09:23-06:00",
+            "time": 0.096,
+            "mem": 35468
+        }
+    },
+    "PRB2": {
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:50:51-06:00",
+            "time": 0.108,
+            "mem": 35352
+        },
+        "cocochief4@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T14:52:43-06:00",
+            "time": 0.016,
+            "mem": 9152
+        },
+        "alanyu08@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T14:56:40-06:00",
+            "time": 0.02,
+            "mem": 9048
+        },
+        "rohanf6219@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T14:59:30-06:00",
+            "time": 0.016,
+            "mem": 9284
+        },
+        "3nthus3dkeyx@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:30:26-06:00",
+            "time": 0.108,
+            "mem": 35352
+        },
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:54:09-06:00",
+            "time": 0.136,
+            "mem": 35308
+        },
+        "abhethan631@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T14:55:18-06:00",
+            "time": 0.016,
+            "mem": 9104
+        },
+        "krutavshah@icloud.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:56:10-06:00",
+            "time": 0.1,
+            "mem": 35352
+        },
+        "tobychadyeung@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:08:15-06:00",
+            "time": 0.152,
+            "mem": 35256
+        },
+        "itamar1zohar@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:17:24-06:00",
+            "time": 0.016,
+            "mem": 9168
+        },
+        "leletinger@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:23:29-06:00",
+            "time": 0.14,
+            "mem": 35376
+        },
+        "kevinschwindt455@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:22:34-06:00",
+            "time": 0.024,
+            "mem": 9168
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T16:11:46-06:00",
+            "time": 0.1,
+            "mem": 35276
+        },
+        "ameya.va12@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:20:43-06:00",
+            "time": 0.1,
+            "mem": 35388
+        },
+        "isaac22chang@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:23:33-06:00",
+            "time": 0.016,
+            "mem": 9164
+        },
+        "karenminzhang@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:29:26-06:00",
+            "time": 0.12,
+            "mem": 37464
+        },
+        "shannon.kunz1@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:29:27-06:00",
+            "time": 0.152,
+            "mem": 37300
+        },
+        "366799@cusdk8.org": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:28:05-06:00",
+            "time": 0.016,
+            "mem": 9164
+        },
+        "lekhaa26@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:38:05-06:00",
+            "time": 0.016,
+            "mem": 9220
+        },
+        "upasanapuranik1@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T16:48:49-06:00",
+            "time": 0.112,
+            "mem": 35524
+        },
+        "cherryminion2008@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2020-01-25T19:45:25-06:00",
+            "err_msg": "Compilation error."
+        },
+        "alexlorian@icloud.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T18:06:55-06:00",
+            "time": 0.108,
+            "mem": 35304
+        }
+    },
+    "PRB4": {
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:54:44-06:00",
+            "time": 0.104,
+            "mem": 35464
+        },
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T14:55:58-06:00",
+            "time": 0.104,
+            "mem": 35380
+        },
+        "abhethan631@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T15:17:54-06:00",
+            "time": 0.016,
+            "mem": 9228
+        },
+        "rohanf6219@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2020-01-25T15:12:53-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "cocochief4@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2020-01-25T15:21:53-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "krutavshah@icloud.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:55:06-06:00",
+            "time": 0.108,
+            "mem": 35264
+        },
+        "alanyu08@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:33:21-06:00",
+            "time": 0.108,
+            "mem": 35528
+        },
+        "tobychadyeung@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T16:05:17-06:00",
+            "time": 0.16,
+            "mem": 35320
+        },
+        "kevinschwindt455@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T16:37:24-06:00",
+            "time": 0.028,
+            "mem": 9444
+        },
+        "itamar1zohar@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2020-01-25T16:42:13-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "366799@cusdk8.org": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T16:10:32-06:00",
+            "time": 0.016,
+            "mem": 9340
+        },
+        "3nthus3dkeyx@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T16:21:40-06:00",
+            "time": 0.096,
+            "mem": 35364
+        },
+        "upasanapuranik1@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T17:25:44-06:00",
+            "time": 0.112,
+            "mem": 35356
+        },
+        "ameya.va12@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2020-01-25T17:50:37-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "cherryminion2008@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2020-01-25T19:50:00-06:00",
+            "err_msg": "Compilation error."
+        }
+    },
+    "CTFDEMO": {
+        "cocochief4@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:15:26-06:00",
+            "err_msg": "Correct."
+        },
+        "shuang974@student.fuhds.org": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:22:06-06:00",
+            "err_msg": "Correct."
+        },
+        "3nthus3dkeyx@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:22:14-06:00",
+            "err_msg": "Correct."
+        },
+        "josh.sanyal123@yahoo.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:26:32-06:00",
+            "err_msg": "Correct."
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:30:19-06:00",
+            "err_msg": "Correct."
+        },
+        "abhethan631@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:30:11-06:00",
+            "err_msg": "Correct."
+        },
+        "alanyu08@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:33:31-06:00",
+            "err_msg": "Correct."
+        },
+        "upasanapuranik1@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:27:23-06:00",
+            "err_msg": "Correct."
+        },
+        "krutavshah@icloud.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:38:23-06:00",
+            "err_msg": "Correct."
+        },
+        "366799@cusdk8.org": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:59:06-06:00",
+            "err_msg": "Correct."
+        },
+        "shannon.kunz1@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:04:29-06:00",
+            "err_msg": "Correct."
+        },
+        "leonwang4234@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:13:29-06:00",
+            "err_msg": "Correct."
+        },
+        "itamar1zohar@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:18:25-06:00",
+            "err_msg": "Correct."
+        },
+        "kevinschwindt455@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:19:46-06:00",
+            "err_msg": "Correct."
+        },
+        "karenminzhang@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T19:20:53-06:00",
+            "err_msg": "Correct."
+        }
+    },
+    "PRI1": {
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:19:17-06:00",
+            "time": 0.1,
+            "mem": 35488
+        },
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:01:21-06:00",
+            "time": 0.108,
+            "mem": 35480
+        },
+        "cocochief4@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T17:34:27-06:00",
+            "time": 0.028,
+            "mem": 9320
+        },
+        "alanyu08@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:44:31-06:00",
+            "time": 0.108,
+            "mem": 35496
+        },
+        "abhethan631@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2020-01-25T17:33:53-06:00",
+            "time": 0.016,
+            "mem": 9328
+        },
+        "tobychadyeung@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T16:39:22-06:00",
+            "time": 0.1,
+            "mem": 35368
+        },
+        "366799@cusdk8.org": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2020-01-25T16:44:22-06:00",
+            "err_msg": "Runtime error."
+        },
+        "ameya.va12@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2020-01-25T17:55:48-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "rohanf6219@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T18:26:07-06:00",
+            "time": 0.108,
+            "mem": 35460
+        }
+    },
+    "PRI2": {
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:10:22-06:00",
+            "time": 0.128,
+            "mem": 35412
+        },
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:18:01-06:00",
+            "time": 0.112,
+            "mem": 35304
+        },
+        "alanyu08@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T17:18:27-06:00",
+            "time": 0.148,
+            "mem": 35308
+        },
+        "abhethan631@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2020-01-25T18:41:05-06:00",
+            "err_msg": "Class name is incorrect."
+        }
+    },
+    "CTFC1": {
+        "rohanf6219@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:29:04-06:00",
+            "err_msg": "Correct."
+        },
+        "alanyu08@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:32:13-06:00",
+            "err_msg": "Correct."
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:33:15-06:00",
+            "err_msg": "Correct."
+        },
+        "cocochief4@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:34:33-06:00",
+            "err_msg": "Correct."
+        },
+        "3nthus3dkeyx@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:40:37-06:00",
+            "err_msg": "Correct."
+        },
+        "abhethan631@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:37:56-06:00",
+            "err_msg": "Correct."
+        },
+        "upasanapuranik1@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:04:14-06:00",
+            "err_msg": "Correct."
+        },
+        "lekhaa26@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:00:39-06:00",
+            "err_msg": "Correct."
+        },
+        "shannon.kunz1@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:08:08-06:00",
+            "err_msg": "Correct."
+        },
+        "jerryyang95130@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:10:38-06:00",
+            "err_msg": "Correct."
+        },
+        "leonwang4234@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:15:06-06:00",
+            "err_msg": "Correct."
+        },
+        "tobychadyeung@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T17:45:08-06:00",
+            "err_msg": "Incorrect."
+        },
+        "itamar1zohar@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:21:30-06:00",
+            "err_msg": "Correct."
+        },
+        "kevinschwindt455@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:22:48-06:00",
+            "err_msg": "Correct."
+        },
+        "karenminzhang@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T19:22:00-06:00",
+            "err_msg": "Correct."
+        }
+    },
+    "PRI3": {
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:23:21-06:00",
+            "time": 0.216,
+            "mem": 37908
+        },
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:26:04-06:00",
+            "time": 0.144,
+            "mem": 38132
+        },
+        "alanyu08@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T17:46:09-06:00",
+            "time": 0.212,
+            "mem": 38264
+        }
+    },
+    "PRI4": {
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T16:02:41-06:00",
+            "time": 0.108,
+            "mem": 35548
+        },
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T15:37:10-06:00",
+            "time": 0.12,
+            "mem": 35504
+        },
+        "alanyu08@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2020-01-25T20:02:06-06:00",
+            "err_msg": "Compilation error."
+        }
+    },
+    "CTFC2": {
+        "cocochief4@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:37:22-06:00",
+            "err_msg": "Correct."
+        },
+        "alanyu08@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:48:30-06:00",
+            "err_msg": "Correct."
+        },
+        "shannon.kunz1@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:33:48-06:00",
+            "err_msg": "Correct."
+        },
+        "abhethan631@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:39:02-06:00",
+            "err_msg": "Correct."
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T17:59:41-06:00",
+            "err_msg": "Incorrect."
+        },
+        "itamar1zohar@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T17:25:08-06:00",
+            "err_msg": "Incorrect."
+        },
+        "rohanf6219@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:27:30-06:00",
+            "err_msg": "Correct."
+        },
+        "kevinschwindt455@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T17:28:05-06:00",
+            "err_msg": "Incorrect."
+        },
+        "leonwang4234@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:58:23-06:00",
+            "err_msg": "Correct."
+        },
+        "jerryyang95130@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:29:35-06:00",
+            "err_msg": "Correct."
+        },
+        "karenminzhang@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T19:31:56-06:00",
+            "err_msg": "Correct."
+        }
+    },
+    "CTFA1": {
+        "rohanf6219@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:44:35-06:00",
+            "err_msg": "Correct."
+        },
+        "cocochief4@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:47:29-06:00",
+            "err_msg": "Correct."
+        },
+        "abhethan631@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T15:51:08-06:00",
+            "err_msg": "Correct."
+        },
+        "3nthus3dkeyx@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T16:06:56-06:00",
+            "err_msg": "Incorrect."
+        },
+        "alanyu08@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T19:36:47-06:00",
+            "err_msg": "Correct."
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:19:02-06:00",
+            "err_msg": "Correct."
+        },
+        "leonwang4234@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:15:10-06:00",
+            "err_msg": "Correct."
+        },
+        "itamar1zohar@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:33:15-06:00",
+            "err_msg": "Correct."
+        },
+        "upasanapuranik1@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T17:38:41-06:00",
+            "err_msg": "Incorrect."
+        },
+        "jerryyang95130@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:09:04-06:00",
+            "err_msg": "Correct."
+        },
+        "shannon.kunz1@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T19:48:13-06:00",
+            "err_msg": "Incorrect."
+        }
+    },
+    "CTFA3": {
+        "rohanf6219@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T15:46:34-06:00",
+            "err_msg": "Incorrect."
+        },
+        "3nthus3dkeyx@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T16:36:15-06:00",
+            "err_msg": "Incorrect."
+        },
+        "abhethan631@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T18:54:17-06:00",
+            "err_msg": "Incorrect."
+        },
+        "cocochief4@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T18:03:44-06:00",
+            "err_msg": "Incorrect."
+        },
+        "itamar1zohar@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T18:04:12-06:00",
+            "err_msg": "Incorrect."
+        },
+        "leonwang4234@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T18:39:06-06:00",
+            "err_msg": "Incorrect."
+        },
+        "alanyu08@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T20:23:39-06:00",
+            "err_msg": "Correct."
+        },
+        "jerryyang95130@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T20:12:33-06:00",
+            "err_msg": "Correct."
+        }
+    },
+    "CTFA2": {
+        "cocochief4@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:20:45-06:00",
+            "err_msg": "Correct."
+        },
+        "rohanf6219@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:24:50-06:00",
+            "err_msg": "Correct."
+        },
+        "abhethan631@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:20:23-06:00",
+            "err_msg": "Correct."
+        },
+        "3nthus3dkeyx@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T16:25:28-06:00",
+            "err_msg": "Correct."
+        },
+        "alanyu08@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T19:27:11-06:00",
+            "err_msg": "Correct."
+        },
+        "itamar1zohar@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T17:52:29-06:00",
+            "err_msg": "Incorrect."
+        },
+        "leonwang4234@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:16:42-06:00",
+            "err_msg": "Correct."
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T18:00:50-06:00",
+            "err_msg": "Incorrect."
+        },
+        "jerryyang95130@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:17:52-06:00",
+            "err_msg": "Correct."
+        }
+    },
+    "CTFA4": {
+        "rohanf6219@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T15:52:24-06:00",
+            "err_msg": "Incorrect."
+        },
+        "jerryyang95130@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T16:15:43-06:00",
+            "err_msg": "Incorrect."
+        },
+        "alanyu08@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T19:47:58-06:00",
+            "err_msg": "Incorrect."
+        },
+        "cocochief4@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T18:09:48-06:00",
+            "err_msg": "Incorrect."
+        },
+        "abhethan631@gmail.com": {
+            "correct": false,
+            "timestamp": "2020-01-25T19:11:06-06:00",
+            "err_msg": "Incorrect."
+        }
+    },
+    "CTFC3": {
+        "rohanf6219@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:42:12-06:00",
+            "err_msg": "Correct."
+        },
+        "abhethan631@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:02:52-06:00",
+            "err_msg": "Correct."
+        },
+        "cocochief4@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:01:47-06:00",
+            "err_msg": "Correct."
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:39:50-06:00",
+            "err_msg": "Correct."
+        },
+        "itamar1zohar@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:26:32-06:00",
+            "err_msg": "Correct."
+        },
+        "leonwang4234@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:33:50-06:00",
+            "err_msg": "Correct."
+        },
+        "jerryyang95130@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:37:06-06:00",
+            "err_msg": "Correct."
+        },
+        "shannon.kunz1@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:49:39-06:00",
+            "err_msg": "Correct."
+        },
+        "alanyu08@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T19:23:10-06:00",
+            "err_msg": "Correct."
+        },
+        "karenminzhang@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T19:24:09-06:00",
+            "err_msg": "Correct."
+        }
+    },
+    "CTFC4": {
+        "alanyu08@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T19:20:37-06:00",
+            "err_msg": "Correct."
+        },
+        "upasanapuranik1@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:02:57-06:00",
+            "err_msg": "Correct."
+        },
+        "leonwang4234@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:48:39-06:00",
+            "err_msg": "Correct."
+        },
+        "rajiv.venkatesh@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:50:38-06:00",
+            "err_msg": "Correct."
+        },
+        "rohanf6219@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T17:59:24-06:00",
+            "err_msg": "Correct."
+        },
+        "abhethan631@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:04:43-06:00",
+            "err_msg": "Correct."
+        },
+        "cocochief4@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:10:17-06:00",
+            "err_msg": "Correct."
+        },
+        "jerryyang95130@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T18:10:31-06:00",
+            "err_msg": "Correct."
+        },
+        "shannon.kunz1@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T19:46:40-06:00",
+            "err_msg": "Correct."
+        },
+        "karenminzhang@gmail.com": {
+            "correct": true,
+            "timestamp": "2020-01-25T20:00:25-06:00",
+            "err_msg": "Correct."
+        }
+    },
+    "PRA2": {
+        "jerryyang95130@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T19:24:47-06:00",
+            "time": 0.1,
+            "mem": 35364
+        },
+        "leonwang4234@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2020-01-25T19:43:20-06:00",
+            "time": 0.14,
+            "mem": 35360
+        }
+    }
+}

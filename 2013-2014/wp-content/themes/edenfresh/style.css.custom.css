@@ -1,0 +1,57 @@
+/****************************
+ * Custom Styles
+ ****************************/
+
+.full-width-navbar {
+	background: black;
+}
+
+.navbar .brand {
+	padding-top: 2px;
+	padding-bottom: 3px;
+}
+
+.navbar .nav > li > a {
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+
+.navbar .nav > li:not(.current-menu-item) > a:hover {
+	color: white;
+	text-shadow: 0 0 5px #83ff6f;
+	background: #4c4c4c;
+}
+
+.navbar-inner {
+	margin: 0;
+}
+
+.row-fluid {
+	position: relative;
+}
+
+.row-fluid .span3-section, .row-fluid .span3-section .span3 {
+	width: 46.8085106383%;
+}
+
+.entry-content .service-icon + a {
+	vertical-align: middle;
+}
+
+.entry-content :first-child {
+	overflow: auto;
+}
+
+.service-icon {
+	float: left;
+}
+
+.icon-leaf {
+	background: url(http://starlakes.com/hhsprogramming/1010.png) 0 0;
+}
+
+.footer {
+	margin-top: 20px;
+}

@@ -1,0 +1,163 @@
+[
+    {
+        "title": "Cryptography",
+        "content": "Learn about cryptography by <a href=\"https:\/\/docs.google.com\/document\/d\/10OtEt9O9VIE0aXiUDhvj0cT02VjivboJ12d0qHxhxxI\/edit?usp=sharing\">clicking here<\/a>!\r\n",
+        "date": "11",
+        "month": "04",
+        "year": "2018"
+    },
+    {
+        "title": "Recursion & DFS!",
+        "content": "Learn about depth first search (DFS) through recursion by <a href=\"https:\/\/docs.google.com\/document\/d\/1vezaEu6fPgtNqb1Uz3wYCdnjgH3CNdKjQWe33TDOU6E\/edit?usp=sharing\">clicking here<\/a>!",
+        "date": "04",
+        "month": "04",
+        "year": "2018"
+    },
+    {
+        "title": "SQL Injection!",
+        "content": "An estimated 25% of all websites are open to SQL injection attacks. Learn how to do this by <a href=\"http:\/\/hhsprogramming.com\/injection\/\">clicking here<\/a>.",
+        "date": "23",
+        "month": "03",
+        "year": "2018"
+    },
+    {
+        "title": "Pendulum Competition!",
+        "content": "Want to win a $10 Starbucks gift card? <a href=\"https:\/\/docs.google.com\/document\/d\/1mta3xIkBhnaBgogbaBlPj6KOZN4n7VkaCQ6vgXyiCFQ\/edit?usp=sharing\">Click here<\/a> to view the doc and to get started with our pendulum competition. Highest score wins the gift card!",
+        "date": "14",
+        "month": "03",
+        "year": "2018"
+    },
+    {
+        "title": "Chrome Extension Workshop!",
+        "content": "Want to create your own Chrome extension? <a href=\"https:\/\/docs.google.com\/document\/d\/1gshLbmeGAV-PU48PtsKDhB81yUOYSh881xJShVNHNp0\/edit?usp=sharing\">Click here<\/a> to get started.",
+        "date": "07",
+        "month": "03",
+        "year": "2018"
+    },
+    {
+        "title": "APCS & Intro to Java Study Session!",
+        "content": "Thanks for coming to the APCS & Intro to Java Study Session! You can <a href=\"http:\/\/hhsprogramming.com\/workshops\/studysession3.php\">click here<\/a> to access the resources. Good luck on your tests!",
+        "date": "05",
+        "month": "03",
+        "year": "2018"
+    },
+    {
+        "title": "Programming Competitions!",
+        "content": "Prepare for upcoming programming contests! This includes Stanford Proco, the ongoing USACO contests, and a variety of other online ones. <a href = \"https:\/\/docs.google.com\/document\/d\/12iM1_1FirkR8X0Dob7CevI71F60aYAIGATsjqxPOC-Q\/edit\" >Click here <\/a> to access the file.",
+        "date": "14",
+        "month": "02",
+        "year": "2018"
+    },
+    {
+        "title": "Ethical Hacking Part 2!",
+        "content": "Part 2 of our ethical hacking workshop! <a href=\"https:\/\/docs.google.com\/document\/d\/1t4Outl3XbqTzYkN97UoBsLovbj_jIv0L-nItfmu6NKI\/edit?usp=sharing\">Click here<\/a> to access the file.",
+        "date": "07",
+        "month": "02",
+        "year": "2018"
+    },
+    {
+        "title": "Ethical Hacking!",
+        "content": "Want an introduction to ethical hacking? We've compiled a document with great practice problems. You can access them by <a href=\"https:\/\/docs.google.com\/document\/d\/1hA9QpJG0goQLFvcvlYAAyLMiad-t9pMKsbpcVN1neEY\/edit?usp=sharing\">clicking here<\/a>!",
+        "date": "31",
+        "month": "01",
+        "year": "2018"
+    },
+    {
+        "title": "Website Workshop Part 1",
+        "content": "Welcome to the website development workshop! <a href=\"https:\/\/docs.google.com\/document\/d\/16SdLOj43aF-bR-5-oqzna7icQ5h5zDd3hZ1uxN_R8TA\/edit\">Click here<\/a> to access part 1 of the workshop, and <a href=\"https:\/\/docs.google.com\/document\/d\/1NUA9BPJG_NGGK9ARSmUKgPQa-PuJ0R-oTFifx08jneA\/edit\">click here<\/a> to access part 2. Once you finish both these tutorials, you should have the skills to put together your very first website!",
+        "date": "17",
+        "month": "01",
+        "year": "2018"
+    },
+    {
+        "title": "Personalized Assistant",
+        "content": "Want to learn to create your own personalized assistant program that can open and close other applications and files? <a href=\"https:\/\/docs.google.com\/document\/d\/1CZfWdrflHFwb7UyWD81EFzOzdvs2EtTL40WrXLni0Eo\/edit\">Click here<\/a> to learn how!",
+        "date": "10",
+        "month": "01",
+        "year": "2018"
+    },
+    {
+        "title": "3D Graphics Workshop!",
+        "content": "Want to learn to use 3D graphics through the Processing Java framework? <a href=\"https:\/\/docs.google.com\/document\/d\/1LV1lrBjSqifNm35WLlmDLvMqWlUNxwhWfwlT1LIsp10\/edit?usp=sharing\">Click here<\/a> for the full tutorial!",
+        "date": "29",
+        "month": "11",
+        "year": "2017"
+    },
+    {
+        "title": "Study Session & Algorithms Workshop!",
+        "content": "Looking to study for the upcoming APCS test? We have resources for you <a href=\"http:\/\/hhsprogramming.com\/workshops\/studysession2\">here<\/a>. Want to learn about awesome algorithms? <a href=\"https:\/\/docs.google.com\/document\/d\/1-zD6Y6MVWbIM_u6SO3Pa6B1hEEKmcjepywtV5uto-Kk\/edit?usp=sharing\">Click here<\/a>!",
+        "date": "15",
+        "month": "11",
+        "year": "2017"
+    },
+    {
+        "title": "Networking Workshop!",
+        "content": "Want to learn how to connect your Java program or game to a network? <a href=\"https:\/\/docs.google.com\/document\/d\/1xEim7gUVLWaGVrp7Cl8Y_HuGna-FsKZuIeEIIF789S0\/edit\">Click here<\/a> to learn how through our two-screen Hockey game!",
+        "date": "08",
+        "month": "11",
+        "year": "2017"
+    },
+    {
+        "title": "Intro to Artificial Intelligence",
+        "content": "Want an introduction to artificial intelligence? <a href=\"https:\/\/docs.google.com\/document\/d\/1VQgRokQJApbuGFyhiGBFKA9D8zgAzBE1NFjggrvd7oQ\/edit\">Click here<\/a> to access the doc!",
+        "date": "01",
+        "month": "11",
+        "year": "2017"
+    },
+    {
+        "title": "Bacon Wikipedia",
+        "content": "Learn to use search algorithms to navigate through Wikipedia articles by <a href=\"https:\/\/docs.google.com\/document\/d\/145IJyCzNod7A_kcwbbbX-pRcFtmzXg5oYEBPvIwriBw\/edit?usp=sharing\">clicking here<\/a>!",
+        "date": "25",
+        "month": "10",
+        "year": "2017"
+    },
+    {
+        "title": "APIs Workshop!",
+        "content": "Want to learn how to use APIs from Spotify, Wikipedia, Wolfram Alpha, among others? Click <a href=\"http:\/\/hhsprogramming.com\/workshops\/api\">here<\/a> to get started!",
+        "date": "18",
+        "month": "10",
+        "year": "2017"
+    },
+    {
+        "title": "Study Session & Git!",
+        "content": "Thanks for attending the Programming Club study session! We will be hosting a Kahoot soon (at around 3:20). Meanwhile, we've posted some study materials. Click <a href=\"http:\/\/hhsprogramming.com\/workshops\/studysession\">here<\/a> to access these materials and the Git tutorial.",
+        "date": "11",
+        "month": "10",
+        "year": "2017"
+    },
+    {
+        "title": "Make Your Own Game",
+        "content": "This workshop will let you create your own 2-player, top down shooter! The game development and mechanics are completely up to you! <a href=\"http:\/\/hhsprogramming.com\/workshops\/makeyourowngame\"> The workshop can be found here.<\/a>",
+        "date": "04",
+        "month": "10",
+        "year": "2017"
+    },
+    {
+        "title": "Mario Workshop!",
+        "content": "You can download the Mario workshop zip file by <a href=\"http:\/\/hhsprogramming.com\/mario.zip\">clicking here<\/a>. View the instructional doc by <a href=\"https:\/\/docs.google.com\/document\/d\/1p2kRworJdE79flidlC3ZmAS3Kii4qdzxAS5IXnFOvS8\">clicking here<\/a>.",
+        "date": "27",
+        "month": "09",
+        "year": "2017"
+    },
+    {
+        "title": "Java Robot!",
+        "content": "View our workshop instructions by <a href=\"http:\/\/hhsprogramming.com\/workshops\/javarobot\">clicking here<\/a>. Also, apply to a committee by <a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdxnVbRNmaeGjtJN2QBkfsrnaGurOYfNHcm9bBsIgNhNKSiCg\/viewform\">clicking here<\/a>!",
+        "date": "20",
+        "month": "09",
+        "year": "2017"
+    },
+    {
+        "title": "Triangle Adventures!",
+        "content": "Thanks for coming to our first workshop! You can view the workshop doc by <a href=\"https:\/\/docs.google.com\/document\/d\/1PzA9LG5cXjf0Fbk5vSnmiIihoxsiFH-f-X2mfI8W2Do\/edit?usp=sharing\">clicking here<\/a>, and you can download the file by <a href=\"http:\/\/hhsprogramming.com\/TriangleAdventures.zip\">clicking here<\/a>.",
+        "date": null,
+        "month": null,
+        "year": ""
+    },
+    {
+        "title": "Welcome to Programming Club!",
+        "content": "Be sure to register on this website by clicking Join at the top right. Come to our first workshop next Wednesday (9\/14) afterschool!",
+        "date": "07",
+        "month": "09",
+        "year": "2017"
+    }
+]

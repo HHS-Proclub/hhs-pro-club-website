@@ -1,0 +1,5 @@
+N = int(input())
+A = int(input())
+B = int(input())
+ascent = min(N - 1, round(N * B / (A + B)))
+print(min(A * ascent, B * (N - ascent)))

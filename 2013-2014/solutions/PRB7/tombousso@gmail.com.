@@ -1,0 +1,3 @@
+import fractions
+arr=raw_input('').split(' ')
+print fractions.gcd(int(arr[0]),int(arr[1]))

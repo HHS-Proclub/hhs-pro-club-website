@@ -1,0 +1,10 @@
+[
+    {
+        "question": "A or B?",
+        "options": {
+            "A": "option A",
+            "B": "option B"
+        },
+        "answer": "A"
+    }
+]

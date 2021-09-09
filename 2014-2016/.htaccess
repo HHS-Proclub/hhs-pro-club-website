@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^competition/([^/.]+)/$         competition.php?competition=$1
+    RewriteRule ^problem/([^/.]+)/([^.]+)/$     problem.php?problem=$2&year=$1 [QSA,L]
+    RewriteRule ^problem/([^/.]+)/$             problem.php?problem=$1 [QSA,L]
+    RewriteRule ^problems/([^/.]+)/$            problems.php?year=$1 [QSA,L]
+    RewriteRule ^problems/([^/.]+)/([^.]+)/$    problem.php?problem=$2&year=$1 [QSA,L]
+    RewriteRule ^edit-problem/([^/.]+)/$        edit-problem.php?pr=$1 [QSA,L]
+    RewriteRule ^leaderboard/([^/.]+)/$         leaderboard.php?state=$1 [QSA,L]
+
+    RewriteCond %{REQUEST_FILENAME}/index.php -f
+    RewriteRule ^([^\.]+)$ $1/index.php [L]
+
+    RewriteRule ^([^.]+)/$  $1.php  [QSA,L]
+    RewriteRule ^([^.]+)$   $1.php  [QSA,L]
+</IfModule>

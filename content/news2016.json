@@ -1,0 +1,142 @@
+[
+    {
+        "title": "Final Project!",
+        "content": "Need help on your final project? Programming Club has provided a complete guide with important concepts from our previous workshops to help you out! Click <a href=\"https:\/\/docs.google.com\/document\/d\/1N4p1KGHoyHqBOpw64b6QsLJwTCxPItOoLPMnscJ4V10\">here<\/a> to get started.",
+        "date": "17",
+        "month": "05",
+        "year": "2017"
+    },
+    {
+        "title": "Harker Programming Invitational Prep!",
+        "content": "The Harker Programming Invitational is coming up soon! Regardless of whether or not you're signed up, we have a few challenge problems you can use to practice, located <a href=\"http:\/\/hhsprogramming.com\/problems?getAll\">here<\/a>.",
+        "date": "15",
+        "month": "03",
+        "year": "2017"
+    },
+    {
+        "title": "Java Networking Part 2",
+        "content": "Learn more about networking in Java and make a tictactoe game - check-out this week's <a href=\"https:\/\/docs.google.com\/document\/d\/1xp9TUPxFYaJmckzw7JgZsTZns1tpF5ise8dF_6O1aWU\/edit?usp=sharing\" target=\"_blank\">guide<\/a>. Some other reminders:<br>\r\n<ul>\r\n<li>Sign up for Harker Programming Invitiational (March 19) with a team of 2-3 (link sent out in email)<\/li>\r\n<li>Sign up for <a href=\"http:\/\/hshacks.com\" target=\"_blank\">HSHacks<\/a> (March 26-27), the biggest high school hackathon<\/li>\r\n<li>On the topic of hackathons, also check out <a href=\"http:\/\/tinohacks.tech\/\" target=\"_blank\">TinoHacks<\/a>, happening mid-April<\/li>\r\n<\/ul>\r\nCome to our meeting next week for a Stanford Computer Science <b>guest speaker<\/b> presentation about algorithms + social biases!",
+        "date": "01",
+        "month": "03",
+        "year": "2017"
+    },
+    {
+        "title": "Intro to Networking",
+        "content": "Learn about the <a href=\"https:\/\/docs.google.com\/document\/d\/18GBfpi-HH9VWIRej_CIBM-kZfLt8psI8jTxAxGK2HSg\/edit\" target=\"_blank\">basics of networking<\/a> this week. After break, we'll have a more extensive networking workshop and some fun challenges.",
+        "date": "15",
+        "month": "02",
+        "year": "2017"
+    },
+    {
+        "title": "Android Workshop Series - Parts 2 & 3",
+        "content": "Learn to build a <a href=\"https:\/\/docs.google.com\/document\/d\/1syr6kGnja5fv4PqJfNqMhWHQ2nzT1LLbjlLsaSGv16k\/edit\" target=\"_blank\">message board app with Firebase<\/a> or a <a href=\"https:\/\/docs.google.com\/document\/d\/1VTPiGOY9i7xkd6JA5lho6MMqiMhxP36-LAFC8oDPIk8\/edit\" target=\"_blank\">rolling ball app with motion sensors<\/a>!\r\nAlso if you haven't already, sign up for <a href=\"http:\/\/hshacks.com\" target=\"_blank\">HSHacks<\/a> (by 2\/10) and <a href=\"http:\/\/lahacks.com\" target=\"_blank\">LA Hacks<\/a> (by today)!",
+        "date": "01",
+        "month": "02",
+        "year": "2017"
+    },
+    {
+        "title": "Android Workshop Series",
+        "content": "The first installment of the Android Workshop Series starts out with a simple one-button app. There are two tutorial options:\r\n<ul>\r\n<li><a href=\"https:\/\/docs.google.com\/document\/d\/1e6CIJUMHDt_mO4LxSnJr4aigh8cDViBzeTjTcEpNc9E\/edit?usp=sharing\" target=\"_blank\">with Android Studio<\/a> (<b>highly recommended<\/b>)<\/li>\r\n<li><a href=\"https:\/\/docs.google.com\/document\/d\/14PEBxDuUrWYF1DruCjTwl12odsGNJxNszMBUhf44yfA\/edit?usp=sharing\" target=\"_blank\">with Eclipse<\/a><\/li>\r\n<\/ul>",
+        "date": null,
+        "month": null,
+        "year": ""
+    },
+    {
+        "title": "First Meeting of Second Semester",
+        "content": "Programming Club is starting off second semester with the Balancing Pendulum Challenge:\r\n<ul>\r\n<li><a href=\"https:\/\/docs.google.com\/document\/d\/1A8_L_tKpsB1Z0NDyFqngX_AMn1tgj3Pskc0VNP96lBg\/edit\" target=\"_blank\">Get Started<\/li>\r\n<li><a href=\"http:\/\/hhsprogramming.com\/downloads\/BalancePendulum.zip\">Eclipse project<\/a><\/li>\r\n<\/ul>\r\n<br>\r\nAlso, be sure to bring $10 to pick up your t-shirt, and <a href=\"https:\/\/docs.google.com\/document\/d\/1fWKbnbAK6uC4irW3iBeSfsGT1AZj7c3UvmVcYYQpwSs\/edit?usp=sharing\" target=\"_blank\">go here<\/a> if you're interested in submitting a challenge problem for others to solve.",
+        "date": "13",
+        "month": "01",
+        "year": "1999"
+    },
+    {
+        "title": "Programming Club Study Session!",
+        "content": "Welcome to Programming Club's Intro\/APCS Study Session! Here are some resources:\r\n<br\/>\r\n<a href=\"http:\/\/www.mrpudaloff.com\/uploads\/1\/4\/0\/1\/14010214\/barrons_ap_computer_science_2008-2009_1.pdf\">Barron's APCS<\/a>\r\n<br\/>\r\nMake sure you take our\r\n<a href=\"http:\/\/tinyurl.com\/proclubsurvey\">survey<\/a>!",
+        "date": "08",
+        "month": "12",
+        "year": "2016"
+    },
+    {
+        "title": "Git and GitHub",
+        "content": "Learn how to use to use the Git Version Control System to supercharge your collaborative programming powers! Check out our tutorial <a href=\"https:\/\/docs.google.com\/document\/d\/1NK9avDZZm0pvuzAQRUMojLKq-x1bEJiG_yRTd-nod9o\/edit?usp=sharing\" target=\"_blank\">here<\/a>.<br\/><br\/> If you are interested in learning how to make a game, download the Mario starter template <a href=\"http:\/\/hhsprogramming.com\/mario.zip\" target=\"_blank\">here<\/a>.",
+        "date": "30",
+        "month": "11",
+        "year": "2016"
+    },
+    {
+        "title": "Automation with Java Robot",
+        "content": "<a href=\"http:\/\/hhsprogramming.com\/automate-life\" target=\"_blank\">Learn<\/a> how to use Java Robot to automate life with the power of programming!",
+        "date": "16",
+        "month": "11",
+        "year": "2016"
+    },
+    {
+        "title": "CSS Art",
+        "content": "Try your css sorcery at <a href=\"\/css-art\/\">css art<\/a>",
+        "date": "09",
+        "month": "11",
+        "year": "2016"
+    },
+    {
+        "title": "Web Competition",
+        "content": "<a href=\"https:\/\/drive.google.com\/open?id=1Gyv87Ky0biEOZ0cq8wAuJR7tdTkUiAvwPL_fRZj5Z48\">details here.<\/a>",
+        "date": "2016",
+        "month": "02",
+        "year": "11"
+    },
+    {
+        "title": "How to Mess with Your Friends",
+        "content": "<a href=\"https:\/\/docs.google.com\/document\/d\/1gshLbmeGAV-PU48PtsKDhB81yUOYSh881xJShVNHNp0\/edit?usp=sharing\" target=\"_blank\">Learn<\/a> how to make a fun Chrome extension, and <a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSf0Jph5OcgNCdeGYdHYRxA8DzKjSqev7uYm0_Fq3AY0WhCQjg\/viewform?usp=send_form\" target=\"_blank\">order a t-shirt<\/a>!",
+        "date": "26",
+        "month": "10",
+        "year": "2016"
+    },
+    {
+        "title": "Website Tutorial Series",
+        "content": "<b><a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSf0Jph5OcgNCdeGYdHYRxA8DzKjSqev7uYm0_Fq3AY0WhCQjg\/viewform?usp=send_form\" target=\"_blank\">Pre-order a t-shirt<\/a><\/b> to look great in our yearbook photo and to look great in general! You must fill out the form if you want to buy one.<br><br>\r\nWeb Tutorial Series:\r\n<ul>\r\n<li><a href=\"https:\/\/docs.google.com\/document\/d\/16SdLOj43aF-bR-5-oqzna7icQ5h5zDd3hZ1uxN_R8TA\/edit\" target=\"_blank\">Part 1 - Intro to HTML\/CSS<\/a><\/li>\r\n<li><a href=\"https:\/\/docs.google.com\/document\/d\/1NUA9BPJG_NGGK9ARSmUKgPQa-PuJ0R-oTFifx08jneA\/edit\" target=\"_blank\">Part 2 - More HTML\/CSS and Bootstrap<\/a><\/li>\r\n<li><a href=\"https:\/\/docs.google.com\/document\/d\/1_Cxm3b2B8Lcs1noKq_ZcTQrRBAamCAgyr_4wb580G6o\/edit\" target=\"_blank\">Part 3 - JavaScript<\/a><\/li>\r\n<li><a href=\"https:\/\/docs.google.com\/document\/d\/1U-EGf4KAHkIZfLIrrGP9-nzPqndG614JzFKWc6Ma7UA\/edit\" target=\"_blank\">Part 4 - jQuery<\/a><\/li>\r\n<li><a href=\"http:\/\/hhsprogramming.com\/php-example\/\" target=\"_blank\">Part 5 - Some PHP<\/a><\/li>\r\n<\/ul>",
+        "date": "19",
+        "month": "10",
+        "year": "2016"
+    },
+    {
+        "title": "CodeOlympics 2016!",
+        "content": "Welcome to CodeOlympics!\r\n<br\/><br\/>\r\nTeams of two will be competing against each other to win prizes! Click <a href=\"https:\/\/docs.google.com\/document\/d\/1DwtdHqN4bvHQWWx7Yam1M1ueAVY_W4SgXo1RyuxPZZ4\/pub\">here<\/a> to get started. Good luck!",
+        "date": "12",
+        "month": "10",
+        "year": "2016"
+    },
+    {
+        "title": "Competition Programming!",
+        "content": "Hey programmers!\r\nInterested in programming competitively and <b>earning money<\/b>? Programming Club has prepared a document with algorithms and practice problems for you all to practice and learn. Click <a href=\"https:\/\/docs.google.com\/document\/d\/12iM1_1FirkR8X0Dob7CevI71F60aYAIGATsjqxPOC-Q\/edit?usp=sharing\">here<\/a> to get started!",
+        "date": "05",
+        "month": "10",
+        "year": "2016"
+    },
+    {
+        "title": "Facebook Tour",
+        "content": "Hey guys, We have a really fun event coming up soon! The Facebook tour is going to be on a staff learning day and we'll be going around the campus and we'll also being taking awesome pictures in front of the thumb ;). If you'd like to come to our super cool business tour, please sign up here: \r\n\r\n<a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdclPP6l6L4Bu23fW_ISRrULSWvX-aO0Qu8YYzdrU9bGD5euQ\/viewform\"> Facebook Tour<\/a>",
+        "date": "17",
+        "month": "10",
+        "year": "2016"
+    },
+    {
+        "title": "APIs and How to Use Them!",
+        "content": "Hello awesome Coders! <br\/>Are you interested in learning how to make services like Spotify, Twitter, Wikipedia, and Wolfram Alpha do what you want to do? Do you want to automate tasks and make your life easier? Programming Club has simplified some common, popular APIs (Application Program Interfaces) that allow you to leverage existing services and make cool projects!<br\/><br\/>To get started, just follow these <a target=\"_blank\" href=\"https:\/\/docs.google.com\/document\/d\/1vc-6qmGrsOpNPBO-3Dv92BnLM68kXxkN9jEeD1DUkNE\/edit\">instructions.<\/a>",
+        "date": "21",
+        "month": "09",
+        "year": "2016"
+    },
+    {
+        "title": "Yet Another Series of Triangle Adventures!",
+        "content": "Hello Programmers! <br\/> Are you excited for another series of Triangle Adventures? This Programming Club made game can help you learn and practice basic programming concepts while having a blast! Be sure to check it out <a target=\"_blank\" href=\"https:\/\/docs.google.com\/document\/d\/148YPE3BfHraodP8QLZ3l9CU2zzM-DnJxIQT11XI43_U\/edit\">here<\/a>.<br><br>Also, download the <a href='\/downloads\/PRB1.java'>basic challenge problem template<\/a> (in this case, tailored for PRB1) if you need help!",
+        "date": "13",
+        "month": "09",
+        "year": "2016"
+    },
+    {
+        "title": "Welcome to Programming Club!",
+        "content": "Be sure to register on this website by clicking Join at the top right. Come to our first workshop next Wednesday (9\/14) afterschool!",
+        "date": "07",
+        "month": "09",
+        "year": "2016"
+    }
+]

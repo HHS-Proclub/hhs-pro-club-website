@@ -1,0 +1,525 @@
+{
+    "PRB14": {
+        "jasondamour98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-03T12:20:57-05:00",
+            "time": 0.13,
+            "mem": 321088
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-08T17:27:39-05:00",
+            "time": 0.14,
+            "mem": 321088
+        },
+        "k_kogachi@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-22T00:15:33-05:00",
+            "time": 0.09,
+            "mem": 320320
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-04-23T01:38:42-05:00",
+            "time": 0,
+            "mem": 3100
+        },
+        "steventeddy555@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-26T17:41:29-05:00",
+            "time": 0.13,
+            "mem": 321088
+        }
+    },
+    "PRA12": {
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-08T17:28:14-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "PRA14": {
+        "jasondamour98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-11T19:15:44-05:00",
+            "time": 0.15,
+            "mem": 321024
+        },
+        "ritwik.dixit@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-22T18:08:12-05:00",
+            "time": 1.33,
+            "mem": 326272
+        }
+    },
+    "PRB11": {
+        "chen.michael9@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-04-23T01:22:35-05:00",
+            "time": 0,
+            "mem": 3144
+        }
+    },
+    "PRB13": {
+        "chen.michael9@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-04-23T01:27:00-05:00",
+            "time": 0,
+            "mem": 3276
+        },
+        "steventeddy555@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-26T17:47:21-05:00",
+            "time": 0.17,
+            "mem": 321088
+        },
+        "rie.ohta98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-29T17:44:37-05:00",
+            "time": 0.16,
+            "mem": 321088
+        },
+        "yinjohn23@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-29T17:57:10-05:00",
+            "time": 0.16,
+            "mem": 321088
+        }
+    },
+    "PRB12": {
+        "chen.michael9@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-04-23T02:01:47-05:00",
+            "time": 0,
+            "mem": 3276
+        }
+    },
+    "PRA5": {
+        "chen.michael9@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-04-23T02:23:49-05:00",
+            "time": 0,
+            "mem": 3100
+        }
+    },
+    "PRB15": {
+        "jasondamour98@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-04-29T17:38:09-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-29T18:20:59-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "B0": {
+        "admin": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T12:43:13-05:00",
+            "time": 0.13,
+            "mem": 321088
+        },
+        "Soham is a weird child": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T12:47:29-05:00",
+            "time": 0.09,
+            "mem": 320320
+        },
+        "send.amit@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T12:53:13-05:00",
+            "time": 0.14,
+            "mem": 321088
+        },
+        "ethanyim1998": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T12:59:23-05:00",
+            "time": 0.13,
+            "mem": 321088
+        },
+        "Bobbert": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:20:42-05:00",
+            "time": 0.15,
+            "mem": 321088
+        },
+        "steventeddy": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:26:59-05:00",
+            "time": 0.14,
+            "mem": 321088
+        },
+        "GoChickens": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:36:29-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "B1": {
+        "Soham is a weird child": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:10:50-05:00",
+            "time": 0.13,
+            "mem": 321088
+        },
+        "admin": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:09:53-05:00",
+            "time": 0.11,
+            "mem": 320320
+        },
+        "ethanyim1998": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-04-25T13:44:41-05:00",
+            "err_msg": "Runtime error."
+        },
+        "GoChickens": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:56:03-05:00",
+            "time": 0.1,
+            "mem": 320320
+        },
+        "send.amit@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:45:23-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "B2": {
+        "Soham is a weird child": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:14:40-05:00",
+            "time": 0.1,
+            "mem": 320320
+        },
+        "admin": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:17:09-05:00",
+            "time": 0.14,
+            "mem": 321088
+        },
+        "ethanyim1998": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:02:55-05:00",
+            "time": 0.14,
+            "mem": 321088
+        },
+        "send.amit@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:14:33-05:00",
+            "time": 0.15,
+            "mem": 321024
+        },
+        "GoChickens": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:16:17-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "B3": {
+        "admin": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:28:41-05:00",
+            "time": 0.14,
+            "mem": 321088
+        },
+        "Soham is a weird child": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:24:52-05:00",
+            "time": 0.1,
+            "mem": 320256
+        },
+        "send.amit@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:49:26-05:00",
+            "time": 0.15,
+            "mem": 321088
+        },
+        "ethanyim1998": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-04-25T14:42:28-05:00",
+            "err_msg": "Class name is incorrect."
+        },
+        "GoChickens": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:24:23-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "B4": {
+        "send.amit@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:42:44-05:00",
+            "time": 0.14,
+            "mem": 321088
+        },
+        "Soham is a weird child": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:02:27-05:00",
+            "time": 0.1,
+            "mem": 320320
+        },
+        "ethanyim1998": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-04-25T14:43:03-05:00",
+            "err_msg": "Runtime error."
+        }
+    },
+    "A1": {
+        "admin": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T13:56:37-05:00",
+            "time": 0.15,
+            "mem": 321088
+        },
+        "Soham is a weird child": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-04-25T15:00:19-05:00",
+            "err_msg": "Incorrect output."
+        }
+    },
+    "A4": {
+        "steventeddy": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T14:38:43-05:00",
+            "time": 0.15,
+            "mem": 321088
+        }
+    },
+    "PRB10": {
+        "chaitu65c@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-26T00:10:51-05:00",
+            "time": 0.13,
+            "mem": 321088
+        }
+    },
+    "PRB1": {
+        "steventeddy555@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-26T18:12:58-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "PRA16": {
+        "yinjohn23@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-29T18:09:01-05:00",
+            "time": 0.13,
+            "mem": 321088
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-29T18:35:51-05:00",
+            "time": 0.15,
+            "mem": 321088
+        },
+        "ritwik.dixit@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-30T18:50:13-05:00",
+            "time": 0.14,
+            "mem": 321088
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-01T02:19:09-05:00",
+            "time": 0.16,
+            "mem": 321088
+        }
+    },
+    "PRB16": {
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-29T18:22:51-05:00",
+            "time": 0.13,
+            "mem": 321088
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-05-01T00:38:39-05:00",
+            "time": 0,
+            "mem": 3100
+        }
+    },
+    "PRA15": {
+        "ritwik.dixit@gmail.com": {
+            "lang": 4,
+            "correct": true,
+            "timestamp": "2015-04-30T19:50:05-05:00",
+            "time": 0.01,
+            "mem": 7696
+        }
+    },
+    "PRA8": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-01T23:04:48-05:00",
+            "time": 0.15,
+            "mem": 321088
+        }
+    },
+    "A5": {
+        "steventeddy": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-05-02T13:17:07-05:00",
+            "err_msg": "Incorrect output."
+        }
+    },
+    "PRA6": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-03T00:02:50-05:00",
+            "time": 0.15,
+            "mem": 321088
+        }
+    },
+    "PRA2": {
+        "chen.michael9@gmail.com": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2015-05-03T20:03:25-05:00",
+            "err_msg": "Incorrect output."
+        }
+    },
+    "PRB17": {
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-06T17:46:53-05:00",
+            "time": 0.15,
+            "mem": 321088
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-05-07T01:14:58-05:00",
+            "time": 0,
+            "mem": 3100
+        }
+    },
+    "PRA17": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-07T01:44:24-05:00",
+            "time": 0.13,
+            "mem": 321088
+        },
+        "ritwik.dixit@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-13T17:46:44-05:00",
+            "time": 0.13,
+            "mem": 321024
+        }
+    },
+    "PRA1": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-07T02:09:28-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "PRB2": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-07T02:14:52-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "PRB3": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-07T19:22:14-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "PRB4": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-05-07T19:36:50-05:00",
+            "time": 0.14,
+            "mem": 322112
+        }
+    },
+    "HPIA": {
+        "chen.michael9@gmail.com": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2015-05-12T23:02:48-05:00",
+            "err_msg": "Incorrect output."
+        }
+    }
+}

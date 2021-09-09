@@ -1,0 +1,1 @@
+print (max(float(raw_input()), 0.0)+max(float(raw_input()), 0.0))/2

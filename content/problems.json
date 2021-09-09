@@ -1,0 +1,14 @@
+{
+    "TEST": {
+        "title": "A Test Problem",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "This is a test",
+        "description": "This is a test problem.<br><br>I have $A$ apples, but my mom gets really mad and eats $B$ of them.<br><br><b>How many apples do I have left?<\/b>",
+        "hints": "1. The answer is $A$ - $B$.",
+        "inputForm": "Line 1: Two integers $A$ and $B$. $A >= B$.",
+        "sampleInput": "8 3",
+        "outputForm": "Line 1: The number of apples I have left.",
+        "sampleOutput": "5"
+    }
+}

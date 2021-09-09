@@ -1,0 +1,9 @@
+{	
+	"Home": "/",
+	"About": "/about/",
+	"News": "/news/",
+	"Challenge Problems": "/problems/",
+	"Leaderboard": "/leaderboard/",
+	"Login": "/login/",
+	"Join": "/join/"
+}

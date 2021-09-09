@@ -1,0 +1,11 @@
+str1, str2 = raw_input(), raw_input()
+
+def newrec(s1, s2):
+	mindist = max(len(s1), len(s2))
+	for i, c1 in enumerate(s1):
+		for j, c2 in enumerate(s2):
+			if c1 == c2:
+				mindist = min(mindist, newrec(s1[:i], s2[:j]) + newrec(s1[i+1:], s2[j+1:]))
+	return mindist
+
+print newrec(str1, str2)

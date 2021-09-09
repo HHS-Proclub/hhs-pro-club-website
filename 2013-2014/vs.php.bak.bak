@@ -1,0 +1,278 @@
+<?php
+	define("TIMEOUT", 30000);		// in milliseconds
+	define("DELAY", 1000);
+
+	// not executed as included file
+	if ($_SERVER["PHP_SELF"] === "/vs.php") {
+		include "wp-load.php";
+		
+		// establish connection to db
+		$db = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
+				or die("Could not connect to the database");
+		
+		// open new challenge
+		if (isset($_POST["userid"]) && isset($_POST["problem"])) {
+			// escape inputs
+			$userid = intval($_POST["userid"]);
+			$problem = $db->real_escape_string($_POST["problem"]);
+			
+			// insert new challenge into db
+			$db->query("INSERT INTO vs_sessions (user1id, problem) "
+					."VALUES ($userid, '$problem')");
+			$result = $db->query("SELECT LAST_INSERT_ID()");
+			$row = $result->fetch_row();
+			
+			// return success json
+			header("Content-type: application/json");
+			exit(json_encode(array("status" => "success", "id" => $row[0])));
+			
+		// long polling
+		} elseif (isset($_GET["poll"])) {
+			switch ($_GET["poll"]) {
+			// update open challenges list
+			case "list":
+				$list = $_GET["list"] ? $_GET["list"] : array();
+				sort($list);
+				
+				// prepare query for open challenges
+				$query = $db->prepare("SELECT vs_sessions.id, problem, display_name "
+						."FROM vs_sessions JOIN wp_users ON user1id=wp_users.ID "
+						."WHERE user2id IS NULL");
+				$query->bind_result($id, $problem, $user);
+				
+				// poll db
+				$i = 0;
+				do {
+					// query db
+					$query->execute() or die("Database error");
+					$rows = array();
+					$ids = array();
+					while ($query->fetch()) {
+						$rows[] = array("id" => $id,
+										"problem" => $problem,
+										"user" => $user);
+						$ids[] = $id;
+					}
+					
+					// check if updated
+					sort($ids);
+					$changed = ($list != $ids);
+				} while (!$changed
+						&& ($i++ < TIMEOUT / DELAY)	// check for timeout
+						&& !usleep(DELAY * 1000));	// sleep before repeating
+				
+				// return updated list as json
+				header("Content-type: application/json");
+				exit(json_encode(array("status" => "success", "list" => $rows)));
+				break;
+				
+			// wait for challenger
+			case "wait":
+				$id = intval($_GET['id']);
+				
+				// prepare query
+				$query = $db->prepare("SELECT display_name FROM vs_sessions "
+						."JOIN wp_users ON user2id=wp_users.ID "
+						."WHERE vs_sessions.id=$id");
+				$query->bind_result($challenger);
+				
+				// poll db for challenger
+				$i = 0;
+				do {
+					$query->execute() or die("Database error");
+					$query->fetch();
+				} while (!$challenger
+						&& ($i++ < TIMEOUT / DELAY)	// check for timeout
+						&& !usleep(DELAY * 1000));	// sleep before repeating
+				
+				header("Content-type: application/json");
+				exit(json_encode(array("status" => "success",
+										"challenger" => $challenger)));
+				break;
+			}
+			
+		// join challenge
+		} elseif (isset($_POST["id"]) && isset($_POST["userid"])) {
+			$id = intval($_POST["id"]);
+			$userid = intval($_POST["userid"]);
+			
+			$db->query("UPDATE vs_sessions SET user2id=$userid WHERE id=$id");
+			
+			header("Content-type: application/json");
+			exit(json_encode(array("status" => "success")));
+		// leave challenge
+		} elseif (isset($_POST["id"])) {
+			$id = intval($_POST["id"]);
+			
+			$db->query("DELETE FROM vs_sessions WHERE id=$id");
+			
+			header("Content-type: application/json");
+			exit(json_encode(array("status" => "success")));
+		}
+		
+	// show interface for logged in users
+	} elseif (is_user_logged_in()) {
+		$current_user = wp_get_current_user();
+?>
+<style>
+	.hidden {
+		display: none;
+	}
+
+	#open-challenges a {
+		cursor: pointer;
+	}
+</style>
+<script>
+	jQuery(function ($) {
+		var vs = $("#vs")
+				.data("userid", <?php echo $current_user->ID; ?>)
+				.data("username", <?php echo $current_user->display_name; ?>);
+		var xhr;
+		
+		var errorMessage = function (data) {
+			return data.message || data || "Invalid data recieved";
+		};
+		
+		var create = function (problem) {
+			vs.data("problem", problem);
+			
+			$.post("/vs.php",
+					{userid: vs.data("userid"), problem: problem},
+					function (data) {
+						switch (data.status) {
+						case "success":
+							vs.data("id", data.id);
+							pollType = "wait";
+							xhr.abort();
+							show("waiting-room");
+							break;
+						default:
+							alert(errorMessage(data));
+						}
+					});
+		};
+
+		var show = function (divId) {
+			$("#vs > div").each(function () {
+				if (this.id === divId) {
+					$(this).removeClass("hidden");
+				} else {
+					$(this).addClass("hidden");
+				}
+			})
+		};
+		
+		var join = function (id, opponent) {
+			$.post("/vs.php",
+				{id: id, userid: vs.data("userid")},
+				function (data) {
+					switch (data.status) {
+					case "success":
+						$("#player1").text(opponent);
+						$("#player2").text(vs.data(userid));
+						show("challenge");
+						alert("You lose");
+						break;
+					default:
+						alert(errorMessage(data));
+					}
+				});
+		};
+		
+		$("#start-button").click(function () {
+			create("test");
+		});
+		
+		var pollType = "list";
+		var abort = false;
+		(function poll () {
+			if (abort) { return; }
+			
+			var data;
+			switch (pollType) {
+			case "list":
+				data = {poll: pollType, list: []};
+				
+				$("#open-challenges a").each(function (index, element) {
+					data.list[index] = $(element).data("id");
+				});
+				break;
+			case "wait":
+				data = {poll: pollType, id: vs.data("id")};
+				break;
+			}
+			
+			xhr = $.ajax({
+				url: "/vs.php",
+				type: "get",
+				data: data,
+				success: function (data) {
+					switch (data.status) {
+					case "success":
+						switch (pollType) {
+						case "list":
+							// clear current list
+							var list = $("#open-challenges ul").html("");
+							
+							// parse and bind data to new list
+							for (var i = 0; i < data.list.length; i++) {
+								$("<a>")
+									.text("vs " + data.list[i].user
+											+ " (" + data.list[i].problem + ")")
+									.data("id", data.list[i].id)
+									.data("user", data.list[i].user)
+									.click(function () {
+										join($(this).data("id"), $(this).data("user"));
+									})
+								.appendTo($("<li>").appendTo(list));
+							}
+							break;
+						case "wait":
+							vs.data("challenger", data.challenger);
+							alert("You beat " + data.challenger + "!");
+							vs.removeData("id problem");
+							pollType = "list";
+							xhr.abort();
+							show("join-challenge");
+							break;
+						}
+						break;
+					default:
+						alert(errorMessage(data));
+						abort = true;
+						break;
+					}
+				},
+				timeout: <?php echo TIMEOUT; ?>,
+				complete: poll
+			});
+		})();
+	})
+</script>
+
+<div id="vs">
+	<div id="join-challenge">
+		<input type="button" id="start-button" value="Start a challenge" />
+		<br /><br />
+		<h3>Open challenges</h3>
+		<div id="open-challenges">
+			<ul>
+			</ul>
+		</div>
+	</div>
+	<div id="waiting-room" class="hidden">
+		<h3>Waiting for a challenger...</h3>
+	</div>
+	<div id="challenge" class="hidden">
+		<h3><span id="player1"></span><span id="player2"></span></h3>
+	</div>
+</div>
+
+<?php
+	// shown for non-logged-in users
+	} else {
+?>
+Sorry, this feature is only available for registered members.
+Register <a href="/register/">here</a>!
+<?php } ?>

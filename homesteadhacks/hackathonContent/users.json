@@ -1,0 +1,253 @@
+{
+    "josh": {
+        "username": "josh",
+        "school": "Cupertino Middle",
+        "email": "josh.sanyal@yahoo.com",
+        "password": "94fd48198d9018c52b8a4342e46e93d3aedf94fb",
+        "officer": true
+    },
+    "joshtest": {
+        "username": "joshtest",
+        "school": "Cupertino",
+        "email": "josh.sanyal@gmail.com",
+        "password": "94fd48198d9018c52b8a4342e46e93d3aedf94fb",
+        "officer": false
+    },
+    "arjun": {
+        "username": "arjun",
+        "school": "test",
+        "email": "arjundsampath@gmail.com",
+        "password": "d45bf09c30447031442e2aee69b1102184622ca7",
+        "officer": false
+    },
+    "siyong": {
+        "username": "siyong",
+        "school": "hhs",
+        "email": "shuang974@student.fuhds.org",
+        "password": "e6b6afbd6d76bb5d2041542d7d2e3fac5bb05593",
+        "officer": true
+    },
+    "AshwiniS": {
+        "school": "Homestead High School",
+        "email": "ashwisp@gmail.com",
+        "password": "c95d2ca52a45d2a094ea06a6d91e175f82933e83",
+        "officer": true
+    },
+    "Krutav": {
+        "school": "miller",
+        "email": "krutavshah@icloud.com",
+        "password": "b08e59bad8793f367dcb38670843a2db7fbc40db",
+        "officer": false,
+        "username": "Krutav"
+    },
+    "Best Team": {
+        "school": "Homestead",
+        "email": "josh.sanyal123@yahoo.com",
+        "password": "3da541559918a808c2402bba5012f6c60b27661c",
+        "officer": false,
+        "username": "Best Team"
+    },
+    "Team Name": {
+        "school": "Miller Middle School and Cupertino Middle School",
+        "email": "abhethan631@gmail.com",
+        "password": "d25048de23bf3063e58090362cec715c88054ae4",
+        "officer": false,
+        "username": "Team Name"
+    },
+    "Sanatan": {
+        "school": "Cupertino Middle School",
+        "email": "sanatanmishraca@gmail.com",
+        "password": "f23e267b1c8dc07ce3bfc83dbdf44d098aac77ed",
+        "officer": false,
+        "username": "Sanatan"
+    },
+    "................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................": {
+        "school": "Cupertino Middle and Miller middle",
+        "email": "viktor@cellfish.se",
+        "password": "983b34771fb7185d04c9603559c9e46f4b70496d",
+        "officer": false,
+        "username": "................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................"
+    },
+    "Team7.5": {
+        "school": "CMSgang",
+        "email": "leonwang4234@gmail.com",
+        "password": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d",
+        "officer": false,
+        "username": "Team7.5"
+    },
+    "SkyForceHakerz": {
+        "school": "Hyde Middle School",
+        "email": "tobyyeungtwo@gmail.com",
+        "password": "226c5895228eba460f38617c3747c9b0b5e138b1",
+        "officer": false,
+        "username": "SkyForceHakerz"
+    },
+    "AJ": {
+        "school": "Miller Middle School",
+        "email": "aaditya1564@gmail.com",
+        "password": "db071c37126309c9167fa8fe613cc0374362f436",
+        "officer": false,
+        "username": "AJ"
+    },
+    "Seagulls": {
+        "school": "Hyde Middle School",
+        "email": "ameya.va12@gmail.com",
+        "password": "2b7189268534a8e4192698926ef6d61368dc4241",
+        "officer": false,
+        "username": "Seagulls"
+    },
+    "SkyForceHackerz": {
+        "school": "Miller Middle School ",
+        "email": "rohanf6219@gmail.com",
+        "password": "552c64a6da90c3c092f5d36297c03c020a118961",
+        "officer": false,
+        "username": "SkyForceHackerz"
+    },
+    "Aprameya": {
+        "school": "Miller",
+        "email": "366799@cusdk8.org",
+        "password": "e37b4816aefe52cd47433e78b116332c0eff47b6",
+        "officer": false,
+        "username": "Aprameya"
+    },
+    "piePIE": {
+        "school": "Cupertino Middle, Miller Middle",
+        "email": "alanyu08@gmail.com",
+        "password": "983b34771fb7185d04c9603559c9e46f4b70496d",
+        "officer": false,
+        "username": "piePIE"
+    },
+    "IK": {
+        "school": "Cupertino middle",
+        "email": "itamar1zohar@gmail.com",
+        "password": "de1c8d09dd1d5b8a5feef0dc891324c688a51faa",
+        "officer": false,
+        "username": "IK"
+    },
+    "IC22": {
+        "school": "miller middle school",
+        "email": "isaac22chang@gmail.com",
+        "password": "3640a05595bc36f99d743fcbbdb915fe250548ac",
+        "officer": false,
+        "username": "IC22"
+    },
+    "Ishika C.": {
+        "school": "Milller Middle School",
+        "email": "cherryminion2008@gmail.com",
+        "password": "645fb00595bb2c1a5c4fc3bd9d9f1e2ccf1bb0fb",
+        "officer": false,
+        "username": "Ishika C."
+    },
+    "Cocochief": {
+        "school": "Cupertino Middle School",
+        "email": "cocochief4@gmail.com",
+        "password": "9d1d09a31009b97aff4b1c23fc4431d50e662848",
+        "officer": false,
+        "username": "Cocochief"
+    },
+    "name": {
+        "school": "miller middle",
+        "email": "3nthus3dkeyx@gmail.com",
+        "password": "5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8",
+        "officer": false,
+        "username": "name"
+    },
+    "UpasanaP. ": {
+        "school": "Kennedy Middle School",
+        "email": "upasanapuranik1@gmail.com",
+        "password": "81ef569f5d5330e10e7bf720deb5adb8de2b7263",
+        "officer": false,
+        "username": "UpasanaP. "
+    },
+    "Mingshi": {
+        "school": "Cupertino Middle School",
+        "email": "380447@cusdk8.org",
+        "password": "684e70fc354de73023242d5e2963aaae413e7b0d",
+        "officer": false,
+        "username": "Mingshi"
+    },
+    "Lekha Anand": {
+        "school": "Cupertino Middle School",
+        "email": "lekhaa26@gmail.com",
+        "password": "1db2bc18b5b4a96515bba33b3356d8966037f043",
+        "officer": false,
+        "username": "Lekha Anand"
+    },
+    "bhargav": {
+        "school": "Hyde Middle School",
+        "email": "leletinger@gmail.com",
+        "password": "1d424ebc3b78be52e59e802dc2bd3004e7ba7d23",
+        "officer": false,
+        "username": "bhargav"
+    },
+    "TalentedBlitz": {
+        "school": "Hyde Middle School",
+        "email": "tobychadyeung@gmail.com",
+        "password": "226c5895228eba460f38617c3747c9b0b5e138b1",
+        "officer": false,
+        "username": "TalentedBlitz"
+    },
+    "rven28": {
+        "school": "CMS",
+        "email": "rajiv.venkatesh@gmail.com",
+        "password": "6aca6db2a04730f680dccfb396fc12ac57f9f235",
+        "officer": false,
+        "username": "rven28"
+    },
+    "Karen": {
+        "school": "Sunnyvale Middle",
+        "email": "karenminzhang@gmail.com",
+        "password": "d28d8c36aa4f805ffc1f66f2e7a2acd351fad303",
+        "officer": false,
+        "username": "Karen"
+    },
+    "Jerry": {
+        "school": "Cupertino Middle School",
+        "email": "jerryyang95130@gmail.com",
+        "password": "de62de53563a495008de6359f4c91956f9bd9da1",
+        "officer": false,
+        "username": "Jerry"
+    },
+    "Shannon": {
+        "school": "Sunnyvale Middle",
+        "email": "shannon.kunz1@gmail.com",
+        "password": "edeed265a625029b01ca7547e577e0d872cf5c47",
+        "officer": false,
+        "username": "Shannon"
+    },
+    "Riya": {
+        "school": "Cupertino Middle School",
+        "email": "riya.zingade@gmail.com",
+        "password": "839f7c8e29dfb1241c9fcb1f1929e3afcf725db1",
+        "officer": false,
+        "username": "Riya"
+    },
+    "Vivie": {
+        "school": " Cupertino Middle School",
+        "email": "alexlorian@icloud.com",
+        "password": "7fa3d2a514a7f1de68abf0be5323e198824c0032",
+        "officer": false,
+        "username": "Vivie"
+    },
+    "Arya": {
+        "school": "Miller",
+        "email": "thearyapathak@gmail.com",
+        "password": "8b8f165d37cbc602c4d2f4acbb751b8be138e6f7",
+        "officer": false,
+        "username": "Arya"
+    },
+    "kevin": {
+        "school": "cupatno middle school",
+        "email": "kevinschwindt455@gmail.com",
+        "password": "d15ec4bbd0250eb85f7d3992bddc72797e654b3d",
+        "officer": false,
+        "username": "kevin"
+    },
+    "AJain": {
+        "school": "Miller Middle School",
+        "email": "351769@cusdk8.org",
+        "password": "bd32f579771dcb5265d5d0d9469b580b10547e8e",
+        "officer": false,
+        "username": "AJain"
+    }
+}

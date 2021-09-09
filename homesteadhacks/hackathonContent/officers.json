@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Arjun Sampath",
+		"position": "Co-President",
+		"photo": "/img/arjun.jpg",
+		"description": "Hey! I'm your Programming Club Co-President, and I am excited for another year of competitions, workshops, and committees! Outside of Programming Club, I enjoy running and watching TV."
+	},
+	{
+		"name": "Adele Basturk",
+		"position": "Co-President",
+		"photo": "/img/Adele.jpeg",
+		"description": "I help make HHS Programming Club the best it can be with my amazing officer team. I enjoy teaching others how to code and how to apply it to everyday tasks. I am also a proud leader of the GWC chapter of Pro Club."
+	},
+	{
+		"name": "Josh Sanyal",
+		"position": "Vice President",
+		"photo": "/img/josh.jpg",
+		"description": "Hey everyone! I'm super excited to serve as Vice President, overseeing project committees and helping wherever else is needed! Outside of Pro Club, I enjoy math, binging Netflix, and not getting my code to work."
+	},
+	{
+		"name": "Raymond Feng",
+		"position": "Workshops Director",
+		"photo": "/img/raymond.jpg",
+		"description": "Hi! I’m Raymond, currently a sophomore here at Homestead. I’m very passionate about coding, and have created many nifty little projects in my free time. I am also a competitor in the Gold division of USACO."
+	},
+	{
+		"name": "Ashwini Suriyaprakash",
+		"position": "Competitions Director",
+		"photo": "/img/Ashwini.jpg",
+		"description": "Hey! I’m excited to help you learn algorithmic problem solving through weekly challenge problems and to lead Girls Who Code. In my free time, I love watching Downton Abbey ❤️ and playing badminton"
+	},
+    {
+		"name": "Siyong Huang",
+		"position": "Secretary/Treasurer",
+		"photo": "/img/siyong.jpg",
+		"description": "I am a creative problem solver and  gamer who loves to tackle programming challenges. I am proficient and familiar with java, python, and cpp"
+	},
+	{
+		"name": "Ayush Satyavarpu",
+		"position": "Events Directory",
+		"photo": "/img/ayush.png",
+		"description": "Plans the most fun events!"
+	}
+]

@@ -1,0 +1,4 @@
+#join-form tr td:first-child {
+	padding-right: 5px;
+	text-align: right;
+}

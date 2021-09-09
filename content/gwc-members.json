@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Katia Bravo",
+		"grade":"Junior",
+		"photo": "/img/empty.png",
+		"description": "Hey guys! I will be one of your GWC leaders this year!"
+    },
+	{
+		"name": "Radhika Goel",
+		"grade":"Junior",
+		"photo": "/img/empty.png",
+		"description": "Hey guys! I will be one of your GWC leaders this year!"
+	},
+	{
+		"name": "NEEDS ADDING",
+        "grade": "Freshman",
+        "photo": "/img/empty.png",
+        "description": "NEEDS ADDING"
+	},
+	{
+		"name": "NEEDS ADDING",
+        "grade": "Sophomore",
+        "photo": "/img/empty.png",
+        "description": "NEEDS ADDING"
+	},
+	{
+		"name": "NEEDS ADDING",
+        "grade": "Freshman",
+        "photo": "/img/empty.png",
+        "description": "NEEDS ADDING"
+	},
+    {
+		"name": "NEEDS ADDING",
+        "grade": "Sophomore",
+        "photo": "/img/empty.png",
+        "description": "NEEDS ADDING"
+	},
+    {
+        "name": "NEEDS ADDING",
+        "grade": "Freshman",
+        "photo": "/img/empty.png",
+        "description": "NEEDS ADDING"
+    },
+	{
+        "name": "NEEDS ADDING",
+        "grade": "Sophomore",
+        "photo": "/img/empty.png",
+        "description": "NEEDS ADDING"
+    }
+]

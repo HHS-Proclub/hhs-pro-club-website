@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^competition/([^/.]+)/$			competition.php?competition=$1
+#	RewriteRule ^problems/([^/.]+)/$			problems.php?set=$1 [QSA,L]
+#	RewriteRule ^problems/([^/.]+)/([^.]+)/$	problem.php?set=$1&problem=$2 [QSA,L]
+	RewriteRule ^problems/([^/.]+)/$			problem.php?problem=$1 [QSA,L]
+	RewriteRule ^leaderboard/([^/.]+)/$			leaderboard.php?state=$1 [QSA,L]
+	RewriteRule ^([^.]+)/$	$1.php	[QSA,L]
+	RewriteRule ^([^.]+)$	$1.php	[QSA,L]
+</IfModule>

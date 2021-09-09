@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Project Rubric",
+        "content": "We will be grading the projects using the rubric <a href=\"https://docs.google.com/document/d/1b6tXDV6Mh-HvURtiby1090DgnZJblYPOtAYVDvFonOQ/edit?usp=sharing\">here<\/a>.",
+        "date": "25",
+        "month": "01",
+        "year": "2020"
+    },{
+        "title": "Machine Learning Workshop",
+        "content": "Follow along with our machine learning workshop <a href=\"https://docs.google.com/presentation/d/1ZcHBJfeMGpXBnnsihnd5W_cFp6r1VTkvWN3JaSF4Dvw/edit?usp=sharing\">here<\/a> and play around with our demo <a href=\"\/MLworkshop.ipynb\" download>here<\/a>.",
+        "date": "25",
+        "month": "01",
+        "year": "2020"
+    },
+    {
+        "title": "Java + Prisoner's Dilemma",
+        "content": "Follow along with the workshop <a href=\"https://docs.google.com/presentation/d/1QEmO7HXq3VDNAKm6nJQC4A2-eAacf8VeP7_JBGWb4gE/edit?usp=sharing\">here<\/a>.",
+        "date": "25",
+        "month": "01",
+        "year": "2020"
+    },
+    {
+        "title": "Web Development Workshop",
+        "content": "Follow along with our web dev workshop <a href=\"https://docs.google.com/presentation/d/1Mfuvc8ozBSr-GSOj_wFXN6XVsEMGzpwk_K659NQwaK0/edit?usp=sharing\">here<\/a>.",
+        "date": "25",
+        "month": "01",
+        "year": "2020"
+    },
+    {
+        "title": "Challenge Problems Guide",
+        "content": "Read  <a href=\"https://docs.google.com/document/d/1-gR2JoBYtSQn3-cbhZtwEQoSbUJE5BEgh8-86KauKMQ/edit?usp=sharing\">this guide<\/a> for an introduction to competitive programming (I/O, strategies, etc.)",
+        "date": "25",
+        "month": "01",
+        "year": "2020"
+    },
+    {
+        "title": "Sample Website Demo",
+        "content": "<a href=\"\/BlackHoles-Sample.html\">Here<\/a> is a sample demo for the competition prompt. You can download the code <a href=\"\/BlackHoles-Sample.html\" download>here<\/a>.",
+        "date": "25",
+        "month": "01",
+        "year": "2020"
+    }
+]

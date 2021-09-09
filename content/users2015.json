@@ -1,0 +1,881 @@
+{
+    "hd": {
+        "first": "Heidi",
+        "last": "Dong",
+        "grade": "11",
+        "email": "dong.heidi@gmail.com",
+        "asb": true,
+        "password": "78f3efb2b0e8a783058050ea7bc4b839f38f2b80",
+        "officer": true
+    },
+    "andrewzhou08": {
+        "first": "Andrew",
+        "last": "Zhou",
+        "grade": "10",
+        "email": "andrewzhou08@gmail.com",
+        "asb": true,
+        "password": "f059f2a0726895284f9517da8c9b9cc9644aa1a9",
+        "officer": true
+    },
+    "jasondamour98": {
+        "first": "Jason",
+        "last": "D'Amour",
+        "grade": "12",
+        "email": "jasondamour98@gmail.com",
+        "asb": true,
+        "password": "deeaf4762fcee8dad0c541cefb84bc75c4406c66",
+        "officer": true
+    },
+    "adits": {
+        "first": "Aditya",
+        "last": "Sampath",
+        "grade": "12",
+        "email": "adityasampath@gmail.com",
+        "asb": true,
+        "password": "5d90f5beb064531cddf448f697a844ed1cf4b21c",
+        "officer": true
+    },
+    "amritav.ca": {
+        "first": "Amrita",
+        "last": "Venkatraman",
+        "grade": "12",
+        "email": "amritav.ca@gmail.com",
+        "password": "8969b9eeca8d076c1a4203a4694e80cce7637cb5",
+        "officer": true
+    },
+    "jyang58": {
+        "first": "Jeffrey",
+        "last": "Yang",
+        "grade": "10",
+        "email": "jeff688y@gmail.com",
+        "asb": true,
+        "password": "066ae3444bd2837f8e0390151b66a2c6f10f9692"
+    },
+    "rbcahay": {
+        "first": "Rebecca",
+        "last": "Haymore",
+        "grade": "10",
+        "email": "rebecca-hhs@haymore.com",
+        "password": "286c9e2d25a34dbe8d4dc49d6d320ee3fbba9a96"
+    },
+    "zoie_smith": {
+        "first": "Zoie",
+        "last": "Smith",
+        "grade": "10",
+        "email": "zfantasea@gmail.com",
+        "password": "a0f00a1bda86329de9adb72b4daa56d66eb63dff"
+    },
+    "adelay243": {
+        "first": "Adela",
+        "last": "Yang",
+        "grade": "12",
+        "email": "adelay243@gmail.com",
+        "asb": true,
+        "password": "116377ecf6bbb48f6fd36ad73dad12ec75ccd42c"
+    },
+    "Leo20000603": {
+        "first": "Leo",
+        "last": "Yao",
+        "grade": "10",
+        "email": "yaoleo34@gmail.com",
+        "password": "df46dedc2eae6066fc24eab0c59289151d5c15f7"
+    },
+    "klee376": {
+        "first": "Kaitlyn",
+        "last": "Lee",
+        "grade": "10",
+        "email": "kaitlynlee@sbcglobal.net",
+        "password": "3a94135780b56a73e574498691ed1f9861417732"
+    },
+    "Archelon225": {
+        "first": "Evan",
+        "last": "Su",
+        "grade": "10",
+        "email": "mech1354@gmail.com",
+        "password": "07bb043fefdb2a61ecd0afa9bac3b0b3703b49b1"
+    },
+    "andrew.li905": {
+        "first": "Andrew",
+        "last": "Li",
+        "grade": "10",
+        "email": "andrew.li905@gmail.com",
+        "asb": true,
+        "password": "4d8a04a1c903cac0ba5a9ccd89f11ae405c3704d"
+    },
+    "avi1234": {
+        "first": "Michael",
+        "last": "Chen",
+        "grade": "10",
+        "email": "chen.michael9@gmail.com",
+        "password": "ceffc0d0f7b35944788c664f6b93bae9c99a4463"
+    },
+    "": {
+        "login_username": "heidi",
+        "login_password": "enHDless314",
+        "password": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    "jazziest-cat": {
+        "first": "Luka",
+        "last": "Maeda",
+        "grade": "10",
+        "email": "luka.maeda@gmail.com",
+        "asb": true,
+        "password": "1b739f3e700eac9407cc14a7f3e5c202ab760269"
+    },
+    "iceflower700": {
+        "first": "David",
+        "last": "Root",
+        "grade": "9",
+        "email": "david.root.8@gmail.com",
+        "asb": true,
+        "password": "8b14ea350777f5d38121ee386cfc8684495bf49c"
+    },
+    "cmiremadi": {
+        "first": "Curus",
+        "last": "Miremadi ",
+        "email": "cyrusmiremadi@gmail.com",
+        "asb": true,
+        "password": "76d569e21c6ae6de811ec510b89f99c187db3cc1"
+    },
+    "jasmineh_liu": {
+        "first": "Jasmine",
+        "last": "Liu",
+        "grade": "10",
+        "email": "JLflower678@gmail.com",
+        "password": "731df0a6564259712dd41384523e0fd7ae38ece2"
+    },
+    "wang.odette": {
+        "first": "odette",
+        "last": "wang",
+        "grade": "12",
+        "email": "wang.odette@gmail.com",
+        "asb": true,
+        "password": "2757c49d435ffc83c138e7d7750b5d7b8e140354"
+    },
+    "wcs2017": {
+        "first": "William",
+        "last": "Scott",
+        "grade": "11",
+        "email": "wcs2017@yahoo.com",
+        "asb": true,
+        "password": "d9504504749ce053e52d79f21f951dfc590f263c"
+    },
+    "ToastySamurai": {
+        "first": "Will",
+        "last": "L",
+        "grade": "9",
+        "email": "willlederer@yahoo.com",
+        "password": "70ded97757579fc8ca02ffd8b6bc4cfb1c3bffb4"
+    },
+    "zwang641": {
+        "first": "Zhixue",
+        "last": "Wang",
+        "grade": "10",
+        "email": "z.mary.wang@gmail.com",
+        "asb": true,
+        "password": "29ce1e6e2addddc02a3db4580cc6128c43f43fb0"
+    },
+    "Jeff838": {
+        "first": "Jeffrey ",
+        "last": "Ma",
+        "grade": "9",
+        "email": "jma777@student.fuhsd.org",
+        "asb": true,
+        "password": "1482fb449df0ca7c9c2ec6b942fd1edf42a41865"
+    },
+    "yashsatyavarpu": {
+        "first": "Yash",
+        "last": "Satyavarpu",
+        "grade": "11",
+        "email": "yashsatyavarpu@gmail.com",
+        "asb": true,
+        "password": "a875fb87497ca0187a9d4bdb3501b9590a1d685d"
+    },
+    "ethanyim1998": {
+        "first": "Ethan",
+        "last": "Yim",
+        "grade": "10",
+        "email": "ethanyim1998@gmail.com",
+        "password": "3d0cba58a772cb25ce0716db44cc780adaaa4534"
+    },
+    "blehstuff": {
+        "first": "Ethan",
+        "last": "Yang",
+        "grade": "10",
+        "email": "ethan.bleh@gmail.com",
+        "password": "de1112f44089452248971b558d586392028169d6"
+    },
+    "kwang638": {
+        "first": "Kevin",
+        "last": "Wang",
+        "grade": "10",
+        "email": "k2wang19@gmail.com",
+        "password": "925dbfa67f5d793e0a0b1b38e8824fdd1bca2c78"
+    },
+    "Bobbert": {
+        "first": "Bobbert",
+        "last": "Zhang",
+        "grade": "11",
+        "email": "robert.yzhang@ymail.com",
+        "password": "ee41974398633440f3a4a2f8be09099771edf875"
+    },
+    "Dullvampire": {
+        "first": "Dante",
+        "last": "Rella",
+        "grade": "9",
+        "email": "dante.rella@rocketmail.com",
+        "asb": true,
+        "password": "df70f9b975b42116ee6c0231a7e6ead0bbb283aa"
+    },
+    "Ray3501": {
+        "first": "Raymond",
+        "last": "Wu",
+        "grade": "10",
+        "email": "designer2553@gmail.com",
+        "password": "d6d9f6a4d2c2b85f80b15e005922f7296b8919d4"
+    },
+    "TheEpicKitten": {
+        "first": "Skyler",
+        "last": "Colwell",
+        "grade": "11",
+        "email": "skyler_colwell@yahoo.com",
+        "password": "30210deeacf1294559174c615522a3747b51371e"
+    },
+    "Ego nic": {
+        "first": "Bailey",
+        "last": "Young",
+        "grade": "11",
+        "email": "baileyyoung@gmail.com",
+        "asb": true,
+        "password": "ad672a6fe3eea0243d6ea85b7a3a480453a53876"
+    },
+    "rbroner948": {
+        "first": "Ron",
+        "last": "Broner",
+        "grade": "11",
+        "email": "ronbroner@gmail.com",
+        "password": "5d27dcf762cfdf387a6b6caec0413e8cadfcd63e"
+    },
+    "nayon725": {
+        "first": "Nicolle",
+        "last": "Ayon Campos",
+        "grade": "12",
+        "email": "n.ayonc@yahoo.com",
+        "password": "ce6a21e0c355b65bc52382211c304d453270c78a"
+    },
+    "NikhilM101": {
+        "first": "Nikhil",
+        "last": "Marudai",
+        "grade": "9",
+        "email": "nikhilshanguna@yahoo.com",
+        "asb": true,
+        "password": "ce59c6865904c3f7fd749f74a0bb2846ad0cbbba"
+    },
+    "mikeedee": {
+        "first": "Michael",
+        "last": "Huang",
+        "grade": "11",
+        "email": "jmichael.huang@gmail.com",
+        "asb": true,
+        "password": "6cff12c29aab3f118a7c1aac4563bb8737a3fe12"
+    },
+    "ZW794": {
+        "first": "Z",
+        "last": "W",
+        "grade": "9",
+        "email": "zwong794@student.fuhsd.org",
+        "asb": true,
+        "password": "2b873a7944ba254ac17ac4729ad614cb2ec2456f"
+    },
+    "primomu": {
+        "first": "Primo",
+        "last": "Mu",
+        "grade": "11",
+        "email": "mufangqi@hotmail.com",
+        "asb": true,
+        "password": "fa93f1d5bac59dd298310d0c5c3df3ce9fad1e44"
+    },
+    "Michaelciv1": {
+        "first": "Michael",
+        "last": "Wallerius",
+        "grade": "9",
+        "email": "mikesterciv1@gmail.com",
+        "asb": true,
+        "password": "cf3761f99da5f93ff82f7d19d509b3dd908f96ae"
+    },
+    "TheShroommaster": {
+        "first": "Luke",
+        "last": "Evard",
+        "grade": "12",
+        "email": "luke.evard@att.net",
+        "asb": true,
+        "password": "e3886eee2e151b040c137e16fac647bfe00aaff6"
+    },
+    "celinelee": {
+        "first": "Celine",
+        "last": "Lee",
+        "grade": "12",
+        "email": "celineleeis@gmail.com",
+        "asb": true,
+        "password": "fdade89f6e2095fbab3237f0cb682ad329b4032e"
+    },
+    "asong": {
+        "first": "Austin",
+        "last": "Song",
+        "grade": "12",
+        "email": "austinsong@gmail.com",
+        "asb": true,
+        "password": "60a4558929440a9582f722b390af20262afd0ec7"
+    },
+    "mizutahana": {
+        "first": "Hana",
+        "last": "Mizuta",
+        "grade": "12",
+        "email": "mizutahana@gmail.com",
+        "asb": true,
+        "password": "4eccb453cf7d87a3bd1cb575916f60e4876daaf3"
+    },
+    "Anke": {
+        "first": "Anke",
+        "last": "Hao",
+        "grade": "9",
+        "email": "cheetahpower12@gmail.com",
+        "asb": true,
+        "password": "7a62b0cc4562c263525c775004dfdefdd1d64321"
+    },
+    "apatil": {
+        "first": "Ashank",
+        "last": "Patil",
+        "grade": "12",
+        "email": "ashank.patil@gmail.com",
+        "asb": true,
+        "password": "275cb5a393f35c77fd7138f0f11eabd1f54f8646"
+    },
+    "Noteclip": {
+        "first": "Conner",
+        "last": "Ligeti",
+        "grade": "12",
+        "email": "conner.ligeti@gmail.com",
+        "asb": true,
+        "password": "7749f0f7b0b7f3da0647a7ebd08f58a5fc386396"
+    },
+    "Domath": {
+        "first": "Daniel",
+        "last": "Wu",
+        "grade": "11",
+        "email": "daniel.wu.14@gmail.com",
+        "password": "05f139c69085c00a52d012ea1978b4ec24b1c416"
+    },
+    "sahajp23": {
+        "first": "Sahaj",
+        "last": "Putcha",
+        "grade": "10",
+        "email": "sahaj.putcha@gmail.com",
+        "password": "5f870b04244639ad8db2233f57c06d8ca8c9bd43"
+    },
+    "graghu": {
+        "first": "Gautam ",
+        "last": "Raghu",
+        "grade": "9",
+        "email": "mail.graghu@gmail.com",
+        "asb": true,
+        "password": "b10e7f795f65d3665465b1dc4d01e49780f268c0"
+    },
+    "NeyaMore": {
+        "first": "Neya ",
+        "last": "More",
+        "grade": "9",
+        "email": "neya.more@live.com",
+        "asb": true,
+        "password": "232ea0a11940e6aed69f4765128f28ec846280c7"
+    },
+    "iridepigs": {
+        "first": "jeremy",
+        "last": "lee",
+        "grade": "10",
+        "email": "jeremylee821@gmail.com",
+        "asb": true,
+        "password": "46014a0e80b091017fb99525cca4ce5da815d2a8"
+    },
+    "cyu": {
+        "first": "Christine",
+        "last": "Yu",
+        "grade": "10",
+        "email": "christineyu.2011@gmail.com",
+        "asb": true,
+        "password": "2204da9fa882ca69d531638970c49065f47db388"
+    },
+    "nsharma": {
+        "first": "Nikhil",
+        "last": "Sharma",
+        "grade": "11",
+        "email": "nikhil.y.sharma2017@gmail.com",
+        "asb": true,
+        "password": "9bcf6684dca4e27f3fca5475f0889763a85c614d"
+    },
+    "whsu": {
+        "first": "William",
+        "last": "Hsu",
+        "grade": "10",
+        "email": "will.s.hsu@gmail.com",
+        "password": "35ab052f98c36f62442da6fa4d8896a75c0fdc3f"
+    },
+    "jx2zhou": {
+        "first": "Joshua",
+        "last": "Zhou",
+        "grade": "11",
+        "email": "joshua.j.zhou@gmail.com",
+        "asb": true,
+        "password": "69b7cdcdc769a5254e32185701f57987e521670b"
+    },
+    "mzhang32": {
+        "first": "Michelle",
+        "last": "Zhang",
+        "grade": "12",
+        "email": "mzhang32@gmail.com",
+        "password": "2cfb71287bd1c400443bbefd46a2209054134fd1"
+    },
+    "Dagiehead": {
+        "first": "Sirajbir",
+        "last": "Sodhi",
+        "grade": "11",
+        "email": "sirajbir.sodhi@gmail.com",
+        "password": "3a5eaef9e85b22dfcd817e37f91cb07bb89994d0",
+        "officer": true
+    },
+    "vikram": {
+        "first": "Vikram",
+        "last": "Idury",
+        "grade": "9",
+        "email": "vikramidury@utexas.edu",
+        "password": "866c4c4effcf9ca35ac096f41053e9184e1a1005"
+    },
+    "nyroc128": {
+        "first": "Shelley",
+        "last": "Kim",
+        "grade": "10",
+        "email": "nyroc128@gmail.com",
+        "password": "9291f3b788126a6cbaf55629acd8ed5bbefe11ca"
+    },
+    "chaitu12": {
+        "first": "Chaitanya",
+        "last": "Manchikanti",
+        "grade": "11",
+        "email": "chaitu65c@gmail.com",
+        "password": "2d3c52216f81fb28cdd20734ba0d96b25df1229e"
+    },
+    "SohamPardeshi": {
+        "first": "Soham",
+        "last": "Pardeshi",
+        "grade": "11",
+        "email": "sohampardeshi@gmail.com",
+        "password": "92b3b785348869d5ec487f6b91de581406d36ec6"
+    },
+    "varuntandon": {
+        "first": "Varun",
+        "last": "Tandon",
+        "grade": "10",
+        "email": "varuntandon2000@gmail.com",
+        "password": "ac2474f06d3e5c47ae245f16608020eabb84176a"
+    },
+    "aishwarya.b": {
+        "first": "Aishwarya",
+        "last": "Bhandari",
+        "grade": "11",
+        "email": "aisbhan@gmail.com",
+        "password": "9e9e52119671e08a30da92a7b7f2a2c9fe876381"
+    },
+    "yuvalza": {
+        "first": "Yuval",
+        "last": "Zach",
+        "grade": "9",
+        "email": "kingi2001@gmail.com",
+        "password": "c3461d724829bdb7740e189fcd369ba9f31108a8"
+    },
+    "cbrower107": {
+        "first": "Cole",
+        "last": "Brower",
+        "grade": "11",
+        "email": "Cole.brower@gmail.com",
+        "password": "0b2c71ef9227908348941d356037b9b750d588e2"
+    },
+    "blackhelmetman": {
+        "first": "Aleksandar",
+        "last": "Antic",
+        "grade": "11",
+        "email": "antic.alek1@gmail.com",
+        "asb": true,
+        "password": "e7bd59fe9c2e297d58e0154662e5b7dff03ec821"
+    },
+    "jrshelby": {
+        "first": "John",
+        "last": "Shelby",
+        "grade": "12",
+        "email": "john_shelby@fuhsd.org",
+        "password": "dd708279cb3a8477c9ddb927e917a8087a0de08c"
+    },
+    "CalcAddict": {
+        "first": "Wallace",
+        "last": "Gray",
+        "grade": "12",
+        "email": "thewall.ace1998@gmail.com",
+        "asb": true,
+        "password": "af87d041dfff8af6a520b1cce4fbc56505576fcb"
+    },
+    "vtandon": {
+        "first": "Varun",
+        "last": "Tandon",
+        "grade": "10",
+        "email": "vtandon616@student.fuhsd.org",
+        "asb": true,
+        "password": "11407dbaa5cb79bd0d27db19de2547c9f993ea52"
+    },
+    "vsuresh611": {
+        "first": "Vignesh",
+        "last": "Suresh",
+        "grade": "10",
+        "email": "vigsu2000@gmail.com",
+        "asb": true,
+        "password": "109caf910674ce4d3f3641246d0dc647d6826a11"
+    },
+    "conner": {
+        "first": "Conner",
+        "last": "Peterson",
+        "grade": "11",
+        "email": "conner.a.peterson@gmail.com",
+        "asb": true,
+        "password": "831ef6c0bf1e8d640f4125b93a8541ae31ecc69f"
+    },
+    "rhironaka339": {
+        "first": "Ryan",
+        "last": "Hironaka",
+        "grade": "12",
+        "email": "hironaka.rt@gmail.com",
+        "asb": true,
+        "password": "2e8b3c62ae3f238adcc6b2f0962f0927d9bbdbbc"
+    },
+    "joeyhe01": {
+        "first": "joey",
+        "last": "he",
+        "grade": "9",
+        "email": "joeyhe01@gmail.com",
+        "password": "252379648b65c56b7011e34db20c295ec970efc5"
+    },
+    "ljing341": {
+        "first": "Lawrence",
+        "last": "Jing",
+        "grade": "9",
+        "email": "boaboaj@gmail.com",
+        "password": "bb71ca54979f940faa817d9f45e5c6dcfcb25312"
+    },
+    "detergeant2": {
+        "first": "Albert",
+        "last": "Li",
+        "grade": "11",
+        "email": "iltrebla@gmail.com",
+        "password": "d66f1f08ccec7c1dfd35f89fd5eb79c197cbc080"
+    },
+    "jwen444": {
+        "first": "Justin",
+        "last": "Wen",
+        "grade": "12",
+        "email": "jaja999999@gmail.com",
+        "asb": true,
+        "password": "1e1c4065b784ae213dd97841357affdf1809c72b"
+    },
+    "jaythemishra": {
+        "first": "Jay",
+        "last": "Mishra",
+        "grade": "11",
+        "email": "jaythemishra@gmail.com",
+        "password": "4f1cc207331f6a7b352e1b6563891acce9216ad6"
+    },
+    "ritwikdixit": {
+        "first": "Ritwik",
+        "last": "Dixit",
+        "grade": "11",
+        "email": "ritwik.dixit@gmail.com",
+        "asb": true,
+        "password": "a90fc85095af8168fa0080e357dc44f615acc45b"
+    },
+    "pottedPlant": {
+        "first": "Elena ",
+        "last": "Kamas",
+        "grade": "10",
+        "email": "elenakamas@gmail.com",
+        "asb": true,
+        "password": "5dde9975c3cf8f9ddaf76c83e021f4ca77d9c5ae"
+    },
+    "brianaspinwall": {
+        "first": "Brian",
+        "last": "Aspinwall",
+        "grade": "11",
+        "email": "brian@aspinwall.org",
+        "asb": true,
+        "password": "0807da95808c7450bce32c5f1f0cd9cbc5242e69"
+    },
+    "SanjanaK": {
+        "first": "Sanjana",
+        "last": "Koka",
+        "grade": "10",
+        "email": "happybird.koka@gmail.com",
+        "password": "d0977d08432659dd594487c7bc5bd956d6f4da2d"
+    },
+    "svempati632": {
+        "first": "Sangeetha ",
+        "last": "Vempati",
+        "grade": "10",
+        "email": "svempati632@student.fuhsd.org",
+        "password": "0e9b96d7c4f0cb397600f078e6bf5253826c0ee7"
+    },
+    "Unix": {
+        "first": "Jean-Michael",
+        "last": "Arraki",
+        "grade": "10",
+        "email": "jeanmikearraki@hotmail.com",
+        "password": "e6af24db0af637c8ba887b6c80a3a113b51d5620"
+    },
+    "rieohta": {
+        "first": "Rie",
+        "last": "Ohta",
+        "grade": "12",
+        "email": "rie.ohta98@gmail.com",
+        "asb": true,
+        "password": "ac73a99bc6d2008675ef6d8fd713521a98747ce3"
+    },
+    "bobjones": {
+        "first": "Bob",
+        "last": "Jones",
+        "grade": "10",
+        "email": "bobjones@mailinator.com",
+        "asb": true,
+        "password": "cc81de8fc9b3a460ef6fd106edf404f888e2e2ee"
+    },
+    "jiashuliu": {
+        "first": "jiashu",
+        "last": "liu",
+        "grade": "11",
+        "email": "jiashuliu@gmail.com",
+        "password": "bc63ab6578ad8caab523b9e5c7112c12894a7c74"
+    },
+    "madcowonastick": {
+        "first": "Joseph",
+        "last": "Hsieh",
+        "grade": "10",
+        "email": "josephhsieh13@gmail.com",
+        "password": "917fe839ef7947ad760a10107eb09d1301d9308a"
+    },
+    "awang637": {
+        "first": "Austina",
+        "last": "Wang",
+        "grade": "10",
+        "email": "austinajwang@gmail.com",
+        "asb": true,
+        "password": "d1c340c43d6a97096e4f2d7dcb63379d11b03c6d"
+    },
+    "yanis115": {
+        "first": "yanis",
+        "last": "chenna",
+        "grade": "9",
+        "email": "chennyanis@ggmail.com",
+        "asb": true,
+        "password": "c7e3fcedc5c23107110949011f2e4d1293ae372d"
+    },
+    "soccerlord": {
+        "first": "yanis",
+        "last": "chenna",
+        "grade": "9",
+        "email": "ychenna215@student.fuhsd.org",
+        "asb": true,
+        "password": "c7e3fcedc5c23107110949011f2e4d1293ae372d"
+    },
+    "baspinwall079": {
+        "first": "Brian",
+        "last": "Aspinwall",
+        "grade": "11",
+        "email": "baspinwall079@student.fuhsd.org",
+        "asb": true,
+        "password": "1032be4fb5e0ebc45b37d800fd6507df1ac7f55b"
+    },
+    "kkogachi": {
+        "first": "Kazu",
+        "last": "Kogachi",
+        "grade": "12",
+        "email": "kkogachi@berkeley.edu",
+        "password": "a6f863af4b48e3ca387c70b78a1547334b7c56d2"
+    },
+    "CKuo": {
+        "first": "Calvin",
+        "last": "Kuo",
+        "grade": "11",
+        "email": "calvinkuo.cms@gmail.com",
+        "password": "3f171a3711d4b1ed7061f8a4f63bb5f193594450"
+    },
+    "sluo340": {
+        "first": "Sherry",
+        "last": "Luo",
+        "grade": "11",
+        "email": "wvshelu@gmail.com",
+        "password": "3083f0587d42401e888e940c30fa2828789c8bae"
+    },
+    "reetm09": {
+        "first": "Reet",
+        "last": "Mishra",
+        "grade": "9",
+        "email": "reetm09@gmail.com",
+        "asb": true,
+        "password": "d16c61daad8ef31f290c9c4230958f362a1b0921"
+    },
+    "qwer": {
+        "first": "Andrew",
+        "last": "Wong",
+        "grade": "10",
+        "email": "singmoke@gmail.com",
+        "password": "d1ed48d2796fd494d815c633a6982379f384ea3b"
+    },
+    "dlouie364": {
+        "first": "Darica",
+        "last": "Louie",
+        "grade": "12",
+        "email": "darica.louie@gmail.com",
+        "asb": true,
+        "password": "e7ddd1fe1ae36cd0148b39a5c775cfde62d76938"
+    },
+    "srangarajan": {
+        "first": "Srini",
+        "last": "Rangarajan",
+        "grade": "12",
+        "email": "srini6773@gmail.com",
+        "password": "ee0782f3db94e99b10644dfae5a2f6681a017ca6"
+    },
+    "ally112250": {
+        "first": "Danling",
+        "last": "Wang",
+        "grade": "11",
+        "email": "ally112250@gmail.com",
+        "password": "6a4312c07eac0e7f7d2463958e470d5179ff4ebf"
+    },
+    "sarahlu787": {
+        "first": "Sarah",
+        "last": "Lu",
+        "grade": "11",
+        "email": "sarahlu787@yahoo.com",
+        "password": "dc22c8aba4e6f8862b4d71598da4fa2a13b6a847"
+    },
+    "erenkaraaslan": {
+        "first": "Eren",
+        "last": "Karaaslan",
+        "grade": "11",
+        "email": "erenkaraaslan@gmail.com",
+        "password": "cd52233abc7f41d88bc6a2117c7b9a18f513ecf6"
+    },
+    "ORaNgCHiKeN": {
+        "first": "Justin",
+        "last": "Kim",
+        "grade": "9",
+        "email": "kjustin521@gmail.com",
+        "password": "a00d16fab1758c80a075f00d87ffbb8c01e93f41"
+    },
+    "Frozenrift": {
+        "first": "Winston",
+        "last": "Ma",
+        "grade": "11",
+        "email": "winstonm@gmail.com",
+        "password": "c8e557236e810e85459fa7ae3c5a1b43d21bfc46"
+    },
+    "Bradley": {
+        "first": "Bradley",
+        "last": "ubJjAFCdUqwCNy",
+        "grade": "11",
+        "email": "",
+        "password": "8e8cf13b0ef1378dd4b3c78222b97eff9ef5fa3f"
+    },
+    "stevejobsrox": {
+        "first": "Vishnu",
+        "last": "Srinivasan",
+        "grade": "10",
+        "email": "vishnunaga_srinivasan@yahoo.com",
+        "password": "11fb4cabf6e1e0dcbca34a106b74934531b1e62d"
+    },
+    "TommyZakh": {
+        "first": "Thomas",
+        "last": "Zakharzhevskiy",
+        "grade": "11",
+        "email": "tommyzakh@gmail.com",
+        "asb": true,
+        "password": "441c0e7ad03968ed201ce6b621ec26781d1e60df"
+    },
+    "brandonfu": {
+        "first": "Brandon",
+        "last": "Fu",
+        "grade": "9",
+        "email": "fubrandon2000@gmail.com",
+        "password": "1c55247fe7b5c45c02fa42331c235985c47ac216"
+    },
+    "EricProg": {
+        "first": "Eric",
+        "last": "Cheng",
+        "grade": "9",
+        "email": "eric.bc8@gmail.com",
+        "password": "5b07397be4f36b2f3141c15eb8e7f5350250c48a"
+    },
+    "simon": {
+        "first": "Simon",
+        "last": "Deng",
+        "grade": "13",
+        "email": "simonsdeng@gmail.com",
+        "password": "cd24ec08253103ce4b00e3b6f96d5c81b98356d1"
+    },
+    "aljay99": {
+        "first": "Albert",
+        "last": "Yoo",
+        "grade": "11",
+        "email": "jihyun99@gmail.com",
+        "asb": true,
+        "password": "93aa04d06c89796947ee1ab17fd5c678d9022e15"
+    },
+    "SimoniusDengus": {
+        "first": "Simonius",
+        "last": "Dankus",
+        "grade": "14",
+        "email": "simoniusdengua@mailinator.com",
+        "password": "bcc2caef1d683b9da6e9c6be3c0ede560d07504e"
+    },
+    "Takym": {
+        "first": "Yamato",
+        "last": "Takahira",
+        "grade": "9",
+        "email": "ytakahira184@student.fuhsd.org",
+        "password": "09b42ea4b6fff9158c3e7c158f954c7b312ead21"
+    },
+    "vincentD": {
+        "first": "Vincent",
+        "last": "D",
+        "grade": "10",
+        "email": "2007vincentli@gmail.com",
+        "asb": true,
+        "password": "db1d8f1138d3393024f63919e09d7bde070e1d7d"
+    },
+    "Cyanide515": {
+        "first": "Anshul",
+        "last": "Ghatge",
+        "grade": "9",
+        "email": "aghatge738@student.fuhsd.org",
+        "asb": true,
+        "password": "6e521fde3e464e7b1c809bea8a8af0ae70718c2f"
+    },
+    "jreyes": {
+        "first": "Jose",
+        "last": "Reyes",
+        "grade": "12",
+        "email": "josereyes016@gmail.com",
+        "password": "8e2444901cee442aca9531ff10bfe92d58220945"
+    },
+    "aadeni": {
+        "first": "Anirudh ",
+        "last": "Adeni",
+        "grade": "12",
+        "email": "aadeni@utexas.edu",
+        "password": "1866c01623f0d92612bc0136f7d985c951ac4f0d"
+    }
+}

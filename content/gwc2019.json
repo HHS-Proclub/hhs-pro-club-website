@@ -1,0 +1,58 @@
+[
+    {
+        "title": "HTML (Part 3)",
+        "content": "Learn about text formatting, lists, tables, and linking to other pages! Click \r\n\r\n<a href='https://docs.google.com/presentation/d/1GIDBbGTBRHIj24porlIdLOa1G_c_fV3hkV0nyRTS7zY/edit?usp=sharing' target='_blank'>here!<\/a>\r\n",
+        "date": "30",
+        "month": "01",
+        "year": "2020"
+    },
+    {
+        "title": "HTML (Part 2)",
+        "content": "Learn about reading input using the form and input tags. Click \r\n\r\n<a href='https://docs.google.com/presentation/d/1RyDxriBWwvnrEmXz_Oxzem4nP3vizpvyCV_xcDsj_FY/edit?usp=sharing' target='_blank'>here!<\/a>\r\n",
+        "date": "17",
+        "month": "01",
+        "year": "2020"
+    },
+    {
+        "title": "Intro to Web Development and HTML (Part 1)",
+        "content": "Learn about web development and basic header, paragraph, and link tags! Click \r\n\r\n<a href='https://docs.google.com/presentation/d/1JfnlQCVu7xEJx6qPp1-ZFHcMvA4ndvNHpIXfvtz-Gdw/edit?usp=sharing' target='_blank'>here!<\/a>\r\n",
+        "date": "09",
+        "month": "01",
+        "year": "2020"
+    },
+    {
+        "title": "Recursion",
+        "content": "Learn more about recursion! Click \r\n\r\n<a href='https:\/\/docs.google.com\/presentation\/d\/1yelYnJvpihQxzix-iAhb6mHaQ9tC8GYS2fiA9EMfi_8\/edit?usp=sharing' target='_blank'>here!<\/a>\r\n",
+        "date": "13",
+        "month": "12",
+        "year": "2019"
+    },
+    {
+        "title": "Letter Scramble Challenge Problem (PRB3) Part 2",
+        "content": "Learn how to read text in Python. Click \r\n\r\n<a href='https:\/\/docs.google.com\/presentation\/d\/1pVutcOR-TGJrOaUf5tWVYYQ57H5uETFfBtBYsZc5-LA\/edit?usp=sharing' target='_blank'>here!<\/a>\r\n",
+        "date": "06",
+        "month": "11",
+        "year": "2019"
+    },
+    {
+        "title": "Letter Scramble Challenge Problem (PRB3) Part 1!",
+        "content": "Learn more about strings in Python. Click \r\n\r\n<a href='https:\/\/docs.google.com\/presentation\/d\/1lnxo9kPda6FSWLxGe6lM3TxewnLI7HtJZanZi4_4Dt0\/edit?usp=sharing' target='_blank'>here!<\/a>\r\n",
+        "date": "06",
+        "month": "11",
+        "year": "2019"
+    },
+    {
+        "title": "Insomnia Challenge Problem (PRB2) Part 2!",
+        "content": "Learn more on reading input in Python. Click \r\n\r\n<a href='https:\/\/docs.google.com\/presentation\/d\/1gBXtk5C_8INrSKFwvzSrZ9d0FYE-UD9ejXuMOPzV-0E\/edit?usp=sharing' target='_blank'>here!<\/a>\r\n",
+        "date": "06",
+        "month": "11",
+        "year": "2019"
+    },
+    {
+        "title": "Insomnia Challenge Problem (PRB2) Part 1!",
+        "content": "Learn more on how to solve challenge problems and arrays in Python. Click \r\n\r\n<a href='https:\/\/docs.google.com\/presentation\/d\/1pBXRQUoZvmDNbb-9FHMXLyfN9BwA_v1lm5AV_GvO2cA\/edit?usp=sharing' target='_blank'>here!<\/a>\r\n",
+        "date": "06",
+        "month": "11",
+        "year": "2019"
+    }
+]

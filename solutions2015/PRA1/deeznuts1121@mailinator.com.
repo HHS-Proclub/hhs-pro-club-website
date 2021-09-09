@@ -1,0 +1,1 @@
+print format(reduce(lambda a, y: a*y, [i for i in range(2, int(raw_input())) if len( [x for x in range(2, int(i**0.5+1)) if i%x==0] )==0]), 'o')

@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+
+public class PRB1 {
+
+	public static void main(String[] args) {
+		System.out.println((int)(Math.sqrt(new Scanner(System.in).nextInt())*2));
+	}
+	
+}

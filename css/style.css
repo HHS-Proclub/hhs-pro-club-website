@@ -1,0 +1,563 @@
+/* THAT GREEN COLOR
+   rgba(11, 153, 118, 1)
+   #0b9976
+*/
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;	
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+html { height: 100%; }
+
+body {
+	position: relative;
+	min-height: 100%;
+	background: #e3eeee;
+	font: 1em 'Open Sans', sans-serif;
+	line-height: 1.7;
+	margin: 0;
+	padding-bottom: 79px;
+	/*border-top: 5px solid #00b879;*/
+	/*box-shadow: 0 5px 0 #00d7ac inset,
+				0 250px 200px -200px #000 inset;*/
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.content {
+	background: #fff;
+	padding: 30px;
+	margin-top: -150px;
+	overflow: auto;
+}
+
+.photo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 410px;
+	background: url('../img/keyboard.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;	
+    background-position: center;
+    z-index: -1;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 410px;
+	background: rgba(60, 79, 78, .7);
+	z-index: -1;
+}
+
+/* Links */
+
+a {
+	color: #0b9976;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* typography */
+
+h2 {
+	font-family: 'Miriam Libre', sans-serif;
+	color: #3c4f4e;
+	line-height: 1;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+h2:before {
+	content: "> ";
+	color: #00cda4;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 1.4em;
+}
+
+h4 {
+	color: #0b9976;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+/* Grid and boxes */
+
+.row {
+	width: 100%;
+	clear: both;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.one {
+	width: 100%;
+}
+
+.one-half {
+	width: 49%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.one-third {
+	width: 31%;
+	margin-right: 2%;
+	float: left;
+}
+
+.one-fourth {
+	width: 23.5%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.one-fifth {
+	width: 18.5%;
+	margin-right: 1%;
+	float: left;
+}
+
+.last-child {
+	margin-right: 0;
+}
+
+.cols-wrapper {
+	-webkit-column-count: 2;
+	-webkit-column-gap: 40px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 2;
+	-moz-column-gap: 40px;
+	column-count: 2;
+	column-gap: 40px;
+	column-fill: auto;
+}
+.news {
+	padding-bottom: 30px;
+}
+.cols-wrapper .news {
+	display: inline-block;
+}
+.box-gray {
+	//border-bottom: 1px solid #ccc;
+	border-left: 1px solid #aaa;
+	padding: 20px;
+	margin-bottom: 30px;
+	background: #f5f5f5;
+	text-align: left;
+}
+
+/* header */
+
+header, footer {
+	width: 100%;
+	background: #0b9976;
+}
+
+header {
+	background: rgba(76, 97, 105, 0.5);
+}
+
+header .container {
+	display: table;
+}
+
+.logo {
+	padding: 30px;
+	background: #0b9976;
+	display: inline-block;
+}
+
+.logo img {
+	height: 50px;
+	width: auto;
+}
+
+.vcenter {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.nav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	/*border-radius: 5px;*/
+	overflow: hidden;
+	background: #00cda4;
+}
+
+.nav li {
+    display: inline-block;
+    float: right;
+    /*background: rgba(0,0,0,0.2);*/
+    
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+}
+
+.nav li a:link, .nav li a:hover, .nav li a:visited {
+	display: block;
+	padding: 0 10px;
+	font-size: 19px;
+	color: #fff;
+	text-decoration: none;
+	
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+}
+
+.nav li:hover, .logo:hover {
+	background: rgba(0,0,0,0.2);
+}
+
+.nav li.current {
+	background: rgba(0,0,0,0.7);
+}
+
+/* page title */
+
+.page-title {
+	/* background: rgba(0,0,0,0.7); */
+	color: #f5f5f5;
+	padding-bottom: 150px;
+}
+
+h1 {
+	font: 43px 'Miriam Libre', sans-serif;
+	font-weight: bold;
+	margin: 30px 0;
+}
+
+h1 small {
+	font-weight: 400;
+	font-size: 24px;
+	color: #ccc;
+}
+
+/* footer */
+
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 30px 0;
+	color: #0b9976;
+	background: transparent;
+}
+
+/* input */
+
+input, select, textarea {
+	font: 1em 'Open Sans', sans-serif;
+	padding: 10px 12px;
+	border: 1px solid #ddd;
+	/*border: 0;*/
+	/*box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.08) inset;*/
+	margin: 5px 0;
+}
+input[type="submit"] {
+	border: 0;
+}
+textarea {
+	font-family: monospace;
+	width: 400px;
+	height: 200px;
+}
+form {
+	display: inline-block;
+}
+#join-form {
+	background: #f5f5f5;
+	padding: 30px;
+}
+.login-input {
+	height: 40px;
+}
+.login-input input {
+	height: 100%;
+	padding: 10px 12px;
+	float: left;
+}
+.login-input label {
+	height: 100%;
+	line-height: 40px;
+	padding: 0 10px;
+	background: #ccc;
+	border: 1px solid #ccc;
+	margin: 5px 0;
+	float: left;
+}
+.login-input .fa {
+	font-size: 1em;
+}
+input:focus, textarea:focus, select:focus {
+	outline: 1px solid #0b9976;
+}
+.btn {
+	display: inline-block;
+	background: #00cda4;
+	padding: 10px 30px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+}
+.btn:hover {
+	/*background: #0b9976;*/
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+/* tables */
+table {
+	border-collapse: collapse;
+}
+td {
+	padding: 5px 8px;
+}
+thead tr {
+	background: #222;
+	color: #eee;
+}
+tbody tr:nth-child(n) {
+	background: #eee;
+}
+tbody tr:nth-child(2n-1) {
+	background: #f5f5f5;
+}
+
+/* problems */
+
+
+pre {
+	background: #f5f5f5;
+	margin: 0;
+	padding: 10px;
+	border-left: 1px solid #aaa;
+	white-space: pre-wrap;
+}
+
+
+
+
+
+
+	/* header */
+
+.logo {
+	display: inline-block;
+	width: 170px;
+	height: auto;
+	float: left;
+	padding: 25px;
+}
+
+/* nav */
+
+.nav-wrapper {
+	width: 829px;
+	float: right;
+	position: relative;
+} 
+.nav, .top-nav {
+	overflow: hidden;
+	margin: 0;
+}
+.top-nav {
+	background: #e3eeee;
+	height: 47px;
+	line-height: 47px;
+}
+.top-nav a:link, .top-nav a:visited {
+	color: #0b9976;
+}
+.nav {
+	height: 65px;
+	line-height: 65px;
+}
+.nav-wrapper li {
+	display: inline-block;
+}
+.top-nav li {
+	float: right;
+}
+.nav li.current a {
+	color: #0EE991;
+}
+.nav a, .top-nav a {
+	padding: 0 20px;
+	height: 100%;
+}
+
+/* login */
+.login {
+	display: none;
+	padding: 10px 30px;
+	background: #e3eeee;
+	position: absolute;
+	top: 47px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.login-input {
+	display: inline-block;
+	height: 40px;
+}
+.login-input-border {
+	border: 5px solid rgba(0,0,0,0.6);
+}
+.login-input label {
+	display: inline-block;
+	float: left;
+	height: 100%;
+	background: #555;
+	padding: 0 15px 0 10px;
+	color: #eee;
+	line-height: 40px;
+}
+.login-input input[type="text"], .login-input input[type="password"] {
+	display: inline-block;
+	float: left;
+	width: 150px;
+	height: 100%;
+	margin-right: 20px;
+}
+input:focus {
+	outline: 0;
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.35) inset;
+}
+.login-input input[type="text"]:focus, .login-input input[type="password"]:focus {
+	outline: 0;
+	background: #f0f0f0;
+	box-shadow: 0px 1px 0px 1px rgba(0,0,0,0.2) inset;
+}
+.login-input input[type="submit"] {
+	float: left;
+	height: 100%;
+	padding: 0 30px;
+	line-height: 30px;
+}
+
+@media only screen and (max-width: 1040px) {
+	h1 small {
+		display: block;
+	}
+
+	.page-title {
+		max-width: 95%;
+		margin: auto;
+	}
+
+	.content {
+		max-width: 95%;
+		margin: auto;
+		margin-top: -150px;
+	}
+
+	.one-half {
+		width: 100%;
+		float: none;
+		margin: auto;
+	}
+
+	header .container {
+		width: 100%;
+	}
+
+	.nav-wrapper {
+		float: none;
+		width: 100%;
+	}
+
+	.logo {
+		float: none;
+		position: relative;
+		left: 50%;
+		margin-left: -55px;
+		top: 3px;
+		background-color: transparent;
+		width: 110px;
+	}
+
+	.top-nav {
+		height: 35px;
+		line-height: 35px;
+		font-size: min(1em, 4vw);
+		padding-left: 0;
+	}
+
+	.top-nav li a:link {
+		padding: 0 2vw;
+	}
+
+	.nav {
+		height: 47px;
+		line-height: 47px;
+		overflow: hidden;
+	}
+
+	.nav li a:link, .nav li a:hover, .nav li a:visited {
+		font-size: min(1em, 2.5vw);
+		padding: 0 1vw;
+	}
+
+	.login {
+		top: 35px;
+		padding: 0;
+		height: 55px;
+	}
+
+	@-moz-document url-prefix() {
+		.nav-wrapper {
+			//width: 90vw;
+		}
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.login {
+		height: 105px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.login {
+		height: 150px;
+	}
+}

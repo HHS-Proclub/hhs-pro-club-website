@@ -1,0 +1,137 @@
+/*
+ * test?
+ * Editing colors
+ *
+ * Color Scheme:
+ * #000000: Black
+ * #44ffaa: LGreen
+ * #1e9e75: Green
+ * #043927: Wholesome Green
+ */
+
+/* THAT GREEN COLOR
+ *    rgba(11, 153, 118, 1)
+ *       #0b9976
+ */
+
+body
+{
+	color: hsl(150, 100%, 60%);
+	background-color: hsla(100, 60%, 20%, 100%)
+}
+h1
+{
+	color: hsl(150, 100%, 70%)
+}
+h1 small
+{
+	color: hsl(150, 20%, 60%)
+}
+h2
+{
+	color: hsl(150, 100%, 60%);
+}
+header
+{
+	background-color: hsla(100, 80%, 30%, 10%);
+}
+.overlay
+{
+	background-color: hsla(100, 80%, 10%, 85%)
+}
+
+#top-bar
+{
+	width: 80%;
+	height: 112px;
+}
+
+#nav-logo-wrapper
+{
+	cursor: pointer;
+	background: hsl(120, 25%, 22%);
+	width: 20%;
+	height: inherit;
+	float: left;
+}
+#nav-logo-wrapper:hover
+{
+	background: hsl(120, 25%, 20%);
+}
+
+.logo
+{
+	float: none;
+	display: block;
+	margin: auto;
+	padding: 3px;
+	background: transparent;
+	height: inherit;
+	width: auto;
+}
+.logo:hover
+{
+	background: none;
+}
+
+.nav-wrapper
+{
+	overflow: auto;
+	width: 80%;
+}
+.top-nav
+{
+	color: #44ffaa;
+	background-color: hsl(120, 30%, 30%)
+}
+.nav
+{
+	color: hsl(150, 100%, 60%);
+	background-color: #043927
+}
+.nav-link-wrapper
+{
+	color: hsl(150, 100%, 60%);
+}
+
+
+.content
+{
+	color: hsl(150, 100%, 60%);
+	font-weight: bold;
+	background-color: hsl(140, 100%, 8%)
+}
+.one-half
+{
+	color: hsl(140, 100%, 60%)
+	font-weight: bold;
+}
+.box-gray
+{
+	border-left: 1px solid hsl(100, 100%, 20%);
+	background-color: hsl(90, 100%, 6%)
+}
+.btn
+{
+	background-color: hsl(130, 80%, 15%);
+	color: hsl(140, 100%, 60%)
+}
+
+thead tr
+{
+}
+
+tbody tr:nth-child(n)
+{
+	background: hsl(130, 50%, 12%);
+}
+
+tbody tr:nth-child(2n-1)
+{
+	background: hsl(130, 50%, 14%);
+}
+pre
+{
+	background: #343a33;
+	border-left: 1px solid #252;
+}

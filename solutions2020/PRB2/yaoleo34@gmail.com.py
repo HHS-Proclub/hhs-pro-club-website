@@ -1,0 +1,6 @@
+s1 = input()
+s2 = input()
+s3 = input()
+s4 = input()
+s5 = input()
+print(int(s1)+int(s2)+int(s3)+int(s4)+int(s5))

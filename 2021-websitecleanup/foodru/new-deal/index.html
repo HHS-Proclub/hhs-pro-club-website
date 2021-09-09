@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>Create a New Restaurant Deal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700'>
+        <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
+    </head>
+
+    <body>
+
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo span4">
+                        <h1><a href="/">Foodru <span class="red">.</span></a></h1>
+                    </div>
+                    <!-- <div class="links span8">
+                        <a class="home" href="" rel="tooltip" data-placement="bottom" data-original-title="Home"></a>
+                        <a class="blog" href="" rel="tooltip" data-placement="bottom" data-original-title="Sign-in"></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="register-container container">
+            <div class="row">
+                <div class="iphone span5">
+                    <img src="/assets/img/iphone.png" alt="">
+                </div>
+                <div class="register span6">
+				
+				<h3> Offer a Deal </h3>
+				<form id="new-deal">
+					<label for="deal_description"> What deal are you offering? (100 characters or under)</label>
+					<textarea name="deal_description" rows="3" style="width: 95%"></textarea><br>
+					<label for="deal_code"> Code to redeem offer: (10 characters or under)</label>
+					<input  name="deal_code" maxlength="10" /><br>
+					<label for="deal_time"> How long will this sale last? (in minutes) </label>
+					<input type="text" name="deal_time"> <br>
+					<label for="lat"> Where is this deal? (Latitude Longitude)</label>
+					<input type="text" name="lat" style="width: 45%">
+					<input type="text" name="long" style="width: 45%"> <br>
+					<input type="submit" value="Submit" id="create-deal">
+				</form>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Javascript -->
+        <script src="/assets/js/jquery-1.8.2.min.js"></script>
+        <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/assets/js/jquery.backstretch.min.js"></script>
+        
+        <script>
+		Parse.initialize("0DZfsw0d77ma37ODnqomuIYvGXgFFbkfg6IaTw6r", "KFuePlI99zULJsnAOCoJZcw2GszDTrwGwxhbUuB7");
+		var currentUser = Parse.User.current();
+		if (currentUser) {
+		    $("#create-deal").on('click', function(e) {
+				e.preventDefault();
+				var Deal = Parse.Object.extend("Deals");
+				var deal = new Deal();
+				// console.log("date: " + Date.now() + $('input[name=deal_time]').val()*60*1000);
+				// console.log("geopoint: " + new Parse.GeoPoint($('input[name=lat]').val(), $('input[name=long]').val()));
+				deal.save({
+				  code: $('input[name=deal_code]').val(),
+				  description: $('textarea[name=deal_description]').val(),
+				  endTime: new Date(Date.now() + $('input[name=deal_time]').val()*60*1000),
+				  location: new Parse.GeoPoint(parseFloat($('input[name=lat]').val()), parseFloat($('input[name=long]').val())),
+				  storeId: currentUser.get("storeId")
+				  //storeId: "FaI4eH4C5z"
+				}, {
+				  success: function(deal) {
+				    // The object was saved successfully.
+					document.getElementById("new-deal").reset();
+				    alert("Your deal was saved successfully.");
+				  },
+				  error: function(deal, error) {
+				  	alert(error.message);
+				    // The save failed.
+				    // error is a Parse.Error with an error code and message.
+				  }
+				});
+			});
+		} else {
+		    // show the signup or login page
+		    window.location = "/";
+		}
+        </script>
+    </body>
+
+</html>

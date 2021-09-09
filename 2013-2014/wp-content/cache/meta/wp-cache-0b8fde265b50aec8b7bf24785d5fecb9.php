@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Vary":"Vary: Cookie","Last-Modified":"Last-Modified: Tue, 10 Jun 2014 21:56:02 GMT","Content-Type":"Content-Type: application\/rss+xml; charset=UTF-8","ETag":"ETag: \"a4432f86002e39897d8dbbfc64dfaea4\""},"uri":"2013-2014.hhsprogramming.com\/feed\/","blog_id":1,"post":0,"key":"2013-2014.hhsprogramming.com80\/feed\/"}

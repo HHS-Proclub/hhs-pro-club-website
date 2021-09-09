@@ -1,0 +1,100 @@
+[
+    {
+        "title": "Customized Assistant Workshop",
+        "content": "<a href=\"https:\/\/docs.google.com\/document\/d\/1CZfWdrflHFwb7UyWD81EFzOzdvs2EtTL40WrXLni0Eo\/edit\">Here<\/a> is the link to the doc.",
+        "date": "05",
+        "month": "04",
+        "year": "2021"
+    },
+    {
+        "title": "Machine Learning Workshop #3",
+        "content": "<a href=\"https:\/\/docs.google.com\/presentation\/d\/1WJ43ZrKh9ser05pxdNNX7hSU8sp9f9rL-pgLCpNzb3M\/edit?usp=sharing\">Here<\/a> is the link to the slides",
+        "date": "22",
+        "month": "03",
+        "year": "2021"
+    },
+    {
+        "title": "Cybersecurity Workshop ",
+        "content": "<a href=\"https:\/\/docs.google.com\/presentation\/d\/1YuVOFjZGgZvKVH-3IfVmpmvzwvoYmdD6OpQg5E1qg-0\/edit?usp=sharing\">Here<\/a> is the link to the slides",
+        "date": "08",
+        "month": "03",
+        "year": "2021"
+    },
+    {
+        "title": "Machine Learning Workshop #2",
+        "content": "<a href=\"https:\/\/docs.google.com\/presentation\/d\/198mQpNCp7yktRrLrXkemxYKX7UrPD76LayXtv59TefE\/edit?usp=sharing\">Here<\/a> is the link to the slides.\r\n",
+        "date": "22",
+        "month": "02",
+        "year": "2021"
+    },
+    {
+        "title": "Machine Learning Workshop #1",
+        "content": "<a href=\"https:\/\/docs.google.com\/presentation\/d\/1ZRA5pD6haj58AaCnnO13rC_ncwtg2krPS4lWkGjCBvo\/edit?usp=sharing\">Here<\/a> is the link to the slides.",
+        "date": "08",
+        "month": "02",
+        "year": "2021"
+    },
+    {
+        "title": "Bacon Wikipedia",
+        "content": "Click <a href=\"https:\/\/docs.google.com\/document\/d\/145IJyCzNod7A_kcwbbbX-pRcFtmzXg5oYEBPvIwriBw\/edit?usp=sharing\">here<\/a> to get started!",
+        "date": "25",
+        "month": "01",
+        "year": "2021"
+    },
+    {
+        "title": "Prisoner's Dilemma Workshop ",
+        "content": "Download the project zip file <a href=\"https:\/\/drive.google.com\/file\/d\/1FJuJqoB4r8Bxdgj70qn3hdY1euCPdKXi\/view?usp=sharing\">here<\/a>\r\n\r\nFollow along with the workshop <a href=\"https:\/\/docs.google.com\/presentation\/d\/1QEmO7HXq3VDNAKm6nJQC4A2-eAacf8VeP7_JBGWb4gE\/edit?usp=sharing\">here<\/a>\r\n(slide 12) \r\n",
+        "date": "11",
+        "month": "01",
+        "year": "2021"
+    },
+    {
+        "title": "Challenge Problem Workshop #3",
+        "content": "Click <a href=\"https:\/\/docs.google.com\/presentation\/d\/1k_Xhat66AriM56Kp7IaUnuGZjyQ9TJXvAQdTKgrA5mw\/edit?usp=sharing\">here<\/a> to check out the slides.",
+        "date": "23",
+        "month": "11",
+        "year": "2020"
+    },
+    {
+        "title": "Challenge Problem Workshop #1",
+        "content": "Feel free to follow along <a href=\"https:\/\/docs.google.com\/presentation\/d\/1O-ESgrKSPcJlVnvpRUBZrU3FTg089fJkTsKEqRj_Dco\/edit?usp=sharing\">here<\/a> as we go through the workshop!",
+        "date": "13",
+        "month": "10",
+        "year": "2020"
+    },
+    {
+        "title": "Triangle Adventures Workshop",
+        "content": "Hey Programmers! Introducing the very first workshop of the year: TRIANGLE ADVENTURES! <a href=\"https:\/\/bit.ly\/2ZVwOzY\r\n\">Here<\/a> you can find a google doc containing an overview of the workshop and necessary files. You can also watch <a href=\"https:\/\/bit.ly\/3mYSd5m\">this video<\/a> detailing how the set up the workshop in Eclipse and a sample solution to level 1. Bring any questions you may have to next week's general meeting or feel free to email us.",
+        "date": "21",
+        "month": "09",
+        "year": "2020"
+    },
+    {
+        "title": "Challenge Problem Survey",
+        "content": "Hey everyone! When you have time, please take <a href=\"https:\/\/forms.gle\/DR8SqbXeG1NbLEbU6\" target=\"_blank\">this survey<\/a> to help us improve our challenge problems! It's pretty short (1-3 minutes), and you may even get leaderboard points for it... \ud83d\ude09\r\n\r\nTo clarify: We're currently posting challenge problems right before programming club meetings (every other week). This might change depending on the survey results.",
+        "date": "21",
+        "month": "09",
+        "year": "2020"
+    },
+    {
+        "title": "1st Meeting Slides",
+        "content": "If you missed the 1st meeting, check out the slides <a href=\"https:\/\/docs.google.com\/presentation\/d\/17DHZTDAh8_UHGgrXdEsPCcTv3dy8tDR9WclH54djF7k\/edit?usp=sharing\">here<\/a>",
+        "date": "14",
+        "month": "09",
+        "year": "2020"
+    },
+    {
+        "title": "Programming Club Permanent Zoom Link",
+        "content": "Click <a href=\"https:\/\/fuhsd-org.zoom.us\/j\/99918071446?pwd=MEdMNkZwZ3VkYkFUOUVqTzdMekFnZz09\">here<\/a> to join our zoom meetings <br> ID: 999 1807 1446\r <br> Passcode: 218532",
+        "date": "09",
+        "month": "09",
+        "year": "2020"
+    },
+    {
+        "title": "Join our Mailing List!",
+        "content": "If you are new to HHS Programming Club, make sure to join our mailing list by creating an account on our website. Click \"Join\" in the top right to get started!",
+        "date": "13",
+        "month": "08",
+        "year": "2020"
+    }
+]

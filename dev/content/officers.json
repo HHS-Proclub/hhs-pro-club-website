@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Simon Deng",
+		"position": "President",
+		"photo": "/img/simon.png",
+		"description": "Wut is content? Wut is sleep?"
+	},
+	{
+		"name": "Soroush Nasiriany",
+		"position": "Vice President",
+		"photo": "/img/soroush.png",
+		"description": "The computer science framework!"
+	},
+	{
+		"name": "Vikram Idury",
+		"position": "Secretary/Treasurer",
+		"photo": "/img/vikram.png",
+		"description": "That one guy who is super suave..."
+	},
+	{
+		"name": "Soham Pardeshi",
+		"position": "Competitions Director",
+		"photo": "/img/soham.png",
+		"description": "I know what will make this powerpoint nice: a sun!"
+	},
+	{
+		"name": "Heidi Dong",
+		"position": "Web Director",
+		"photo": "/img/heidi.png",
+		"description": "ASDF"
+	},
+	{
+		"name": "Tom Bousso",
+		"position": "Web Director",
+		"photo": "/img/tom.png",
+		"description": "Broke his laptop, a glass, and a tie. What a bawsss..."
+	}
+]

@@ -1,0 +1,12 @@
+import collections
+
+string = raw_input()
+l = {}
+for ltr in string:
+	if not l.has_key(ltr):
+		l[ltr] = 0
+	l[ltr] += 1
+
+od = collections.OrderedDict(sorted(l.items()))
+for c in od.keys():
+	print c + ' ' + str(od[c])

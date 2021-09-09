@@ -1,0 +1,52 @@
+{
+    "PRB14": {
+        "jasondamour98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-03T12:20:57-05:00",
+            "time": 0.13,
+            "mem": 321088
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-08T17:27:39-05:00",
+            "time": 0.14,
+            "mem": 321088
+        },
+        "k_kogachi@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-22T00:15:33-05:00",
+            "time": 0.09,
+            "mem": 320320
+        }
+    },
+    "PRA12": {
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-08T17:28:14-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    },
+    "PRA14": {
+        "jasondamour98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-11T19:15:44-05:00",
+            "time": 0.15,
+            "mem": 321024
+        }
+    },
+    "B0": {
+        "pr0cr45t1n8r5": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-04-25T10:14:29-05:00",
+            "time": 0.14,
+            "mem": 321088
+        }
+    }
+}

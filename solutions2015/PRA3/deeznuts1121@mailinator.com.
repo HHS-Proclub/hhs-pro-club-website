@@ -1,0 +1,4 @@
+ins = [int(raw_input()) for i in range(int(raw_input()))]
+for j, el in enumerate(ins):
+	if sum(ins[:j]) == sum(ins[j+1:]):
+		print j

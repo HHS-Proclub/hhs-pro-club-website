@@ -1,0 +1,28 @@
+.body {
+  margin-left:10%;
+  margin-right:10%;
+}
+
+p {
+  font-family:"Tahoma", Serif;
+  font-size:11pt;
+}
+
+.header {
+  background-color:black;
+  margin-left:-10px;
+  margin-right:-10px;
+  padding-left:10%;
+  color:white;
+}
+
+h1 {
+  font-family:Sans-serif;
+  padding-top:10pt;
+  padding-bottom:10pt;
+  margin-bottom:10pt;
+}
+
+h2 {
+  font-family:"Palatino Linotype", Serif;
+}

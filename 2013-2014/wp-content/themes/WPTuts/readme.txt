@@ -1,0 +1,1 @@
+Theme created by AJ Clarke from WPExplorer.com - Contact me on twitter @wpexplorer for any help or seek help at my forum (wpthemehelp.com).

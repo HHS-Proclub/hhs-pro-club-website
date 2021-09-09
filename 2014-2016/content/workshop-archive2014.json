@@ -1,0 +1,102 @@
+[   
+    {
+        "name": "Sound",
+        "links": [
+            {
+                "name": "gdoc",
+                "url": "https://docs.google.com/document/d/1e5xHsC7l9nMY_tXIOyNEFxJvDYDGgkM1PLn-_xk3_9g"
+            },
+            {
+                "name": "zip",
+                "url": "/downloads/sound.zip"
+            }
+        ]
+    },
+    {
+        "name": "Triangle Adventures",
+        "links": [
+            {
+                "name": "gdoc",
+                "url": "https:\/\/docs.google.com\/document\/d\/1DcyS4cFaYr-ziecmJnTuvDTBrd-YFI42GRTYFmsso08"
+            },
+            {
+                "name": "zip",
+                "url": "/downloads/triangleadventures.zip"
+            }
+        ]
+    },
+    {
+        "name": "Debugging Competition",
+        "links": [
+            {
+                "name": "problems",
+                "url": "/debugging-competition"
+            },
+            {
+                "name": "zip",
+                "url": "/downloads/debug.zip"
+            }
+        ]
+    },
+    {
+        "name": "Web",
+        "links": [
+            {
+                "name": "design replication",
+                "url": "/replication"
+            },
+            {
+                "name": "JavaScript cheatsheet",
+                "url": "https://docs.google.com/document/d/1G9JQ2dUP2rqBWDjN6k3hOOatyzx5NuOBThIHE4vnXJg/edit"
+            },
+            {
+                "name": "Cookie Clicker guide",
+                "url": "/cookie-clicker-guide"
+            }
+        ]
+    },
+    {
+        "name": "Competitions Practice",
+        "links": [
+            {
+                "name": "problems",
+                "url": "/competitions-practice"
+            }
+        ]
+    },
+    {
+        "name": "Android",
+        "links": [
+            {
+                "name": "Easy Button tutorial",
+                "url": "https://drive.google.com/open?id=14PEBxDuUrWYF1DruCjTwl12odsGNJxNszMBUhf44yfA"
+            },
+            {
+                "name": "Sketch Sketchpad tutorial",
+                "url": "https://drive.google.com/open?id=1oIihZrQA1N_paGWldPbiMdxAo9vbRDNpytIsIEAbCr8"
+            }
+        ]
+    },
+    {
+        "name": "Mario",
+        "links": [
+            {
+                "name": "zip",
+                "url": "/mario.zip"
+            },
+            {
+                "name": "leaderboard",
+                "url": "https://drive.google.com/open?id=1iET2cubx75jhmQ9MJtojHLVSf2XG7b7nTCzityVjyJA"
+            }
+        ]
+    },
+    {
+        "name": "Inhouse Competition",
+        "links": [
+            {
+                "name": "problems",
+                "url": "/competition/inhouse/"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1620 @@
+{
+    "PRtest": {
+        "dong.heidi@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-09-06T00:08:45-05:00",
+            "time": 0.04,
+            "mem": 9984
+        },
+        "jmichael.huang@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-07T12:30:06-05:00",
+            "time": 0.15,
+            "mem": 321344
+        }
+    },
+    "prtest2": {
+        "dong.heidi@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2015-09-06T01:58:15-05:00",
+            "err_msg": "Incorrect output."
+        }
+    },
+    "PRB1": {
+        "vikramidury@utexas.edu": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-07T16:29:52-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "daniel.wu.14@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-08T11:52:40-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "chaitu65c@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-08T23:18:33-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-08T19:54:37-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "dong.heidi@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-09-08T20:35:02-05:00",
+            "time": 0.02,
+            "mem": 9984
+        },
+        "ronbroner@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-10T19:30:32-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "nyroc128@gmail.com": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2015-09-08T21:43:59-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "g10268772@trbvm.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-09-08T22:22:51-05:00",
+            "time": 0,
+            "mem": 3460
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-09T11:40:40-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "antic.alek1@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-09T19:14:14-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-09T22:29:48-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-10T19:03:27-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "dante.rella@rocketmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-10T20:06:42-05:00",
+            "err_msg": "Runtime error."
+        },
+        "willlederer@yahoo.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-10T20:11:52-05:00",
+            "err_msg": "Runtime error."
+        },
+        "jasondamour98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-11T10:55:59-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "vtandon616@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-12T18:59:19-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "cheetahpower12@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-13T23:09:01-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "robert.yzhang@ymail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-15T10:39:09-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "thewall.ace1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-16T00:40:02-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "ethanyim1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-16T17:28:48-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "joshua.j.zhou@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-09-16T17:32:19-05:00",
+            "time": 0.02,
+            "mem": 9984
+        },
+        "rie.ohta98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-16T17:46:37-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "jaythemishra@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-16T17:51:57-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "jmichael.huang@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-16T17:57:25-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "yaoleo34@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-16T18:07:25-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "johncena@johncena.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T18:11:48-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "ychenna215@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T18:15:23-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "baspinwall079@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-10-09T21:33:12-05:00",
+            "err_msg": "Runtime error."
+        },
+        "wang.odette@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-01T20:20:31-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "andrew.li905@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-10-07T17:39:13-05:00",
+            "time": 0,
+            "mem": 3416
+        },
+        "mufangqi@hotmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:48:22-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-14T11:36:04-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "erenkaraaslan@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T16:52:49-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "kjustin521@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T17:39:22-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "david.root.8@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T17:51:57-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "winstonm@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-22T12:53:15-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "sahaj.putcha@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-22T23:49:00-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T02:22:57-06:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-27T16:33:22-06:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-09T22:14:32-06:00",
+            "time": 0.02,
+            "mem": 9936
+        }
+    },
+    "PRA1": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-10T23:35:02-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-10T22:34:22-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "g10268772@trbvm.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-08T22:40:28-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-11T11:36:36-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-11T19:23:07-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "antic.alek1@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-12T19:56:04-05:00",
+            "time": 0.15,
+            "mem": 321408
+        },
+        "jasondamour98@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-11T10:29:08-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "ronbroner@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-10T22:45:28-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "dante.rella@rocketmail.com": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2015-09-12T11:13:06-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "vtandon616@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-12T18:54:34-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "adityasampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-12T19:08:12-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "jeremylee821@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-12T22:22:28-05:00",
+            "err_msg": "Runtime error."
+        },
+        "thewall.ace1998@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-16T18:01:28-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "joshua.j.zhou@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-09-16T17:30:11-05:00",
+            "time": 0.04,
+            "mem": 10368
+        },
+        "chaitu65c@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T18:18:35-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "rie.ohta98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-17T00:29:38-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-17T15:47:23-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "ethanyim1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-22T22:59:25-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "yaoleo34@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T18:03:09-05:00",
+            "time": 0.17,
+            "mem": 322368
+        },
+        "robert.yzhang@ymail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T18:11:06-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "johncena@johncena.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T18:12:00-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "josephhsieh13@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-23T18:23:53-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "sahaj.putcha@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T17:55:25-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "mufangqi@hotmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T18:04:53-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "wvshelu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T18:28:20-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-15T11:07:10-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "vigsu2000@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-10-29T11:57:27-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T02:51:36-06:00",
+            "time": 0.24,
+            "mem": 321472
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-11-27T16:37:34-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-09T23:40:16-06:00",
+            "time": 0.02,
+            "mem": 9936
+        }
+    },
+    "PRB2": {
+        "ethanyim1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T17:45:25-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T18:45:05-05:00",
+            "time": 0.14,
+            "mem": 322368
+        },
+        "yaoleo34@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T18:09:50-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "jasondamour98@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-23T18:21:14-05:00",
+            "err_msg": "Runtime error."
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T21:54:37-05:00",
+            "time": 0.15,
+            "mem": 321408
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-09-23T22:48:03-05:00",
+            "time": 0.03,
+            "mem": 9984
+        },
+        "chaitu65c@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T23:21:35-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-24T11:41:43-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "rie.ohta98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-26T02:21:10-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "ronbroner@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-27T00:03:19-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-28T20:56:43-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "vtandon616@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-03T17:58:17-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "mufangqi@hotmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:46:45-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-14T11:41:53-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "jaythemishra@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T16:22:57-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "erenkaraaslan@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T17:30:15-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "kjustin521@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T17:46:03-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "robert.yzhang@ymail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-22T10:54:28-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "winstonm@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-22T13:00:12-05:00",
+            "time": 0.14,
+            "mem": 322368
+        },
+        "sahaj.putcha@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-22T23:48:38-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T03:12:15-06:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-27T16:33:57-06:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-09T23:56:28-06:00",
+            "time": 0.02,
+            "mem": 9984
+        },
+        "jmichael.huang@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-12-30T12:41:14-06:00",
+            "time": 0.13,
+            "mem": 321344
+        }
+    },
+    "PRA2": {
+        "ethanyim1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-09T13:18:33-05:00",
+            "time": 0.37,
+            "mem": 321344
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-23T18:23:58-05:00",
+            "time": 0.13,
+            "mem": 322368
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2015-09-24T15:08:27-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-28T23:26:48-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "chaitu65c@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-26T13:20:25-05:00",
+            "err_msg": "Runtime error."
+        },
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-10-24T21:46:13-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "ronbroner@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-27T18:03:13-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "rie.ohta98@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-10-06T00:50:10-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-09-30T11:44:46-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "vtandon616@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-10-03T18:48:03-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-22T11:53:52-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "wvshelu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-28T20:25:41-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T04:09:26-06:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-27T16:38:02-06:00",
+            "time": 0.13,
+            "mem": 321280
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-10T01:15:36-06:00",
+            "time": 0.02,
+            "mem": 9944
+        }
+    },
+    "PRB3": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-30T22:33:29-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-30T22:24:54-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "ronbroner@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-02T09:11:45-05:00",
+            "time": 0.13,
+            "mem": 321280
+        },
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-03T12:56:19-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "vtandon616@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-03T19:08:54-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "rie.ohta98@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-06T00:09:53-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "chaitu65c@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-06T13:08:58-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "daniel.wu.14@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-06T17:55:57-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "ethanyim1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:31:43-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "mufangqi@hotmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:32:44-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "yaoleo34@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:47:14-05:00",
+            "time": 0.15,
+            "mem": 322368
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-10-13T11:02:21-05:00",
+            "time": 0.02,
+            "mem": 9944
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-14T11:45:15-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-14T17:29:26-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "andrew.li905@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-10-14T18:23:06-05:00",
+            "time": 0,
+            "mem": 3464
+        },
+        "dong.heidi@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-10-15T17:38:51-05:00",
+            "time": 0,
+            "mem": 3460
+        },
+        "kjustin521@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-28T17:38:56-05:00",
+            "time": 0.13,
+            "mem": 321280
+        },
+        "david.root.8@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-10-21T18:02:07-05:00",
+            "err_msg": "Runtime error."
+        },
+        "sahaj.putcha@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-25T03:13:19-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "winstonm@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-26T13:12:09-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "jaythemishra@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-29T21:21:09-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T04:12:36-06:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-27T16:35:31-06:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-10T02:10:41-06:00",
+            "time": 0.03,
+            "mem": 9984
+        },
+        "jmichael.huang@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-12-30T12:41:48-06:00",
+            "time": 0.13,
+            "mem": 321344
+        }
+    },
+    "PRA3": {
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-09-30T22:24:36-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-09T19:32:37-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "ronbroner@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-08T19:09:25-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-09T20:23:05-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "rie.ohta98@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-10-06T01:08:42-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "daniel.wu.14@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2015-10-06T20:20:02-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "ethanyim1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-09T12:48:08-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-10-13T11:17:00-05:00",
+            "time": 0.02,
+            "mem": 9936
+        },
+        "yaoleo34@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-14T17:49:54-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-15T11:39:02-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-15T11:54:10-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "dong.heidi@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-10-15T18:51:28-05:00",
+            "time": 0,
+            "mem": 3464
+        },
+        "wvshelu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T18:23:28-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "sahaj.putcha@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-25T03:06:36-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T04:49:45-06:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-11-27T16:38:16-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-10T03:21:32-06:00",
+            "time": 0.02,
+            "mem": 9984
+        }
+    },
+    "PRA4": {
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:22:43-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:32:53-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "ethanyim1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T18:17:32-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "mufangqi@hotmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T18:24:59-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T21:57:38-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "ronbroner@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-09T17:06:04-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-10-13T11:48:40-05:00",
+            "time": 0.02,
+            "mem": 9984
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-15T11:52:59-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "dong.heidi@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-10-15T18:33:29-05:00",
+            "time": 0,
+            "mem": 3460
+        },
+        "wvshelu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-28T18:10:49-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T05:09:33-06:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-27T16:38:30-06:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "chaitu65c@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-12-02T21:10:05-06:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-10T04:13:28-06:00",
+            "time": 0.03,
+            "mem": 9984
+        }
+    },
+    "PRB4": {
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-23T22:31:25-06:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:27:47-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:35:21-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "ethanyim1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:39:49-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "mufangqi@hotmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:39:58-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "yaoleo34@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-07T17:56:30-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "chaitu65c@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-08T12:29:50-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "ronbroner@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-08T19:27:45-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "baspinwall079@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-10-09T22:12:38-05:00",
+            "err_msg": "Runtime error."
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-10-13T10:56:40-05:00",
+            "time": 0.02,
+            "mem": 9984
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-14T11:47:49-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-14T17:42:22-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "andrew.li905@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-10-14T18:03:18-05:00",
+            "time": 0,
+            "mem": 3460
+        },
+        "dong.heidi@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-10-15T17:35:40-05:00",
+            "time": 0,
+            "mem": 3416
+        },
+        "jaythemishra@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T16:54:28-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "vtandon616@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T23:37:27-05:00",
+            "time": 0.13,
+            "mem": 321344
+        },
+        "winstonm@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-22T13:25:34-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "kjustin521@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-28T17:34:16-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T04:54:20-06:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "robert.yzhang@ymail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-12T11:18:03-06:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-27T16:35:44-06:00",
+            "time": 0.16,
+            "mem": 322368
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-10T02:15:15-06:00",
+            "time": 0.02,
+            "mem": 9936
+        },
+        "jmichael.huang@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-12-30T12:43:35-06:00",
+            "time": 0.14,
+            "mem": 321344
+        }
+    },
+    "PRB5": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T17:35:49-05:00",
+            "time": 0.13,
+            "mem": 322368
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T17:37:22-05:00",
+            "time": 0.15,
+            "mem": 321344
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T17:48:28-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-22T11:17:23-05:00",
+            "time": 0.17,
+            "mem": 321344
+        },
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-23T18:58:47-05:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T05:15:14-06:00",
+            "time": 0.14,
+            "mem": 322304
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-19T13:09:42-06:00",
+            "time": 0.13,
+            "mem": 321280
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-27T16:35:56-06:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-10T02:23:12-06:00",
+            "time": 0.02,
+            "mem": 9936
+        },
+        "ethanyim1998@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-12-11T11:46:32-06:00",
+            "time": 0.14,
+            "mem": 321344
+        }
+    },
+    "PRA5": {
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T19:34:25-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "ritwik.dixit@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2015-10-21T19:43:10-05:00",
+            "time": 0,
+            "mem": 3464
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T21:17:25-05:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "vtandon616@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-21T23:51:55-05:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-29T11:14:34-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T05:51:01-06:00",
+            "time": 0.24,
+            "mem": 321472
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-27T16:38:43-06:00",
+            "time": 0.15,
+            "mem": 321280
+        }
+    },
+    "PRA6": {
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-10-28T23:40:28-05:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-11-05T11:49:38-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-12T04:38:28-06:00",
+            "time": 0.36,
+            "mem": 321344
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-16T22:10:48-06:00",
+            "time": 0.91,
+            "mem": 321280
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-11-19T10:05:32-06:00",
+            "err_msg": "Incorrect output."
+        }
+    },
+    "PRB6": {
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2015-11-04T17:50:32-06:00",
+            "err_msg": "Class name is incorrect."
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-04T23:10:59-06:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "jeff688y@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-05T11:49:41-06:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "simonsdeng@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-11T06:35:44-06:00",
+            "time": 0.16,
+            "mem": 321344
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-16T21:06:32-06:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-11-26T03:23:20-06:00",
+            "time": 0.03,
+            "mem": 9984
+        },
+        "simoniusdengua@mailinator.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-27T16:37:17-06:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-10T02:38:27-06:00",
+            "time": 0.02,
+            "mem": 9936
+        }
+    },
+    "PRA7": {
+        "sohampardeshi@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-16T21:20:34-06:00",
+            "time": 0.14,
+            "mem": 321344
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-16T23:48:00-06:00",
+            "time": 0.11,
+            "mem": 320576
+        },
+        "dong.heidi@gmail.com": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2015-11-17T22:01:53-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-19T11:29:36-06:00",
+            "time": 0.15,
+            "mem": 321344
+        }
+    },
+    "PRB7": {
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-21T16:07:07-06:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "chen.michael9@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-19T23:06:07-06:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "sohampardeshi@gmail.com": {
+            "lang": 4,
+            "correct": true,
+            "timestamp": "2015-11-17T23:40:06-06:00",
+            "time": 0.01,
+            "mem": 8976
+        },
+        "ritwik.dixit@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-17T23:41:32-06:00",
+            "time": 0.14,
+            "mem": 321280
+        },
+        "vikramidury@utexas.edu": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2015-11-19T11:44:34-06:00",
+            "time": 0.15,
+            "mem": 321280
+        },
+        "kkogachi@berkeley.edu": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2015-12-10T02:48:40-06:00",
+            "time": 0.02,
+            "mem": 9936
+        }
+    }
+}

@@ -1,0 +1,344 @@
+/* THAT GREEN COLOR
+   rgba(11, 153, 118, 1)
+   #0b9976
+*/
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;	
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+html { height: 100%; }
+
+body {
+	position: relative;
+	min-height: 100%;
+	background: #dadada;
+	font: 1em 'Open Sans', sans-serif;
+	line-height: 1.7;
+	margin: 0;
+	padding-bottom: 79px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.content {
+	background: #fff;
+	padding: 30px;
+	margin-top: -150px;
+	overflow: auto;
+}
+
+.photo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 410px;
+	background: url('../img/keyboard.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;	
+    background-position: center;
+    z-index: -1;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 410px;
+	background: rgba(0, 0, 0, .7);
+	z-index: -1;
+}
+
+/* Links */
+
+a {
+	color: #0b9976;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* typography */
+
+h2 {
+	font-family: ubuntu, sans-serif;
+	line-height: 1;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+h2:before {
+	content: "> ";
+	color: #0b9976;
+}
+
+h4 {
+	color: #0b9976;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+/* Grid and boxes */
+
+.row {
+	width: 100%;
+	clear: both;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.one {
+	width: 100%;
+}
+
+.one-half {
+	width: 49%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.one-third {
+	width: 31%;
+	margin-right: 2%;
+	float: left;
+}
+
+.one-fourth {
+	width: 23.5%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.one-fifth {
+	width: 18.5%;
+	margin-right: 1%;
+	float: left;
+}
+
+.last-child {
+	margin-right: 0;
+}
+
+.cols-wrapper {
+	-webkit-column-count: 2;
+	-webkit-column-gap: 40px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 2;
+	-moz-column-gap: 40px;
+	column-count: 2;
+	column-gap: 40px;
+	column-fill: auto;
+}
+.news {
+	padding-bottom: 30px;
+}
+.cols-wrapper .news {
+	display: inline-block;
+}
+.box-gray {
+	//border-bottom: 1px solid #ccc;
+	border-left: 1px solid #aaa;
+	padding: 20px;
+	margin-bottom: 30px;
+	background: #f5f5f5;
+	text-align: left;
+}
+
+/* header */
+
+header, footer {
+	width: 100%;
+	background: #0b9976;
+}
+
+header {
+	background: rgba(11, 153, 118, 0.9);
+}
+
+header .container {
+	display: table;
+}
+
+.logo {
+	padding: 30px;
+	margin-right: 30px;
+	background: rgba(0,0,0,0.5);
+	display: inline-block;
+}
+
+.logo img {
+	height: 80px;
+	width: auto;
+}
+
+.vcenter {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.nav {
+	float: right;
+	margin: 0;
+	padding: 0;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.nav li {
+    display: inline-block;
+    float: left;
+    background: rgba(0,0,0,0.5);
+}
+
+.nav li a:link, .nav li a:hover, .nav li a:visited {
+	display: block;
+	padding: 15px 20px;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav li:hover, .logo:hover {
+	background: rgba(0,0,0,0.7);
+}
+
+.nav li.current {
+	background: rgba(0,0,0,0.7);
+}
+
+/* page title */
+
+.page-title {
+	/* background: rgba(0,0,0,0.7); */
+	color: #f5f5f5;
+	padding-bottom: 150px;
+}
+
+h1 {
+	font: 43px 'Ubuntu', sans-serif;
+	font-weight: bold;
+	margin: 30px 0;
+}
+
+h1 small {
+	font-weight: 400;
+	font-size: 24px;
+	color: #bbb;
+}
+
+/* footer */
+
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 30px 0;
+	color: #fff;
+}
+
+/* input */
+
+input, select, textarea {
+	font: 1em 'Open Sans', sans-serif;
+	padding: 10px 12px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.08) inset;
+	margin: 5px 0;
+}
+textarea {
+	font-family: monospace;
+	width: 400px;
+	height: 200px;
+}
+form {
+	display: inline-block;
+}
+#join-form {
+	background: #f5f5f5;
+	padding: 30px;
+}
+.login-input {
+	height: 40px;
+}
+.login-input input {
+	height: 100%;
+	padding: 10px 12px;
+	float: left;
+}
+.login-input label {
+	height: 100%;
+	line-height: 40px;
+	padding: 0 10px;
+	background: #ccc;
+	border: 1px solid #ccc;
+	margin: 5px 0;
+	float: left;
+}
+.login-input .fa {
+	font-size: 1em;
+}
+input:focus, textarea:focus, select:focus {
+	outline: 1px solid #0b9976;
+}
+.btn {
+	display: inline-block;
+	background: #333;
+	padding: 10px 30px;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+}
+.btn:hover {
+	background: #0b9976;
+	text-decoration: none;
+}
+
+/* tables */
+table {
+	border-collapse: collapse;
+}
+td {
+	padding: 5px 8px;
+}
+thead tr {
+	background: #222;
+	color: #eee;
+}
+tbody tr:nth-child(n) {
+	background: #eee;
+}
+tbody tr:nth-child(2n-1) {
+	background: #f5f5f5;
+}
+
+/* problems */
+
+
+pre {
+	background: #f5f5f5;
+	margin: 0;
+	padding: 10px;
+	border-left: 1px solid #aaa;
+}

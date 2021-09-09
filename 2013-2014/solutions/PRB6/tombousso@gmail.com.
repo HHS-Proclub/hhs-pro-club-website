@@ -1,0 +1,2 @@
+needle = input("")
+print(input("").count(needle))

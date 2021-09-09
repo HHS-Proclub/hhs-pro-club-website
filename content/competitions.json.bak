@@ -1,0 +1,23 @@
+{
+    "codeolympics": {
+        "name": "Code Olympics",
+        "teams": {
+            "asdf": [
+                "heidi",
+                "vtandon",
+                "andrew"
+            ],
+            "Soham's Brohams": [
+                "SohamPardeshi"
+            ],
+            "bleh": [
+                "akhilsanka"
+            ],
+            "bob": [
+                "michael"
+            ]
+        },
+        "leaderboard": false,
+        "state": true
+    }
+}

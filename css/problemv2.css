@@ -1,0 +1,229 @@
+/*
+Submission results format heavily inspired by USACO (USA Computing Olympiad)
+You should participate in USACO! It's really fun, and you might even make the IOI team ;)
+Check it out at http://usaco.org/
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+#run-bonus-group {
+  display: none;
+}
+
+.btn-disabled {
+	display: inline-block;
+	background: #a0a0a0;
+	padding: 10px 30px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.btn-disabled:hover {
+	background: #a0a0a0;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+hr {
+    margin: 1.7em 0;
+}
+
+.color-blue {
+    color: #2e77d1;
+}
+
+.color-green {
+    color: #51db27;
+}
+
+.color-yellow {
+    color: #c7b120;
+}
+
+.color-red {
+    color: #c72020;
+}
+
+#submission-result-box {
+    position: relative;
+    border: 1px solid black;
+		border-radius: 16px;
+    padding: 10px;
+    margin: 16px 0 15px 0;
+    font-weight: bold;
+		font-family: 'Open Sans', sans-serif;
+		overflow-wrap: anywhere;
+		line-height: normal;
+}
+
+.submission-result-compile-error {
+    background: #ffe2e2;
+    border-color: #993333;
+    color: #993333;
+}
+
+#submission-result-box .progress-box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: #f4f4f4;
+    border-radius: 16px;
+		z-index: 1;
+    transition: width 0.6s ease;
+}
+
+#submission-result-box .progress-box-fail {
+    background: #fff6f6;
+}
+
+#submission-result-box .progress-box-partial {
+    background: #ffffed;
+}
+
+#submission-result-box .progress-box-pass {
+    background: #f6fff6;
+}
+
+#submission-result-box .submission-status {
+    position: relative;
+		display: flex;
+    justify-content: center;
+    align-items: center;
+		z-index: 2;
+}
+
+#submission-result-box .status-text {
+    margin: 5px 7px 5px 5px;
+    text-align: center;
+}
+
+#submission-result-box .loader {
+    border: 4px solid #f0f0f0;
+    border-top: 4px solid #888888;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    animation: spin 0.85s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#submission-result-box .test-results-box {
+    position: relative;
+		display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+		z-index: 2;
+}
+
+#submission-result-box .tooltip-no-underline {
+    text-decoration: none;
+}
+
+#submission-result-box .test-result {
+    height: 4.25em;
+    width: 5em;
+    margin: 3px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid;
+		border-radius: 6px;
+    box-shadow: 0.2em 0.2em 0 0 rgba(15, 28, 63, 0.125);
+    vertical-align: top;
+}
+
+#submission-result-box .test-result-small {
+    height: 2.375em;
+		width: 2.375em;
+		border-radius: 3px;
+}
+
+#submission-result-box .test-result-pass {
+    background: #eeffee;
+    border-color: #339933;
+    color: #339933;
+}
+
+#submission-result-box .test-result-fail {
+    background: #ffe2e2;
+    border-color: #993333;
+    color: #993333;
+}
+
+#submission-result-box .test-result-skipped {
+    background: #eeeeee;
+    border-color: #333333;
+    color: #666666;
+}
+
+#submission-result-box .test-result-bonus {
+    background: #e5e5ff;
+    border-color: #333399;
+    color: #333399;
+}
+
+#submission-result-box .test-verdict {
+    font-family: Arial;
+		font-size: 2.8em;
+    text-align: center;
+}
+
+#submission-result-box .test-result-small .test-verdict {
+    font-size: 1.4em;
+}
+
+#submission-result-box .test-small-verdict {
+    font-size: 1.5em;
+    margin-top: 0.25em;
+}
+
+#submission-result-box .test-result-small .test-small-verdict {
+    font-size: 0.9em;
+    margin-top: 0.15em;
+}
+
+#submission-result-box .test-number {
+    bottom: 1px;
+    left: 3px;
+    position: absolute;
+    display: inline;
+    font-size: 0.85em;
+    text-align: left;
+}
+
+#submission-result-box .test-result-small .test-number {
+    font-size: 0.7em;
+}
+
+#submission-result-box .test-info {
+    bottom: 2px;
+    right: 3px;
+    position: absolute;
+    font-size: 0.675em;
+    text-align: right;
+}
+
+#submission-result-box .test-result-small .test-info {
+    display: none;
+}
+
+#submission-result-box .test-memory {
+    position: relative;
+		top: 0.2em;
+}

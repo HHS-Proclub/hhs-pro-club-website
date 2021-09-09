@@ -1,0 +1,64 @@
+{
+    "CTFDEMO": {
+        "title": "Demo Problem",
+        "state": "down",
+        "blurb": "Test",
+        "description": "The answer is the word \"seven\".<br><br>Be sure to submit a text file with an endline."
+    },
+    "CTFC1": {
+        "title": "Crypto1 (1 point)",
+        "state": "down",
+        "blurb": "Decipher the code",
+        "description": "You've received a message from your friend, whfglbherirelqnlpnrfnepvcure, but it appears meaningless. <br>Can you figure out what it says? <br><br> Make sure to submit a text file with a trailing endline!",
+        "point_value": 1
+    },
+    "CTFC2": {
+        "title": "Crypto2 (2 points)",
+        "state": "down",
+        "blurb": "Decipher the code",
+        "description": "Upon solving the previous message, you receive this: 8tgjdr8fgppz6ynf3h, which looks slightly different\u2026<br>",
+        "point_value": 2
+    },
+    "CTFC3": {
+        "title": "Crypto3 (4 points)",
+        "state": "down",
+        "blurb": "Decipher the code",
+        "description": "Impressed with your performance, you are provided with a more interesting challenge: <br><br>nccjugzmpzolggucutoc<br><br>After a bit of thinking, you notice a few messages that were already decoded for you<br><br>hqslbaoi: goodluck<br>zqykqt: youcan<br>eqxpyy: dothis<br>",
+        "point_value": 4
+    },
+    "CTFC4": {
+        "title": "Crypto4 (4 points)",
+        "state": "down",
+        "blurb": "Decipher the code",
+        "description": "This final task \u2013  hlnvgsrmtnlivxlnkovc \u2013 is tough, you are assured, and a single hint of provided<br>lmvsrmg: onehint<br>",
+        "point_value": 4
+    },
+    "CTFA1": {
+        "title": "Assembly1 (1 point)",
+        "state": "down",
+        "blurb": "Understand the code!",
+        "description": "You have scraped up an old computer which has some distinct integers stored in a stack. We will represent a stack as an array, where the leftmost element is on the top. There are a couple working operations built in to the computer.<br><ul><li>POP - Remove the element on the top of the stack. For example, applying POP to the stack [1, 2, 3, 4] will result in [2, 3, 4]<\/li><li>FLIP - Reverse the direction of the stack. For example, the stack initially containing [1, 2, 3, 4] will flip to [4, 3, 2, 1].<\/li><\/ul>You have determined that the stack initially contains 20 distinct integers.<br>Using only the POP command, how many distinct stacks can you end up with?<br><br>Note that two distinct stacks are distinct if they contain different values, or if the position of their values are different. For example, [1, 2, 3, 4], [1, 2, 3], [2, 3, 1], [3, 2, 1], and [] are five different states. <br><br>Submit the answer as a text file with just the numerical answer and a trailing endline.",
+        "point_value": 1
+    },
+    "CTFA2": {
+        "title": "Assembly2 (2 points)",
+        "state": "down",
+        "blurb": "Understand the code!",
+        "description": "You have scraped up an old computer which has some distinct integers stored in a stack. We will represent a stack as an array, where the leftmost element is on the top. There are a couple working operations built in to the computer.<br><ul><li>POP - Remove the element on the top of the stack. For example, applying POP to the stack [1, 2, 3, 4] will result in [2, 3, 4]<\/li><li>FLIP - Reverse the direction of the stack. For example, the stack initially containing [1, 2, 3, 4] will flip to [4, 3, 2, 1].<\/li><\/ul>You have again determined that the stack initially contains 20 distinct integers.<br>Using both the POP and FLIP commands, how many distinct stacks can you end up with?<br><br>Submit the answer as a text file with just the numerical answer and a trailing endline.",
+        "point_value": 2
+    },
+    "CTFA3": {
+        "title": "Assembly3 (3 points)",
+        "state": "down",
+        "blurb": "Understand the code!",
+        "description": "You decide to play with the computer some more, and you managed to create a new operation!! ... But you lost the FLIP operation during the process. Here is what your new computer can do.<br><ul><li>POP - Remove the element on the top of the stack. For example, applying POP to the stack [1, 2, 3, 4] will result in [2, 3, 4]<\/li><li>SHIFTALL - Shifts all elements of the stack. For example, applying SHIFT to [1, 2, 3, 4] produces [2, 3, 4, 1]<\/li><\/ul><br><br>With these upgrades, there are now 30 distinct elements initially in the stack.<br><br>Using POP and SHIFTALL, how many distinct stacks can you end up with?",
+        "point_value": 3
+    },
+    "CTFA4": {
+        "title": "Assembly4 (5 points)",
+        "state": "down",
+        "blurb": "Understand the code!",
+        "description": "With a stroke of luck, you managed to enhance the computer's computational ability by modifying the SHIFTALL command. Here are the capabilities of the final computer.<br><ul><li>POP - Remove the element on the top of the stack. For example, applying POP to the stack [1, 2, 3, 4] will result in [2, 3, 4]<\/li><li>SHIFT3 - Shifts the first element of the stack to the third element, second element to the first element, and the third element to the second element. This command is legal only if the stack contains 3 or more elements. For example, applying SHIFT to [1, 2, 3, 4, 5] produces [2, 3, 1, 4, 5]<\/li><\/ul><br><br>As the technology improves, you can insert a whopping 50 distinct elements into the stack!<br>Using POP and SHIFT3, how many distinct stacks can you end up with?",
+        "point_value": 5
+    }
+}

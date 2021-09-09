@@ -1,0 +1,78 @@
+[
+    {
+        "title": "Java Graphics Workshop",
+        "content": "<a href=\"https:\/\/docs.google.com\/document\/d\/1NJd7KHr7Y0w7d30DJ9WY-8nxCcdPLNtc4pGK086D_Xk\/edit\">Here<\/a> is the workshop!",
+        "date": "24",
+        "month": "04",
+        "year": "2020"
+    },
+    {
+        "title": "Customized Assistant",
+        "content": "Hey Everyone! <a href=\"https:\/\/docs.google.com\/document\/d\/1CZfWdrflHFwb7UyWD81EFzOzdvs2EtTL40WrXLni0Eo\/edit?usp=sharing\">Here<\/a> is the link to get started on our customized assistant workshop.",
+        "date": "04",
+        "month": "04",
+        "year": "2020"
+    },
+    {
+        "title": "Algorithms Workshop",
+        "content": "Click <a href=\"https:\/\/docs.google.com\/document\/d\/1-zD6Y6MVWbIM_u6SO3Pa6B1hEEKmcjepywtV5uto-Kk\/edit\">here<\/a> to get started on our networking workshop!",
+        "date": "17",
+        "month": "03",
+        "year": "2020"
+    },
+    {
+        "title": "Resizable Arrays Workshop!",
+        "content": "Download the project <a href='https:\/\/drive.google.com\/drive\/folders\/18IaQCauE-a3RkO3fy3ZuN0HgMn0DUTPq?usp=sharing'>here<\/a>",
+        "date": null,
+        "month": null,
+        "year": ""
+    },
+    {
+        "title": "Prisoner's Dilemma",
+        "content": "Follow along with the workshop <a href=\"https:\/\/docs.google.com\/presentation\/d\/1QEmO7HXq3VDNAKm6nJQC4A2-eAacf8VeP7_JBGWb4gE\/edit?usp=sharing\">here<\/a>.",
+        "date": "04",
+        "month": "02",
+        "year": "2020"
+    },
+    {
+        "title": "Machine Learning Workshop",
+        "content": "Start working on the workshop <a href=\"https:\/\/docs.google.com\/document\/d\/1vMTh9e8rInTGQNLceqMjPg0Aag8kB5Fc26kQ-en6nS0\/edit?usp=sharing\">here<\/a>",
+        "date": "14",
+        "month": "01",
+        "year": "2020"
+    },
+    {
+        "title": "TRIE Workshop",
+        "content": "Click <a href=\"https:\/\/docs.google.com\/document\/d\/1-i_uzydHboshsCjcQg81zF_5AHoKgxmRh-eV8NgfJCE\/edit?usp=sharing\">here<\/a> to start working on the workshop!",
+        "date": "19",
+        "month": "11",
+        "year": "2019"
+    },
+    {
+        "title": "Jump Workshop",
+        "content": "Click <a href=\"\/downloads\/src.zip\">here<\/a> for the source code. Library is <a href=\"\/downloads\/core.jar\">here<\/a>",
+        "date": "05",
+        "month": "11",
+        "year": "2019"
+    },
+    {
+        "title": "Video Game Workshop Pt. 1",
+        "content": "Click <a href=\"https:\/\/github.com\/hhs-programming-club\/VideoGame1\">here<\/a> to start the workshop!",
+        "date": "15",
+        "month": "10",
+        "year": "2019"
+    },
+    {
+        "title": "Triangle Adventures!",
+        "content": "Click here to find the instructions!\r\n\r\n<a href='https:\/\/docs.google.com\/document\/d\/1z_aG6wOyo2XxPkSLPNQiF1vR-Io7hG1Um7ZMy9RxbhY\/edit?usp=sharing' target='_blank'>Click here!<\/a>\r\n",
+        "date": "24",
+        "month": "09",
+        "year": "2019"
+    },
+    {
+        "title": "First Meeting",
+        "month": "9",
+        "date": "17",
+        "year": "2019"
+    }
+]

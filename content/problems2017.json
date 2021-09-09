@@ -1,0 +1,189 @@
+{
+    "PRA9": {
+        "title": "Array Manipulation",
+        "type": "Advanced",
+        "state": "up",
+        "blurb": "Manipulating Arrays...",
+        "description": "Manipulating arrays is fun. You have an array A that contains integers between -10^9 and 10^9. You have a string B that contains only 0 and 1. You want to recreate string B using the following rules:<br><br>b_1 = b_2 = b_3 = b_4 = 0<br>b_i = 0 if a_i, a_i-1, a_i-2, a_i-3, a_i-4 > R  and b_i-1 = b_i-2 = b_i-3 = b_i-4 = 1<br>b_i = 1 if a_i, a_i-1, a_i-2, a_i-3, a_i-4 > L and b_i-1 = b_i-2 = b_i-3 = b_i-4 = 0<br>otherwise, b_i = b_i-1<br>Find L and R with L <= R such that your recreated string matches the given string B.",
+        "inputForm": "A single integer containing the number of tests cases.<br>A single integer n, the length of array A and string B. Guaranteed to be less than 10^5.<br>A single line containing n integers, the content of array A.<br>A single line containing a string of length n, the string B.",
+        "sampleInput": "1<br>5<br>1 2 3 4 5<br>00001<br>",
+        "outputForm": "Two space separated integers, L and R.",
+        "sampleOutput": "6 15"
+    },
+    "PRB9": {
+        "title": "Number Manipulation",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "Manipulating numbers...",
+        "description": "Manipulating numbers is fun. You currently have a number n, and want to manipulate it into 1. You have two operations: subtract 1 from it, costing A coins, or dividing it by some number k, costing B coins. The second operation can only occur if the current number is divisible by k. What is the minimum amount of coins needed?",
+        "inputForm": "A single integer containing the number of test cases.<br>4 lines, each containing a single integer, n, k, A, and B, in that order.<br><br>The numbers are guaranteed to be less than 10^9.",
+        "sampleInput": "1<br>9<br>2<br>3<br>1",
+        "outputForm": "A single integer, containing the answer.",
+        "sampleOutput": "6"
+    },
+    "PRA8": {
+        "title": "Rubik's Cube",
+        "type": "Advanced",
+        "state": "up",
+        "blurb": "How to solve a cube...",
+        "description": "We want to solve a Rubik's Cube, and want to know if it is possible to do so in one rotation. Given the colors on each of the 24 sides, determine if it is possible.<br><br>Note that the input is provided based on a folded out cube as following:<br><br>         (1)(2)<br>         (3)(4)<br>(13)(14) (5)(6)   (17)(18)(21)(22)<br>(15)(16) (7)(8)   (19)(20)(23)(24)<br>         (9)(10)<br>        (11)(12)<br>",
+        "inputForm": "A single integer n, the number of test cases.<br>A single line of 24 integers, where a_i is the color of the i-th side. The i-th side is defined by the numbers in the provided diagram. There are guaranteed to be 6 different a_i, one for each color.",
+        "sampleInput": "1<br>2 5 4 6 1 3 6 2 5 5 1 2 3 5 3 1 1 2 4 6 6 4 3 4",
+        "outputForm": "n lines, each containing either \"YES\" or \"NO\"",
+        "sampleOutput": "NO"
+    },
+    "PRB8": {
+        "title": "Cubes",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "Making numbers...",
+        "description": "We want to make numbers out of cubes. More specifically, there is a single digit number on each of the six faces of a cube. We want to arrange the cubes in a row so that the top down view makes a larger number, where the cubes can be flipped so that the top shows any of the six faces. Given each of the digits on all the faces, what is the largest integer x so that we can make all the numbers between 1 and x with the cubes? Not all the cubes need to be used, and no leading zeros are allowed.<br><br>Note that a 6 cannot be flipped to a 9. ",
+        "inputForm": "A single integer n, the number of test cases.<br>A single integer p, the number of cubes (<= 3)<br>The next p lines each contain 6 integers, where d_i is the digit on the i-th face of the p-th cube.",
+        "sampleInput": "1<br>3<br>0 1 2 3 4 5<br>6 7 8 9 0 1<br>2 3 4 5 6 7<br>",
+        "outputForm": "n integers, each containing the answer x.",
+        "sampleOutput": "87"
+    },
+    "PRA7": {
+        "title": "Playing games...",
+        "type": "Advanced",
+        "state": "up",
+        "blurb": "Bob is playing a game...",
+        "description": "Bob is playing a game, and the quest is to spread a rumor to every character in a city. There are c characters in the city, and each one requires x gold coins to bribe. In addition, there are n relationships between the characters, where two characters with a relationship will spread the rumor to one another. Find the minimum number of gold coins to spread the rumor to everyone.",
+        "inputForm": "An integer x, the number of test cases.<br>The next line contains two integers, c and n.<br>The next line contains c integers, with the i-th integer representing x for the i-th character.<br>The next n lines contain two integers, with the two representing a relationship.",
+        "sampleInput": "1<br>5 2<br>2 5 3 4 8<br>1 4<br>4 5",
+        "outputForm": "x lines, each containing the minimum number of gold coins needed.",
+        "sampleOutput": "10"
+    },
+    "PRB7": {
+        "title": "Divisor Validation",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "Special divisors...",
+        "description": "Special divisors are those that can be written as (2^k-1)*(2^(k-1)) for some integer k. Given a positive integer n, find the greatest special divisor of n.<br><br>Note that n is less than 10^5.",
+        "inputForm": "The first line contains an integer x, the number of test cases.<br>Each of the next x lines contain a single integer n.",
+        "sampleInput": "1<br>3",
+        "outputForm": "x lines, each containing the greatest special divisor.",
+        "sampleOutput": "1"
+    },
+    "PRB6": {
+        "title": "Playing Games",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "Jorbiert is at a tournament...",
+        "description": "Jorbiert is at a tournament, where n people line up. The two people at the start of the line play each other, and whoever has the higher power p wins. Each player is guaranteed to have a distinct power. The winner stays at the front of the line, but the loser goes to the back of the line. The cycle repeats until someone wins k times in a row. Find out who the winner is by returning his power.",
+        "inputForm": "The first integer x, the number of test cases.<br>The next line has two integers, n and k.<br>The next line contains n integers, separated by spaces, with the ith integer being the power of player i.",
+        "sampleInput": "1<br>2 2<br>1 2",
+        "outputForm": "x lines, each containing the power of the winner.",
+        "sampleOutput": "2"
+    },
+    "PRA5": {
+        "title": "Typos",
+        "type": "Advanced",
+        "state": "up",
+        "blurb": "Gebir hates typos...",
+        "description": "Gebir hates typos, and needs your help to fix them. One typo that especially bugs him is when there are 3 or more consonants in a row, except when all the consonants in that block are the same. For example, csn is a typo, but ooo is not. One way to fix this typo is to insert spaces until there are no more such blocks in the string. Help him find the string with the minimum number of insertions used to remove all typos.",
+        "inputForm": "The first line contains one integer x, the number of test cases.<br>The next x lines each contain a single string.",
+        "sampleInput": "1<br>asdfasdf",
+        "outputForm": "x lines, each containing a modified string with no typos.",
+        "sampleOutput": "asd fasd f"
+    },
+    "PRB5": {
+        "title": "Rounding",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "Joper likes math...",
+        "description": "Joper likes math, and wants to round a number n in a special way. Specifically, he wants to round n so that the result is the smallest multiple of n that has k zeros, where k is a positive integer. Given n and k, find this result.",
+        "inputForm": "The first integer x is the number of test cases.<br>The next x lines contain two integers, n and k respectively.",
+        "sampleInput": "1<br>375 4",
+        "outputForm": "x lines, each containing a single integer with the rounded result.",
+        "sampleOutput": "30000"
+    },
+    "PRA4": {
+        "title": "Three",
+        "type": "Advanced",
+        "state": "up",
+        "blurb": "Arbiert loves the number three...",
+        "description": "Arbiert loves the number three, and especially likes it when a number is divisible by three. Currently, Arbiert has a number n. He needs to make it divisible by three by deleting digits, but wants to minimize the amount of digits he deletes. In addition, Arbiert does not want a number that has leading zeros, and the number must have at least one digit. Given the number n, find the minimum amount of deletions Arbiert has to make in order to change n to satisfy all three conditions.<br><br>If it is impossible, return -1.<br><br>Note that n is very large, so use strings. ",
+        "inputForm": "A single integer x, the number of test cases.<br>The next x lines each contain a single integer n, the current number Arbiert has.",
+        "sampleInput": "1<br>1033",
+        "outputForm": "x lines, each containing the answer.",
+        "sampleOutput": "2<br><br>The deletions are of \"1\" and \"0\", to give 33. "
+    },
+    "PRB4": {
+        "title": "Buying Mouses",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "Homestead needs new mouses...",
+        "description": "Homestead needs new mouses for its computers, and on its campus, it has three types of computers, one with port A, one with port B, and one with both ports. There are two types of mouses available for purchase, one that is compatible with port A, and one with port B. Homestead wants to maximize the number of computers it can purchase mouses for, and if there are multiple ways to do so, it wants to minimize the cost. Given a list of available mouses, their compatibility, and their prices, return the maximum amount of computers and the minimum price.",
+        "inputForm": "A single line x, the number of test cases.<br>The next line contains three integers, a, b, and c, where a is the number of computers with port A, b is the number of computers with port B, and c is the number of computers with both ports.<br>The next line contains a single integer m, the number of available mouses.<br>The next m lines contains two integers, p and b, where p is the price, and b describes compatibility. If b is 0, it is compatible with port A, and if b is 1, it is compatible with port B.",
+        "sampleInput": "1<br>2 1 1<br>4<br>5 0<br>6 1<br>3 1<br>7 1",
+        "outputForm": "Two integers on a single line, where the first is the maximum amount of computers, and the second is the minimum price.",
+        "sampleOutput": "3 14"
+    },
+    "PRA3": {
+        "title": "Pillows",
+        "type": "Advanced",
+        "state": "up",
+        "blurb": "Roybeal has pillows...",
+        "description": "Roybeal has k pillows and n guests. There is one bed for each guest, or in other words, n beds, all of which are placed in a line. Note that Roybeal counts as one of the n guests. Each guest must receive at least one pillow, and each guest can have at most 1 fewer pillow than the guests in the adjacent beds. Furthermore, Roybeal must sleep on the pth bed. What is the maximum number of pillows Roybeal can get?<br><br>Note that all the pillows must be used.",
+        "inputForm": "An integer x, denoting the number of test cases.<br>x lines, each containing 3 integers, n, k, and p, all <= 10^9.",
+        "sampleInput": "1<br>4 6 2",
+        "outputForm": "x integers, each containing the maximum number of pillows Roybeal can get.",
+        "sampleOutput": "2<br><br>If Roybeal wanted 3 pillows, guest 1 would need 2, guest 3 would need 2, and guest 4 would need 1, meaning she would need 8 pillows in total."
+    },
+    "PRB3": {
+        "title": "Counting numbers",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "Soyple loves counting numbers...",
+        "description": "Soyple loves counting numbers, and has currently counted to n. She wants to know the next closest number that uses only the digits in n. Help her find this number.<br><br>Note that the new number does not need to use all the digits in n, and that each digit in n can be used an arbitrary amount of times in the new number.<br><br>",
+        "inputForm": "The first integer x, the number of test cases.<br>The next lines each contain a single integer n, where n <= 10^15.",
+        "sampleInput": "2<br>16<br>22",
+        "outputForm": "x integers, each containing the next closest number that uses only the digits in n.",
+        "sampleOutput": "61<br>222"
+    },
+    "PRA2": {
+        "title": "Adventures",
+        "type": "Advanced",
+        "state": "up",
+        "blurb": "Boplier is having an adventure...",
+        "description": "Boplier is having an adventure at an island resort. There are n islands in the resort, where each is connected to its immediate neighbors by bridges. In other words, a bridge connects island 1 with 2, 2 with 3, and so on. In addition, there is a bridge connecting the nth island with island 1. <br><br>On n - 1 islands, there is an unique trinket. Boplier has been challenged by his friend to move the trinkets into a new order, but can only do so by the following process: choosing an island adjacent to the empty one, moving the trinket to the empty island, and repeat. Given the current order of the trinkets and the new order, help Boplier determine if it is possible to rearrange the trinkets.",
+        "inputForm": "A single integer x, the number of test cases.<br>A single integer n, the number of islands.<br>The next line contains n integers, where each defines an unique trinket currently placed at island i. If this number is 0, then there is no trinket at island i.<br>The next line contains n integers, where each defines an unique trinket that Boplier wants to be placed at island i. If this number is 0, then Boplier wants no trinket at island i.",
+        "sampleInput": "1<br>3<br>1 0 2<br>2 0 1",
+        "outputForm": "x lines, with each containing a single string \"YES\" or \"NO.",
+        "sampleOutput": "YES"
+    },
+    "PRB2": {
+        "title": "Taking Pictures",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "Techyna is taking club pictures...",
+        "description": "Techyna is taking club pictures for the school yearbook. n students are sitting in chairs that arranged in a r by c rectangular grid, where n can be less than or equal to r * c. The positions of all these n students are provided. Given that there must be k students in the picture, find the number of different pictures Techyna can take.<br><br>Note that a picture can only be an axis parallel rectangle in the grid.",
+        "inputForm": "The first line is an integer x, the number of test cases.<br>The next line contains 4 integers, r c n k, all positive integers less than or equal to 10.<br>The next n lines contains 2 integers, x_i and y_i, the position of the ith student.",
+        "sampleInput": "1<br>2 2 1 1<br>1 2",
+        "outputForm": "x lines, each containing a single integer with the number of different pictures Techyna can take.",
+        "sampleOutput": "4<br><br>The grid is defined as:<br>xs <br>xx<br>where x is empty and s is student. The four pictures that can be taken include the student itself, the row the student is in, the column the student is in, and the entire grid."
+    },
+    "PRA1": {
+        "title": "First World Problems",
+        "type": "Advanced",
+        "state": "up",
+        "blurb": "Carrie likes using her phone...",
+        "description": "Carrie likes using her phone so much that she bought n of them. The ith phone uses a_i power per second, meaning that for half a second, it uses 1\/2 * a_i power, for two seconds, it uses 2 * a_i power, and so on. Additionally, the ith phone starts out with b_i power. Carrie did not think ahead, and only has one charger that can charge c power per second. What is the longest amount of time before any one phone has 0 power?<br><br>Note that the charger can switch phones at any time, so it can switch from charging phone 1 to phone 2 at the 1\/18 second and have charged phone 1 for 1\/18 * c power.<br><br>Additionally, there will always be a finite answer.",
+        "inputForm": "An integer x, denoting the number of test cases.<br>A single line containing two positive integers n and c, where n < 100,000 and c < 10^9.<br>Each of the next n lines contains two positive integers. The ith line contains a_i and b_i, where both are less than 100,000.",
+        "sampleInput": "1<br>3 5<br>4 3<br>5 2<br>6 1",
+        "outputForm": "x lines, each containing a single number denoting the maximum amount of time.<br><br>Note that this number can be a decimal, and will be judged correct if within 10^-3 of the answer.",
+        "sampleOutput": "0.5000000000"
+    },
+    "PRB1": {
+        "title": "Candy Game",
+        "type": "Beginner",
+        "state": "up",
+        "blurb": "Tandy loves giving out candy...",
+        "description": "Tandy loves giving out candies, but only has n candies. For the ith person she gives a candy to, she gives i candies to that person. For example, she first gives Randy 1 candy, then gives Pandy 2 candies, then Sandy 3. Given n, how many people can she give candies to?",
+        "inputForm": "The first line is an integer x, denoting the number of test cases.<br>The next x lines will contain a single positive integer, n.",
+        "sampleInput": "2<br>1<br>5",
+        "outputForm": "x lines, with each line containing a single integer denoting the number of people Tandy can give candies to.",
+        "sampleOutput": "1<br>2"
+    }
+}

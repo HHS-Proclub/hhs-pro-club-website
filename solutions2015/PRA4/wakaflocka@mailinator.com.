@@ -1,0 +1,10 @@
+work = 'abcdefghijklmnopqrstuvwxyz'[:int(raw_input())]
+
+def gotem(pref, work):
+	if len(work)==0:
+		print pref
+		return
+	for i in range(len(work)):
+		gotem(pref+work[i], work[:i]+work[i+1:])
+
+gotem('', work)

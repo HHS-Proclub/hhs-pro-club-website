@@ -1,0 +1,2 @@
+copyCat = input()
+print(copyCat)

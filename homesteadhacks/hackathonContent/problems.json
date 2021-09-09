@@ -1,0 +1,112 @@
+{
+    "PRA2": {
+        "title": "Color Groups",
+        "type": "Advanced",
+        "state": "down",
+        "blurb": "Playing a game",
+        "description": "Tim is playing a puzzle game called \"Color Groups\". He plays on a board of size R\u2009\u00d7\u2009C cells.<br><br>Each cell contains a dot that has some color. We will use different uppercase characters to express different colors.<br><br>The key of this game is to find a cycle that contain dots of same color. Formally, we call a sequence of dots d1,\u2009d2,\u2009...,\u2009dk a cycle if and only if it meets the following conditions:<br><br>1. These k dots are different: if i\u2009\u2260\u2009j then di is different from dj.<br>2. k is at least 4.<br>3. All dots belong to the same color.<br>4. For all 1\u2009<=\u2009i\u2009<=\u2009k\u2009-\u20091: di and di\u2009+\u20091 are adjacent. Also, dk and d1 should also be adjacent. Cells x and y are called adjacent if they share an edge.<br><br>Determine if there exists a cycle on the field.",
+        "inputForm": "The first input line contains integer n (1 <= n <= 10^6) - the number of problems.<br><br>The input for each problem:<br>The first line contains two integers R and C (2\u2009<=\u2009R,\u2009C\u2009<=\u200950): the number of rows and columns of the board.<br><br>Then R lines follow, each line contains a string consisting of C characters, expressing colors of dots in each line. Each character is an uppercase letter.",
+        "sampleInput": "2<br>3 4<br>AAAA<br>ABCA<br>AAAA<br>3 4<br>AAAA<br>ABCA<br>AADA",
+        "outputForm": "For each test case, output \"Yes\" if there exists a cycle, and \"No\" otherwise.",
+        "sampleOutput": "Yes<br>No"
+    },
+    "PRA1": {
+        "title": "Insomnia",
+        "type": "Advanced",
+        "state": "down",
+        "blurb": "Unable to sleep",
+        "description": "There is a castle with R rooms situated on the main street of Transylvania. The castle can be represented as an array of R integer numbers \ud835\udc4e1,\ud835\udc4e2,\u2026,\ud835\udc4eR, where \ud835\udc4e\ud835\udc56 = 1 if in the \ud835\udc56-th room the light is on and \ud835\udc4e\ud835\udc56 = 0 otherwise.<br><br>The people in the \ud835\udc56-th room are disturbed and cannot sleep if and only if 1 < \ud835\udc56 < R and \ud835\udc4ei-1 = \ud835\udc4ei+1 = 1 and \ud835\udc4e\ud835\udc56 = 0 (in other words, their room's light is turned off while their neighboring rooms' lights are on).<br><br>What is the minimum number \ud835\udc58 such that if people from exactly \ud835\udc58 distinct rooms turn off the lights then nobody will be disturbed? Your task is to find this number \ud835\udc58.",
+        "inputForm": "The very first input line contains integer n (1 <= n <= 10^6) - the number of castles.<br><br>The input for each castle:<br>The first line contains one integer R (3 <= R <= 100) \u2014 the number of rooms in the castle.<br>The second line of the input contains R integers \ud835\udc4e1,\ud835\udc4e2,\u2026,\ud835\udc4eR (\ud835\udc4e\ud835\udc56 \u2208 {0,1}), where \ud835\udc4e\ud835\udc56 is the state of light in the \ud835\udc56-th room.",
+        "sampleInput": "3<br>10<br>1 1 0 1 1 0 1 0 1 0<br>5<br>1 1 0 0 0<br>6<br>1 0 1 1 0 1",
+        "outputForm": "For each of the n castles, print the minimum number \ud835\udc58 such that if people from exactly \ud835\udc58 distinct rooms turn off the lights then nobody will be disturbed.",
+        "sampleOutput": "2<br>0<br>2"
+    },
+    "PRI4": {
+        "title": "Call Me Maybe",
+        "type": "Intermediate",
+        "state": "down",
+        "blurb": "Telephone numbers",
+        "description": "Carly will only accept calls from people with telephone numbers, that are sequences of exactly 11 digits, where the first digit is 8. For example, the sequence 80011223388 is an acceptable telephone number, but the sequences 70011223388 and 80000011223388 are not.<br><br>You are given a string s of length d, consisting of digits.<br><br>In one operation you can delete any character from string s. For example, it is possible to obtain strings 112, 111 or 121 from string 1121.<br><br>You need to determine whether there is such a sequence of operations (possibly empty), after which the string s becomes an acceptable telephone number.<br>",
+        "inputForm": "The first line contains one integer n (1 <= n <= 100) \u2014 the number of test cases.<br><br>The input for each test case:<br>The first line contains one integer d (1 <= d <= 100) \u2014 the length of string s.<br>The second line of each test case contains the string s (|s| = d) consisting of digits.",
+        "sampleInput": "2<br>13<br>7818005553535<br>11<br>31415926535",
+        "outputForm": "For each test case, print one line.<br>If there is a sequence of operations, after which s becomes an acceptable telephone number, print YES.<br>Otherwise, print NO.<br>",
+        "sampleOutput": "YES<br>NO"
+    },
+    "PRI3": {
+        "title": "Pockets",
+        "type": "Intermediate",
+        "state": "down",
+        "blurb": "Storing coins",
+        "description": "Jake has C coins, the value of the i-th coin is ai. He wants to distribute all the coins between his pockets, but he cannot put two coins with the same value into the same pocket.<br><br>For example, if Jake has got six coins represented as an array a=[1,2,4,3,3,2], he can distribute the coins into two pockets as follows: [1,2,3] and [2,3,4].<br><br>Jake wants to distribute all the coins with the minimum number of used pockets. Help him to do that.<br>",
+        "inputForm": "The first input line contains integer n (1 <= n <= 10^6) - the number of problems.<br><br>The input for each problem:<br>The first line contains one integer C (1 <= C <= 100) \u2014 the number of coins.<br><br>The second line of the input contains C integers a1,a2,\u2026,aC (1 <= ai <= 100) \u2014 values of coins.<br>",
+        "sampleInput": "1<br>6<br>1 2 4 3 3 2",
+        "outputForm": "Print only one integer \u2014 the minimum number of pockets Jake needs to distribute all the coins so no two coins with the same value are put into the same pocket.",
+        "sampleOutput": "2"
+    },
+    "PRI2": {
+        "title": "Equality",
+        "type": "Intermediate",
+        "state": "down",
+        "blurb": "Giving welfare",
+        "description": "At Homestead High School, it is the holiday of equality. In honor of the holiday, the principal has decided to equalize the welfare of all students at Homestead by the expense of the school treasury.<br><br>Totally at Homestead there are S students, the welfare of each of them is ai coins.<br><br>You are the school treasurer, who needs to determine the minimum cost the principal has to pay. The principal can only give money; he does not have the power to take away them.",
+        "inputForm": "The first input line contains integer n (1 <= n <= 10^6) - the number of problems.<br><br>The input for each problem:<br>The first line contains the integer S (1\u2009<=\u2009S\u2009<=\u2009100) \u2014 the number of students at HHS.<br><br>The second line contains S integers a1,\u2009a2,\u2009...,\u2009aS, where ai (0\u2009<=\u2009ai\u2009<=\u2009106) \u2014 the welfare of the i-th student.",
+        "sampleInput": "1<br>5<br>0 1 2 3 4",
+        "outputForm": "Print an integer \u2014 the minimum number of coins which the principal has to pay.",
+        "sampleOutput": "10"
+    },
+    "PRI1": {
+        "title": "Weight Gain",
+        "type": "Intermediate",
+        "state": "down",
+        "blurb": "Slob and Bob",
+        "description": "Slob wants to become the largest of the monkeys, or at least to become larger than his brother Bob. Right now, Slob and Bob weigh A and B respectively. It's guaranteed that Slob's weight is smaller than or equal to his brother's weight.<br><br>Slob eats a lot and his weight is tripled after every year, while Bob's weight is doubled after every year.<br><br>After how many full years will Slob become strictly larger (strictly heavier) than Bob?<br>",
+        "inputForm": "The first input line contains integer n (1 <= n <= 10^6) - the number of problems.<br><br>The input for each problem:<br>The first line contains two integers A and B (1\u2009\u2264\u2009A\u2009\u2264\u2009B\u2009\u2264\u200910) \u2014 the weight of Slob and the weight of Bob respectively.",
+        "sampleInput": "1<br>4 7",
+        "outputForm": "Print one integer, denoting the integer number of years after which Slob will become strictly larger than Bob.",
+        "sampleOutput": "2"
+    },
+    "PRB4": {
+        "title": "Even or Odd",
+        "type": "Beginner",
+        "state": "down",
+        "blurb": "Conditional Statements???",
+        "description": "You will be given N integers. For each integer, print whether or not it's \"EVEN\" or \"ODD\".",
+        "inputForm": "The first line will contain an integer N<br>The next N lines will contain an integer",
+        "sampleInput": "3<br>0<br>2<br>12345",
+        "outputForm": "Output N lines with either \"EVEN\" or \"ODD\" based on the given integers",
+        "sampleOutput": "EVEN<br>EVEN<br>ODD<br>"
+    },
+    "PRB3": {
+        "title": "HomesteadHacks",
+        "type": "Beginner",
+        "state": "down",
+        "blurb": "Loops?!?!",
+        "description": "Print \"HomesteadHacks\" N times.",
+        "inputForm": "The first line contains a single integer N",
+        "sampleInput": "3",
+        "outputForm": "Output N lines with \"HomesteadHacks\"",
+        "sampleOutput": "HomesteadHacks<br>HomesteadHacks<br>HomesteadHacks<br>"
+    },
+    "PRB2": {
+        "title": "Copycat",
+        "type": "Beginner",
+        "state": "down",
+        "blurb": "sToP COpYiNG mE!!!",
+        "description": "It's simple. All you need to do is output the 1 line of input.",
+        "inputForm": "The first line contains a string",
+        "sampleInput": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "outputForm": "Output the string in the first line of input followed by a newline character",
+        "sampleOutput": "ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>"
+    },
+    "PRB1": {
+        "title": "Hello, World!",
+        "type": "Beginner",
+        "state": "down",
+        "blurb": "Print \"Hello, World!\"",
+        "description": "After a long day at school, John has lost his voice and needs your help saying \"Hello, World!\"",
+        "inputForm": "N\/A",
+        "sampleInput": "N\/A",
+        "outputForm": "Output \"Hello, World!\" followed by an endline character",
+        "sampleOutput": "Hello, World!<br>"
+    }
+}

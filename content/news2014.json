@@ -1,0 +1,142 @@
+[
+    {
+        "title": "Officer Applications for 2015-2016",
+        "content": "Officer applications for the 2015-2016 school year are now open! Download the <a href=\"\/downloads\/ProClub_OfficerApp_15_16.docx\">application<\/a> and type your responses directly into the document. Make sure to email them to <a href=\"mailto:president@hhsprogramming.com\">president@hhsprogramming.com<\/a> by <strong>Friday, May 8 at 3:10 PM<\/strong>.",
+        "date": "29",
+        "month": "04",
+        "year": "2015"
+    },
+    {
+        "title": "In-House Competition",
+        "content": "Participate in Programming Club's very first In-House Competition from 10pm-12pm today! Create or join a team <a href=\"\/competition\/inhouse\/\">here<\/a>.",
+        "date": "25",
+        "month": "04",
+        "year": "2015"
+    },
+    {
+        "title": "Mario DIY Workshop",
+        "content": "Welcome to the 2014-2015 Mario Workshop 2.0!\r\n<br>\r\nDownload <a href=\"\/mario.zip\">this zip file<\/a> and load the src files into a new project in your IDE. Ask an officer if you need help.\r\n<br>\r\nYou will be challenged with a series of tasks, both easy and hard. Here is\r\n<a href=\"https:\/\/docs.google.com\/spreadsheets\/d\/1QVEeQHDe_YeAPrq4r1w-7JDmLlrDHakaOQam-Wb8dAY\/edit?usp=sharing\" > the list.<\/a>\r\n<br>\r\n\r\nAfter completing a task, inform an official and we will update the leaderboard. \r\n<br>\r\nIt's uh me Mario!",
+        "date": "01",
+        "month": "04",
+        "year": "2015"
+    },
+    {
+        "title": "Competition Training",
+        "content": "Come to our meeting today to practice problems and train for competitions, like USACO, Stanford ProCo, and the Harker Programming Invitational.<br\/><br\/>Try out the problems <a href=\"http:\/\/hhsprogramming.com\/competitions-practice\/\">here<\/a> and then see how you're doing on the <a href=\"http:\/\/hhsprogramming.com\/competitions-practice-leaderboard\/\">leaderboard<\/a>!",
+        "date": "11",
+        "month": "03",
+        "year": "2015"
+    },
+    {
+        "title": "New Android Project",
+        "content": "We have a new Android project this week, a drawing app. As usual, follow the <a href=\"https:\/\/docs.google.com\/document\/d\/1oIihZrQA1N_paGWldPbiMdxAo9vbRDNpytIsIEAbCr8\/edit?usp=sharing\" target=\"_blank\">tutorial<\/a>. Also, remember to sign up for the Harker Programming Invitational!",
+        "date": "25",
+        "month": "02",
+        "year": "2015"
+    },
+    {
+        "title": "Android App Workshop!",
+        "content": "Create your first Android app by following our step-by-step <a href=\"https:\/\/docs.google.com\/document\/d\/14PEBxDuUrWYF1DruCjTwl12odsGNJxNszMBUhf44yfA\/edit?usp=sharing\" target=\"_blank\">tutorial<\/a>! The project is an Easy Button.",
+        "date": "28",
+        "month": "01",
+        "year": "2015"
+    },
+    {
+        "title": "14th Meeting",
+        "content": "Today we'll be working on challenge problems and having a mini competition! Pair up with someone and work on <a href=\"http:\/\/hhsprogramming.com\/competitions-practice\">these problems<\/a> and check out the <a href=\"http:\/\/hhsprogramming.com\/competitions-practice-leaderboard\"> leaderboard<\/a>!",
+        "date": "2015",
+        "month": "01",
+        "year": "21"
+    },
+    {
+        "title": "Thirteenth Meeting",
+        "content": "Solve a <a href-\"\/problems\/\">challenge problem<\/a> at our meeting today and recieve some free swag!",
+        "date": "09",
+        "month": "1",
+        "year": "2015"
+    },
+    {
+        "title": "Happy Holidays!",
+        "content": "Our New Year Social will take place on January 3 from 11am to 4pm, be sure to come! <a href=\"https:\/\/docs.google.com\/forms\/d\/1ZNvS_tjuNffJ94PU3RlKNDxH-eVHKQOTVDZcL3f4nCA\/viewform\">RSVP here<\/a>, and bring $3 if you want pizza.",
+        "month": "12",
+        "date": "25",
+        "year": "2014"
+    },
+    {
+        "title": "Web Workshop",
+        "content": "This week we are beginning web development.<ul><li>For beginners, learn HTML via <a href='http:\/\/codecademy.com'>Codecademy<\/a> and <a href='https:\/\/docs.google.com\/presentation\/d\/1R9REO0Wb3uyCgZ38ul0OCG50Iw-waxmmGYbN-R2Na_Q\/'>this powerpoint<\/a>.<li>Practice HTML\/CSS by <a href='\/replication'>replicating basic designs<\/a>.<\/li><li>If you already know Java, learn JavaScript through <a href='https:\/\/docs.google.com\/document\/d\/1G9JQ2dUP2rqBWDjN6k3hOOatyzx5NuOBThIHE4vnXJg\/edit'>this cheatsheet<\/a>.<\/li><li>Build a <a href='https:\/\/docs.google.com\/document\/d\/1bgB0sSwh4BaoGcB2arZm0bKB5s3of9qKC_sZ6JRWzHw\/edit'>number guessing game<\/a> to learn the basics of JavaScript.<\/li><li>Finally, <a href='\/cookie-clicker-guide'>build Cookie Clicker<\/a> with JavaScript<\/li><\/ul>",
+        "month": 11,
+        "date": 19,
+        "year": 2014
+    },
+    {
+        "title": "PicoCTF is Officially Over",
+        "content": "The PicoCTF Competition is officially over! <br\/> We would like to thank and congratulate all teams that participated in helping Homestead reach 5th place for most points! Go Homestead Programming Club!",
+        "month": 11,
+        "date": 11,
+        "year": 2014
+    },
+    {
+        "title": "PicoCTF!",
+        "content": "This week we will be focusing on <a href='http:\/\/picoctf.com' target='_blank'>PicoCTF<\/a>!",
+        "month": 10,
+        "date": 29,
+        "year": 2014
+    },
+    {
+        "title": "Sixth Meeting: Debug Competition",
+        "content": "Download <a href='\/downloads\/debug.zip'>Debug<\/a>! Head to <a href='\/debugging-competition'>this page<\/a> to submit solutions. Also check the <a href='\/debugging-competition-leaderboard'>leaderboard<\/a>",
+        "month": 10,
+        "date": 15,
+        "year": 2014
+    },
+    {
+        "title": "Fifth Meeting",
+        "content": "Download <a href='\/downloads\/triangleadventures.zip'>Triangle Adventures<\/a>! Check this <a href='https:\/\/docs.google.com\/document\/d\/1DcyS4cFaYr-ziecmJnTuvDTBrd-YFI42GRTYFmsso08'>Google Doc<\/a> for a guide to completing the levels. Also remember to submit a t-shirt design by Wednesday, 10\/8.",
+        "month": 9,
+        "date": 15,
+        "year": 2014
+    },
+    {
+        "title": "Fourth Meeting",
+        "content": "Download the game for today's workshop, <a href='\/downloads\/triangleadventures.zip'>Triangle Adventures<\/a>! Check this <a href='https:\/\/docs.google.com\/document\/d\/1DcyS4cFaYr-ziecmJnTuvDTBrd-YFI42GRTYFmsso08'>Google Doc<\/a> for a guide to completing the levels. Also remember to submit a t-shirt design by Wednesday, 10\/8.",
+        "month": 9,
+        "date": 15,
+        "year": 2014
+    },
+    {
+        "title": "Third Meeting",
+        "content": "Submit a t-shirt design by Wednesday, October 8. The winner gets a free t-shirt! Be sure to download our <a href='\/downloads\/logos.zip'>logos<\/a>.",
+        "month": 9,
+        "date": 15,
+        "year": 2014
+    },
+    {
+        "title": "Club 'N' Grub",
+        "content": "Hello loyal HHS Programming Members! <br\/><br\/> Show us your support by coming out to Club 'N' Grub this Wednesday (Sept. 17) to flaunt your Programming Club spirit. This year we will be serving Panda Express (Super Yum!) so make sure to buy your tickets early and head out to our booth. <br\/><br\/> We hope to see you there!",
+        "month": 9,
+        "date": 15,
+        "year": 2014
+    },
+    {
+        "title": "Sound Workshop",
+        "content": "At today's meeting we'll be using a sound library in Java.<br><br><a href='\/downloads\/sound.zip' target='_blank'>Download<\/a> this Eclipse project to start off with, and open the <a href='https:\/\/docs.google.com\/document\/d\/1e5xHsC7l9nMY_tXIOyNEFxJvDYDGgkM1PLn-_xk3_9g\/edit?usp=sharing' target='_blank'>this Google Doc<\/a> for tasks to complete.",
+        "month": 9,
+        "date": 10,
+        "year": 2014
+    },
+    {
+        "title": "Second Meeting!",
+        "content": "Is Starbucks too expensive? Java is free at Programming Club! Come to our meeting on Wednesday (Sept. 10) after seventh skinny for a fun workshop no matter your skill level.",
+        "month": 9,
+        "date": 7,
+        "year": 2014
+    },
+    {
+        "title": "First Informational Meeting",
+        "content": "Come to A211 this Thursday at lunch to learn all about our club! <br\/><br\/> We will be discussing the perks of being a member, the events we plan on hosting, and conduct a survey to find out what YOU are interested in learning!  <br\/><br\/> We hope to see you there!",
+        "month": 8,
+        "date": 28,
+        "year": 2014
+    }
+]

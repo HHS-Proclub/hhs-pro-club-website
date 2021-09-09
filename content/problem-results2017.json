@@ -1,0 +1,1638 @@
+{
+    "PRB1": {
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-15T13:06:17-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-13T17:34:40-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-13T00:31:18-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-13T16:39:05-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "bla269@student.fuhsd.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-13T17:03:08-05:00",
+            "time": 0,
+            "mem": 16064
+        },
+        "mbravo112@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-13T16:46:29-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "nkadaba627@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-13T17:06:28-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-09-13T17:56:52-05:00",
+            "time": 0.02,
+            "mem": 28384
+        },
+        "Dylandss791@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-13T17:18:47-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "thestungrenade@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-13T17:36:50-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-13T17:59:51-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-13T18:09:36-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "kjustin521@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-13T22:54:28-05:00",
+            "time": 0.05,
+            "mem": 4386816
+        },
+        "winnernoend@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-14T11:54:07-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "mail.graghu@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-09-23T13:09:14-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "krossel118@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-09-14T23:16:29-05:00",
+            "err_msg": "Runtime error."
+        },
+        "danterella11@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-09-15T13:43:14-05:00",
+            "time": 0.01,
+            "mem": 27616
+        },
+        "rdevanathan686@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-16T21:12:24-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-09-15T21:47:25-05:00",
+            "time": 0.01,
+            "mem": 28384
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-17T23:09:15-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "vma801@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-18T22:52:26-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "rayaprolu.sruthi@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-09-20T01:20:02-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "shreyas.ramamurthy1729@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-20T18:11:24-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "jonathanlee0129@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-30T01:23:46-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "yashwant.sathish@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-22T21:14:46-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "tharnav@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-26T22:42:58-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-27T17:12:21-05:00",
+            "time": 0.05,
+            "mem": 4386816
+        },
+        "varuntandon2000@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-10-04T17:44:59-05:00",
+            "time": 0.02,
+            "mem": 27648
+        },
+        "kabir.batra2003@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-04T17:44:12-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "vikramidury@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-10-15T13:04:50-05:00",
+            "time": 0.02,
+            "mem": 28384
+        },
+        "suryamhvs@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-18T01:20:32-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "kjustin524@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-18T17:44:21-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-18T17:55:02-05:00",
+            "time": 0.08,
+            "mem": 4386816
+        },
+        "dong.heidi@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2017-10-19T01:17:03-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "drdw314@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-22T14:19:10-05:00",
+            "time": 0,
+            "mem": 15224
+        },
+        "akshat30@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-11-15T23:43:25-06:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "eylamtagor@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-01-29T15:51:11-06:00",
+            "time": 0.12,
+            "mem": 29436
+        },
+        "suryamvhs@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-01-11T21:05:30-06:00",
+            "err_msg": "Class name is incorrect."
+        },
+        "vjoshi559@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-01-22T00:04:02-06:00",
+            "time": 0.128,
+            "mem": 29364
+        },
+        "keshavgurushankar@hotmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-01-23T22:50:20-06:00",
+            "time": 0.112,
+            "mem": 29468
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-22T20:11:11-05:00",
+            "time": 0.112,
+            "mem": 29576
+        },
+        "boaboaj@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-21T16:54:51-05:00",
+            "time": 0.076,
+            "mem": 29320
+        },
+        "sohilgn@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-22T00:53:00-05:00",
+            "time": 0.076,
+            "mem": 29496
+        },
+        "themessimess@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-30T11:21:29-05:00",
+            "time": 0.072,
+            "mem": 29436
+        },
+        "arjundsampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:20:02-06:00",
+            "time": 0.85,
+            "mem": 23976
+        },
+        "lily.jiayu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-06T20:42:44-05:00",
+            "time": 0.89,
+            "mem": 34209
+        },
+        "davidrmc2@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-21T23:22:45-05:00",
+            "time": 0.124,
+            "mem": 29436
+        }
+    },
+    "PRA1": {
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2018-01-21T23:54:14-06:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2018-01-18T02:06:09-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "danterella11@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-09-18T13:33:59-05:00",
+            "time": 0.07,
+            "mem": 92224
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-10-02T16:31:52-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-19T23:09:55-05:00",
+            "time": 0,
+            "mem": 16032
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-09-28T13:05:48-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-11-02T23:45:03-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-22T20:20:50-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T22:53:17-05:00",
+            "time": 1.06,
+            "mem": 31453
+        }
+    },
+    "PRB2": {
+        "danterella11@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2017-09-21T10:33:27-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-04T20:56:18-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-09-29T19:06:21-05:00",
+            "err_msg": "Runtime error."
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-21T17:32:14-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-27T20:19:52-05:00",
+            "time": 0,
+            "mem": 19848
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-09-22T22:57:52-05:00",
+            "time": 0.03,
+            "mem": 28384
+        },
+        "tharnav@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-27T20:24:09-05:00",
+            "time": 0.09,
+            "mem": 4386816
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-09-27T18:08:14-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-27T20:56:34-05:00",
+            "time": 0,
+            "mem": 16064
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-18T17:05:43-05:00",
+            "time": 0,
+            "mem": 16064
+        },
+        "winnernoend@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-11-21T21:30:34-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "arjundsampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:19:54-06:00",
+            "time": 0.1,
+            "mem": 29875
+        },
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:34:17-05:00",
+            "time": 0.06,
+            "mem": 34589
+        },
+        "boaboaj@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-31T14:05:06-05:00",
+            "err_msg": "Runtime error."
+        },
+        "lily.jiayu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-06T20:56:23-05:00",
+            "time": 0.4,
+            "mem": 23458
+        }
+    },
+    "PRA2": {
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-20T16:48:24-05:00",
+            "time": 0,
+            "mem": 20008
+        },
+        "danterella11@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-09-19T00:25:29-05:00",
+            "time": 0.01,
+            "mem": 27720
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-19T23:24:51-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-27T03:00:09-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-21T17:29:36-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-22T17:31:19-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-09-27T18:21:27-05:00",
+            "time": 0.02,
+            "mem": 28384
+        },
+        "tharnav@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-27T21:03:59-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-10-06T17:45:14-05:00",
+            "time": 0.02,
+            "mem": 27696
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-25T18:25:28-05:00",
+            "time": 0,
+            "mem": 23056
+        },
+        "shreyas.ramamurthy1729@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-10-25T17:31:28-05:00",
+            "err_msg": "Class name is incorrect."
+        },
+        "lrblloai@sharklasers.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-11-16T01:20:52-06:00",
+            "time": 0.02,
+            "mem": 27720
+        }
+    },
+    "PRB3": {
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-27T17:58:39-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-27T17:18:49-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "tharnav@yahoo.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-27T17:55:15-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "danterella11@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2017-09-28T18:56:21-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-27T17:56:22-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-28T17:36:07-05:00",
+            "time": 0,
+            "mem": 16064
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-11-08T17:08:10-06:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-01T13:25:16-05:00",
+            "time": 0.09,
+            "mem": 2841600
+        },
+        "vma801@student.fuhsd.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-27T22:12:58-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-09-28T00:18:28-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "designer2553@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-09-29T13:35:38-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-10-02T22:04:01-05:00",
+            "time": 0.02,
+            "mem": 28384
+        },
+        "suryamhvs@gmail.com": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2017-10-18T02:40:56-05:00",
+            "err_msg": "Compilation error."
+        },
+        "winnernoend@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-11-21T21:52:29-06:00",
+            "err_msg": "Runtime error."
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-22T00:13:42-05:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "sohilgn@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-22T01:00:14-05:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "arjundsampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:19:37-06:00",
+            "time": 0.5,
+            "mem": 23907
+        },
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:42:17-05:00",
+            "time": 0.98,
+            "mem": 23147
+        },
+        "boaboaj@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-31T14:05:16-05:00",
+            "err_msg": "Class name is incorrect."
+        },
+        "lily.jiayu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-06T20:59:12-05:00",
+            "time": 0.67,
+            "mem": 45342
+        },
+        "davidrmc2@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-04-22T04:52:30-05:00",
+            "err_msg": "Runtime error."
+        }
+    },
+    "PRA3": {
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-01T19:19:38-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-27T19:45:53-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-09-27T22:08:04-05:00",
+            "time": 0.2,
+            "mem": 15240
+        },
+        "tharnav@yahoo.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-09-27T21:32:08-05:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "danterella11@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2017-09-28T22:48:57-05:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-09-30T00:17:29-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-11-11T20:51:42-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2017-10-04T23:11:22-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-11-27T12:37:31-06:00",
+            "time": 0.02,
+            "mem": 28384
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-01-31T17:14:13-06:00",
+            "time": 0.008,
+            "mem": 4280
+        },
+        "abasturk036@student.fuhsd.org": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2018-01-10T19:43:52-06:00",
+            "time": 0.044,
+            "mem": 9624
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-22T00:52:59-05:00",
+            "err_msg": "Runtime error."
+        },
+        "davidrmc2@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-04-22T04:31:36-05:00",
+            "err_msg": "Incorrect output."
+        }
+    },
+    "PRA4": {
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2017-10-13T15:54:03-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-12T18:10:44-05:00",
+            "time": 0.11,
+            "mem": 2841600
+        },
+        "john_shelby@fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-10-04T19:11:02-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-18T17:46:11-05:00",
+            "time": 0,
+            "mem": 16720
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-18T17:39:36-05:00",
+            "time": 0,
+            "mem": 23128
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-10-17T14:23:03-05:00",
+            "time": 0.02,
+            "mem": 29408
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-11-02T23:01:20-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-21T11:36:35-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-11-29T18:04:28-06:00",
+            "time": 0.004,
+            "mem": 4480
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-26T02:34:03-05:00",
+            "time": 0.144,
+            "mem": 29832
+        },
+        "sohilgn@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-28T01:36:31-05:00",
+            "err_msg": "Class name is incorrect."
+        },
+        "davidrmc2@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-22T03:44:24-05:00",
+            "time": 0.132,
+            "mem": 29656
+        }
+    },
+    "PRB4": {
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-04T16:47:40-05:00",
+            "time": 0,
+            "mem": 27080
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-04T17:52:36-05:00",
+            "time": 0,
+            "mem": 22928
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-04T17:37:45-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-10T23:57:03-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-25T22:26:44-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-10-05T22:42:05-05:00",
+            "time": 0.01,
+            "mem": 27704
+        },
+        "vma801@student.fuhsd.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-14T20:41:04-05:00",
+            "time": 0,
+            "mem": 27904
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-18T17:52:26-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-11-05T10:43:41-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-26T00:57:56-05:00",
+            "err_msg": "Runtime error."
+        },
+        "arjundsampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:19:13-06:00",
+            "time": 0.8,
+            "mem": 12989
+        },
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:54:17-05:00",
+            "time": 0.6,
+            "mem": 14539
+        },
+        "lily.jiayu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-06T21:05:45-05:00",
+            "time": 0.96,
+            "mem": 45221
+        }
+    },
+    "PRB5": {
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-11-19T20:57:23-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "shreyas.ramamurthy1729@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-10-25T17:31:56-05:00",
+            "time": 0.06,
+            "mem": 4386816
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2018-01-31T22:06:26-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-25T18:16:44-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-22T00:29:08-05:00",
+            "time": 1.812,
+            "mem": 29720
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-25T17:19:14-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-25T18:00:26-05:00",
+            "time": 0,
+            "mem": 15240
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-11-08T17:21:39-06:00",
+            "time": 0.43,
+            "mem": 4386816
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-11-01T17:47:38-05:00",
+            "time": 0.01,
+            "mem": 28384
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-28T17:03:26-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "jonathanlee0129@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-11-10T13:10:32-06:00",
+            "err_msg": "Runtime error."
+        },
+        "eylamtagor@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2018-01-29T16:06:07-06:00",
+            "err_msg": "Runtime error."
+        },
+        "keshavgurushankar@hotmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-01-24T10:59:25-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "winnernoend@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-01-25T17:55:56-06:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "tharnav@yahoo.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-02-11T20:34:32-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-22T00:34:39-05:00",
+            "time": 1.856,
+            "mem": 29684
+        },
+        "sohilgn@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-22T01:34:18-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "arjundsampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:19:13-06:00",
+            "time": 1.54,
+            "mem": 12989
+        },
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T22:04:17-05:00",
+            "time": 1.56,
+            "mem": 23807
+        },
+        "boaboaj@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-31T14:03:56-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "lily.jiayu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-06T21:13:54-05:00",
+            "time": 1.32,
+            "mem": 43123
+        },
+        "davidrmc2@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-21T23:07:33-05:00",
+            "time": 3.644,
+            "mem": 29720
+        }
+    },
+    "PRA5": {
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-01-17T22:55:44-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-10-25T18:22:43-05:00",
+            "time": 0,
+            "mem": 16064
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-11-14T20:38:32-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-11-06T21:57:43-06:00",
+            "time": 0,
+            "mem": 16064
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-11-02T22:30:47-05:00",
+            "time": 0.07,
+            "mem": 4386816
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2018-01-21T23:31:56-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-11-10T19:05:20-06:00",
+            "time": 0,
+            "mem": 16064
+        },
+        "danterella11@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2017-11-12T17:20:49-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-22T00:37:32-05:00",
+            "err_msg": "Runtime error."
+        },
+        "davidrmc2@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-04-22T02:56:11-05:00",
+            "err_msg": "Incorrect output."
+        }
+    },
+    "PRB6": {
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-11-08T18:04:25-06:00",
+            "time": 0,
+            "mem": 19144
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2017-11-19T21:30:38-06:00",
+            "time": 0.15,
+            "mem": 2841600
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2017-11-03T18:54:11-05:00",
+            "time": 0.02,
+            "mem": 28384
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-11-08T18:05:13-06:00",
+            "time": 0,
+            "mem": 23752
+        },
+        "edwinhe03@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2017-11-03T22:04:43-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-01-31T17:49:50-06:00",
+            "err_msg": "Runtime error."
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2017-11-08T18:05:29-06:00",
+            "time": 0.01,
+            "mem": 15240
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2018-01-21T17:45:22-06:00",
+            "time": 0.02,
+            "mem": 27720
+        },
+        "keshavgurushankar@hotmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-01-23T23:08:14-06:00",
+            "err_msg": "Runtime error."
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-25T22:22:15-05:00",
+            "err_msg": "Runtime error."
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-25T23:49:51-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "sohilgn@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-28T01:38:40-05:00",
+            "err_msg": "Runtime error."
+        },
+        "arjundsampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:19:13-06:00",
+            "time": 0.98,
+            "mem": 12989
+        },
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T22:14:17-05:00",
+            "time": 0.68,
+            "mem": 23178
+        },
+        "lily.jiayu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-06T21:23:41-05:00",
+            "time": 1.24,
+            "mem": 34522
+        }
+    },
+    "PRB7": {
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-01-10T18:25:40-06:00",
+            "time": 0.06,
+            "mem": 4492
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-01-12T01:46:56-06:00",
+            "time": 0.128,
+            "mem": 29288
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-01-13T01:16:03-06:00",
+            "time": 0.04,
+            "mem": 15240
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-01-17T18:25:02-06:00",
+            "time": 0.004,
+            "mem": 4240
+        },
+        "adele.basturk@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2018-01-21T16:44:10-06:00",
+            "time": 0.044,
+            "mem": 9580
+        },
+        "keshavgurushankar@hotmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-01-23T23:17:57-06:00",
+            "time": 0.06,
+            "mem": 4575232
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-26T00:50:39-05:00",
+            "time": 0.092,
+            "mem": 29348
+        },
+        "winnernoend@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-01-25T17:15:54-06:00",
+            "time": 0.252,
+            "mem": 29740
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-01-31T16:38:55-06:00",
+            "time": 0.224,
+            "mem": 29748
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2018-01-31T18:11:16-06:00",
+            "time": 0.02,
+            "mem": 27760
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-22T20:07:38-05:00",
+            "time": 0.252,
+            "mem": 29616
+        },
+        "sohilgn@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-22T01:12:22-05:00",
+            "time": 0.128,
+            "mem": 29380
+        },
+        "arjundsampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:19:17-06:00",
+            "time": 0.56,
+            "mem": 21897
+        },
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T22:32:17-05:00",
+            "time": 0.86,
+            "mem": 34664
+        },
+        "lily.jiayu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-06T21:29:15-05:00",
+            "time": 0.67,
+            "mem": 34132
+        }
+    },
+    "PRA7": {
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-01-13T13:55:27-06:00",
+            "time": 0,
+            "mem": 17952
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-01-15T16:48:16-06:00",
+            "time": 0.06,
+            "mem": 4575232
+        },
+        "huangsy222@gmail.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-01-17T19:32:44-06:00",
+            "time": 0.008,
+            "mem": 5788
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-02-02T00:41:57-06:00",
+            "time": 0,
+            "mem": 20096
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-01-24T17:54:14-06:00",
+            "time": 0.128,
+            "mem": 29480
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": true,
+            "timestamp": "2018-03-21T16:57:51-05:00",
+            "time": 0.036,
+            "mem": 9540
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-26T22:39:44-05:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-28T16:52:52-05:00",
+            "err_msg": "Incorrect output."
+        }
+    },
+    "PRB8": {
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-02-02T00:43:05-06:00",
+            "time": 0.004,
+            "mem": 4472
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-02-04T01:43:40-06:00",
+            "time": 0,
+            "mem": 16072
+        },
+        "john_shelby@fuhsd.org": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-02-07T17:33:53-06:00",
+            "time": 0.12,
+            "mem": 29408
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-22T00:14:49-05:00",
+            "time": 0.124,
+            "mem": 29608
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-02-08T10:20:34-06:00",
+            "time": 0.108,
+            "mem": 29624
+        },
+        "sohilgn@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-22T01:03:00-05:00",
+            "time": 0.136,
+            "mem": 29476
+        },
+        "arjundsampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:19:07-06:00",
+            "time": 0.23,
+            "mem": 23418
+        },
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T22:39:17-05:00",
+            "time": 1.34,
+            "mem": 34897
+        },
+        "lily.jiayu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-06T21:36:29-05:00",
+            "time": 1.67,
+            "mem": 32455
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-10T00:15:24-05:00",
+            "time": 0.128,
+            "mem": 29560
+        }
+    },
+    "PRA8": {
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2018-02-03T10:56:07-06:00",
+            "err_msg": "Incorrect output."
+        }
+    },
+    "PRB9": {
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-02-28T18:14:43-06:00",
+            "time": 2.752,
+            "mem": 4348
+        },
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": true,
+            "timestamp": "2018-02-28T17:46:45-06:00",
+            "time": 2.492,
+            "mem": 4528
+        },
+        "aryamandas02@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-02-28T21:03:14-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "blake@randledesign.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-22T00:13:50-05:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "eylamtagor@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-04-27T17:34:20-05:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "devanshmishra02@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-26T03:27:15-05:00",
+            "time": 2.468,
+            "mem": 29632
+        },
+        "sohilgn@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-27T00:15:50-05:00",
+            "time": 2.192,
+            "mem": 29760
+        },
+        "jma777@student.fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-28T17:14:31-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "kevinlc221@gmail.com": {
+            "lang": 116,
+            "correct": false,
+            "timestamp": "2018-04-06T18:17:53-05:00",
+            "err_msg": "Time limit (5s) exceeded."
+        },
+        "arjundsampath@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T21:18:54-06:00",
+            "time": 0.7,
+            "mem": 21234
+        },
+        "yashbfalcon@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-03-29T22:41:17-05:00",
+            "time": 1.96,
+            "mem": 31408
+        },
+        "boaboaj@gmail.com": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-03-31T14:04:26-05:00",
+            "err_msg": "Runtime error."
+        },
+        "john_shelby@fuhsd.org": {
+            "lang": 10,
+            "correct": false,
+            "timestamp": "2018-04-04T18:17:12-05:00",
+            "err_msg": "Incorrect output."
+        },
+        "lily.jiayu@gmail.com": {
+            "lang": 10,
+            "correct": true,
+            "timestamp": "2018-04-06T21:43:54-05:00",
+            "time": 1.56,
+            "mem": 41354
+        }
+    },
+    "PRA9": {
+        "josh.sanyal@yahoo.com": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2018-02-28T21:15:28-06:00",
+            "err_msg": "Incorrect output."
+        },
+        "bla269@fuhsd.student.org": {
+            "lang": 44,
+            "correct": false,
+            "timestamp": "2018-03-07T16:35:14-06:00",
+            "err_msg": "Incorrect output."
+        }
+    }
+}
