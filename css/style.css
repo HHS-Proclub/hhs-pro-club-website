@@ -550,14 +550,21 @@ input:focus {
 	}
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 730px) {
 	.login {
 		height: 105px;
 	}
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 445px) {
 	.login {
 		height: 150px;
 	}
 }
+
+@media only screen and (max-width: 265px) {
+	.login {
+		height: 195px;
+	}
+}
+

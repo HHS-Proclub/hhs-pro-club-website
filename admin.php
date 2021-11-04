@@ -13,7 +13,7 @@ include('includes/header.php');
 <ul>
     <li><a href="/post-problems/">Post challenge problems</a></li>
     <li><a href="/manage-problems/">Manage challenge problems</a></li>
-		<li><a href="http://judgelite.westus2.cloudapp.azure.com/" target="_blank">View recent submissions</a> (Secret key: PRO_SECRET_L1GHTJUDG3)</li>
+		<!-- <li><a href="http://judgelite.westus2.cloudapp.azure.com/" target="_blank">View recent submissions</a> (Secret key: PRO_SECRET_L1GHTJUDG3)</li> -->
     <li><a href="/post-news/">Post General News</a></li>
     <li><a href="/post-gwc/">Post GWC News</a></li>
     <li><a href="/mailing-list/">Mailing List</a></li>

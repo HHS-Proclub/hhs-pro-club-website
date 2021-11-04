@@ -21,14 +21,15 @@ $users = json_decode(file_get_contents("content/users.json"), true);
 $users_names = array();
 
 foreach ($users as $user) {
-    $users_names[$user['email']] = $user['first'] . ' ' . $user['last'];
+    $users_names[$user['email']] = htmlspecialchars($user['first'] . ' ' . $user['last']);
 }
 
 foreach ($problems as $id => &$problem) {
     $problem->results = [];
     if ($results[$id]) {
         foreach ($results[$id] as $email => $result) {
-            $resultScore = $result['correct'] ? 100 : 0;
+						$safeEmail = htmlspecialchars($email);
+						$resultScore = $result['correct'] ? 100 : 0;
 						if (array_key_exists('score', $result)) $resultScore = $result['score'];
 						$hintUsed = false;
 						if ($results['metadata'] && $results['metadata'][$id] && $results['metadata'][$id][$email] &&
@@ -39,6 +40,8 @@ foreach ($problems as $id => &$problem) {
 							if (array_key_exists($users_names[$email], $problem->results) &&
 								  $problem->results[$users_names[$email]]['score'] >= $resultScore) continue;
             	$problem->results[$users_names[$email]] = array (
+								'email' => $safeEmail,
+								'lang' => $result['lang'],
 								'correct' => $result['correct'],
 								'score' => $resultScore,
 								'hint_used' => $hintUsed,
@@ -47,7 +50,9 @@ foreach ($problems as $id => &$problem) {
 							);
             }
             else {
-              $problem->results[$email] = array (
+              $problem->results[$safeEmail] = array (
+								'email' => $safeEmail,
+								'lang' => $result['lang'],
 								'correct' => $result['correct'],
 								'score' => $resultScore,
 								'hint_used' => $hintUsed,
@@ -68,6 +73,7 @@ foreach ($problems as $id => &$problem) {
 							}
 							if (!array_key_exists($username, $problem->results)) {
 								$problem->results[$username] = array (
+									'email' => $email,
 									'correct' => false,
 									'score' => -1,
 									'hint_used' => true,
@@ -140,7 +146,14 @@ include('includes/header.php');
         <?php 
         if ($problem->results) {
             foreach ($problem->results as $name => $result): ?>
-						    <a href="#">
+						    <a href="<?php
+								echo "/solutions/" . $pr . "/" . $result['email'] . ".";
+								$currLang = "NO-SUBMISSION";
+								if ($result['lang'] == 10) $currLang = "java";
+								else if ($result['lang'] == 44) $currLang = "cpp";
+								else if ($result['lang'] == 116) $currLang = "py";
+								echo $currLang;
+								?>" target="_blank">
                     <span class="<?php echo $result['correct'] ? 'success' : 'fail'; ?>">
                         <?php echo $name . ' (' . ($result['score'] == -1 ? 'DNS' : $result['score']);
 												  if ($result['hint_used']) {

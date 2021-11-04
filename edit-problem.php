@@ -19,10 +19,11 @@ if (isset($_POST['pr']) && isset($_POST['title']) && isset($_POST['state'])) {
         move_uploaded_file($_FILES['outputFile']['tmp_name'], 'test-data/' . $prob . '.out');
         unset($_POST['outputFile']);
     }
-    foreach ($_POST as $key => $value) $_POST[$key] = str_replace("\r\n", "<br>", $_POST[$key]);
+		// Change this maybe!!!
+    foreach ($_POST as $key => $value) $_POST[$key] = $_POST[$key]; //str_replace("\r\n", "<br>", $_POST[$key]);
     $problems[$prob] = $_POST;
     file_put_contents('content/problems.json', json_encode($problems, JSON_PRETTY_PRINT));
-    //header("Location: /manage-problems");
+    header("Location: /manage-problems");
 }
 
 $pagetitle = 'Edit Problem';

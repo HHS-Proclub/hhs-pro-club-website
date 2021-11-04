@@ -9,42 +9,84 @@
 		"name": "Radhika Goel",
 		"grade":"Junior",
 		"photo": "/img/empty.png",
-		"description": "Hey guys! I will be one of your GWC leaders this year!"
+		"description": "Hey guys! I will be one of your GWC leaders this year!!!!"
 	},
 	{
-		"name": "NEEDS ADDING",
+		"name": "Scintilla (Alicia) Chu",
         "grade": "Freshman",
-        "photo": "/img/empty.png",
-        "description": "NEEDS ADDING"
+        "photo": "/img/Hellohello image.png",
+        "description": "A long long time ago...there was a prophecy...about Gods who code"
 	},
 	{
-		"name": "NEEDS ADDING",
-        "grade": "Sophomore",
-        "photo": "/img/empty.png",
-        "description": "NEEDS ADDING"
-	},
-	{
-		"name": "NEEDS ADDING",
+		"name": "Nancy Qian",
         "grade": "Freshman",
+        "photo": "/img/9cdb2cc02c8cb230d123f92cdfcbe78f.jpg",
+        "description": "Here for the popcorn chicken, boba and coding gods."
+	},
+	{
+		"name": "Nicole Spaulding",
+        "grade": "Junior",
         "photo": "/img/empty.png",
-        "description": "NEEDS ADDING"
+        "description": "Hi, I'm excited to be here! Some things I like doing are coding and drawing!"
 	},
     {
-		"name": "NEEDS ADDING",
+		"name": "Desiree Poon",
+        "grade": "Sophomore",
+        "photo": "/img/empty.png",
+        "description": "I am excited to learn more about python and improve in my coding!"
+	},
+    {
+        	"name": "Jianing (Jenny) Lyu",
+        "grade": "Freshman",
+        "photo": "/img/profileimg.png",
+        "description": "I'm excited to learn more about coding and code like a pro!"
+    	},
+    {
+		"name": "Elaine Cao",
         "grade": "Sophomore",
         "photo": "/img/empty.png",
         "description": "NEEDS ADDING"
 	},
-    {
-        "name": "NEEDS ADDING",
-        "grade": "Freshman",
-        "photo": "/img/empty.png",
-        "description": "NEEDS ADDING"
-    },
 	{
-        "name": "NEEDS ADDING",
+        "name": "Hayden Kaplanov",
         "grade": "Sophomore",
         "photo": "/img/empty.png",
-        "description": "NEEDS ADDING"
+        "description": "this \nis \na \ntest"
+    }, 
+	{
+	"name": "Chloe Kim",
+	"grade":"Freshman",
+	"photo": "/img/empty.png",
+	"description": "I'm looking forward to interacting with the rest of the members in the club, and learning more about Java!"
+    }, {
+		"name": "NEEDS ADDING",
+		"grade":"NEEDS ADDING",
+		"photo": "/img/empty.png",
+		"description": "NEEDS ADDING"
+    }, {
+		"name": "NEEDS ADDING",
+		"grade":"NEEDS ADDING",
+		"photo": "/img/empty.png",
+		"description": "NEEDS ADDING"
+    }, {
+		"name": "NEEDS ADDING",
+		"grade":"NEEDS ADDING",
+		"photo": "/img/empty.png",
+		"description": "NEEDS ADDING"
+    }, {
+		"name": "NEEDS ADDING",
+		"grade":"NEEDS ADDING",
+		"photo": "/img/empty.png",
+		"description": "NEEDS ADDING"
+    }, {
+		"name": "NEEDS ADDING",
+		"grade":"NEEDS ADDING",
+		"photo": "/img/empty.png",
+		"description": "NEEDS ADDING"
+    }, {
+		"name": "NEEDS ADDING",
+		"grade":"NEEDS ADDING",
+		"photo": "/img/empty.png",
+		"description": "NEEDS ADDING"
     }
 ]

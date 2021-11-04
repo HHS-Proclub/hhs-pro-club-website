@@ -23,7 +23,7 @@ if (($key = array_search('f@f', $emails)) !== false) {
 }
 
 $list = implode(", ", $emails);
-    
-echo $list;
+
+echo htmlspecialchars($list);
 
 ?>

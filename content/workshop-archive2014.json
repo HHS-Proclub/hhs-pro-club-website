@@ -1,6 +1,6 @@
 [   
     {
-        "name": "Sound",
+        "name": "Sound<br>(Note: For the below workshops, you'll need to move the workshop .php files out of the cleanup folder for them to work.)",
         "links": [
             {
                 "name": "gdoc",
@@ -30,7 +30,7 @@
         "links": [
             {
                 "name": "problems",
-                "url": "/debugging-competition"
+                "url": "/2021-websitecleanup/debugging-competition"
             },
             {
                 "name": "zip",
@@ -43,7 +43,7 @@
         "links": [
             {
                 "name": "design replication",
-                "url": "/replication"
+                "url": "/2021-websitecleanup/replication"
             },
             {
                 "name": "JavaScript cheatsheet",
@@ -51,7 +51,7 @@
             },
             {
                 "name": "Cookie Clicker guide",
-                "url": "/cookie-clicker-guide"
+                "url": "/2021-websitecleanup/cookie-clicker-guide"
             }
         ]
     },
@@ -60,7 +60,7 @@
         "links": [
             {
                 "name": "problems",
-                "url": "/competitions-practice"
+                "url": "/2021-websitecleanup/competitions-practice"
             }
         ]
     },

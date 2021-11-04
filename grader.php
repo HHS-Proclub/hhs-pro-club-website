@@ -69,14 +69,19 @@ function getResult($prob, $email) {
 
 // grade submission if AJAX
 if ($_SERVER["PHP_SELF"] === "/grader.php") {
+	session_start();
+
+	// $_POST['user'] is not used
+	// Instead, the user from the session is used
 	if (empty($_POST['user'])
 			|| empty($_POST['problem'])
 			|| empty($_POST['lang'])
 			|| empty($_FILES['file'])) {
 		die();
 	}
+	if (!isset($_SESSION['user']) || !isset($_SESSION['user']['email'])) die("You must login to submit solutions.");
 
-	$user = $_POST['user'];						// submitter
+	$user = $_SESSION['user']['email'];						// submitter
 	$prob = $_POST['problem'];					// problem name
 	$lang = intval($_POST['lang']);				// source code language
 	$uploaded = $_FILES['file']['tmp_name'];	// uploaded file path

@@ -95,7 +95,7 @@ session_start();
 					<?php if (isset($_SESSION["user"]['officer'])): ?>
 						<li><a href="/admin.php">Admin</a></li>
 					<?php endif; ?>
-				<li>Logged in as <b><?php echo $_SESSION['user']['first'] . ' ' . $_SESSION['user']['last']; ?></b></li>
+				<li>Logged in as <b><?php echo htmlspecialchars($_SESSION['user']['first'] . ' ' . $_SESSION['user']['last']); ?></b></li>
 				<?php endif; ?>
 			</ul>
 			<ul class="nav">
@@ -124,6 +124,11 @@ session_start();
 					</div>
 					<div class="login-input">
 						<input type="submit" class="btn" value="Login">
+					</div>
+					<div class="login-input">
+					  <div style="float: left; height: 100%; margin: 5px 0 0 18px; display: flex; align-items: center; justify-content: center;">
+					    <a href="/forgotpw">Forgot password?</a>
+					  </div>
 					</div>
 				</form>
 			</div>

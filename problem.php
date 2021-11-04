@@ -26,11 +26,11 @@ if (isset($competitions[$problem["state"]])) {
 }
 
 // Only add below stuff if problem is using version 2 format
-if (array_key_exists("version", $problem) && $problem["version"] == 2) {
+if (true || (array_key_exists("version", $problem) && $problem["version"] == 2)) {
 ?>
 <style>
 h4 {
-  margin-top: 2em;
+  margin-top: 1em;
 	margin-bottom: 0;
 }
 
@@ -108,22 +108,22 @@ pre {
 <div class="box one">
 <p>
 	<h3>Input Format</h3>
-	<?= nl2br($problem["inputForm"]) ?>
+	<?= $problem["inputForm"] ?>
 </p>
 <p>
 	<h4>Sample Input</h4>
-	<pre><code><?= $problem["sampleInput"] ?></code></pre>
+	<pre><code class="language-text"><?= $problem["sampleInput"] ?></code></pre>
 </p>
 </div>
 
 <div class="box one">
 <p>
 	<h3>Output Format</h4>
-	<?= nl2br($problem["outputForm"]) ?>
+	<?= $problem["outputForm"] ?>
 </p>
 <p>
 	<h4>Sample Output</h4>
-	<pre><code><?= $problem["sampleOutput"] ?></code></pre>
+	<pre><code class="language-text"><?= $problem["sampleOutput"] ?></code></pre>
 </p>
 </div>
 <?php } ?>
@@ -143,18 +143,21 @@ pre {
 
 <?php include 'grader.php' ?>
 
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
-</script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css">
 <link rel="stylesheet" href="css/problemv2.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
 <?php } else { ?>
 
 <?php include 'grader.20old.php' ?>
 
-<?php } } ?>
+<?php } ?>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<?php } ?>
 
 <?php include('includes/footer.php'); ?>

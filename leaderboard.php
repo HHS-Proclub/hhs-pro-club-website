@@ -1,6 +1,6 @@
 <?php
 
-define(UPDATE_DELAY_MS, 2000);
+define("UPDATE_DELAY_MS", 2000);
 
 $competitions = json_decode(file_get_contents("content/competitions.json"), true);
 if (isset($competitions[$_GET["state"]])) {
@@ -134,7 +134,10 @@ table {
 
 			leaderboard.innerHTML = "";
 			for (i = 0; i < data.length; i++) {
-				leaderboard.innerHTML += "<tr><td>" + (i + 1) + "</td><td>" + data[i].name + "</td><td>"
+				var encodedName = data[i].name.replace(/[\u00A0-\u9999<>\&]/g, function(i) {
+					   return '&#'+i.charCodeAt(0)+';';
+				});
+				leaderboard.innerHTML += "<tr><td>" + (i + 1) + "</td><td>" + encodedName + "</td><td>"
 						+ data[i].points + "</td>";
 			}
 		};

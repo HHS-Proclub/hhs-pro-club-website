@@ -70,14 +70,19 @@ function getResult($prob, $email) {
 
 // grade submission if AJAX
 if ($_SERVER["PHP_SELF"] === "/grader.20old.php") {
+	session_start();
+
+	// $_POST['user'] is not used
+	// Instead, the user from the session is used
 	if (empty($_POST['user'])
 			|| empty($_POST['problem'])
 			|| empty($_POST['lang'])
 			|| empty($_FILES['file'])) {
 		die();
 	}
+	if (!isset($_SESSION['user']) || !isset($_SESSION['user']['email'])) die("You must login to submit solutions.");
 
-	$user = $_POST['user'];						// submitter
+	$user = $_SESSION['user']['email'];						// submitter
 	$prob = $_POST['problem'];					// problem name
 	$lang = intval($_POST['lang']);				// source code language
 	$uploaded = $_FILES['file']['tmp_name'];	// uploaded file path
@@ -198,8 +203,8 @@ if ($_SERVER["PHP_SELF"] === "/grader.20old.php") {
 	if (trim($result['output']) === str_replace("\r\n", "\n", trim(file_get_contents(TEST_DATA_DIR."/$prob.out")))) {
 		storeResult($prob, $user, $lang, true, '', $result['time'], $result['memory']);
 		showResult("Result: Correct!",
-				'Runtime: '.$result['time'].'s, Memory Usage: '
-				.round($result['memory'] / 1000, 2).' KB');
+				'Runtime: '.round($result['time'], 3).'s, Memory Usage: '
+				.round($result['memory'] / 1000, 2).' MB');
 		// echo '<span style="color: green">Result: Correct.<h4>Runtime: '.$result['time'].'s.</h4>'
 		//		.'<h4>Memory Usage: '.round($result['memory'] / 1000, 2).' KB</h4></span>';
 	} else {
@@ -253,8 +258,8 @@ EOT;
 	</select></label>
 	<input type="file" name="file" id="file" accept=".java" required="" />
 	<input type="submit" value="Submit" class="btn" />
-	<input type="hidden" name="user" value="<?= isset($competition) ? $team : $_SESSION["user"]["email"] ?>" />
-	<input type="hidden" name="problem" value="<?= $prob ?>" /><br />
+	<input type="hidden" name="user" id="input-user" value="<?= isset($competition) ? $team : $_SESSION["user"]["email"] ?>" />
+	<input type="hidden" name="problem" id="input-problem" value="<?= $prob ?>" /><br />
 	<small>Powered by <a href="http://ideone.com">ideone.com</a></small>
 </form>
 <div id="result"></div>
@@ -265,9 +270,9 @@ EOT;
 <h3>Previous submission results</h3>
 <?php
 
-			$msg = $result['correct'] ? 'Correct' : $result['err_msg'];
-			$stats = $result['correct'] ? "Runtime: {$result['time']}s, "
-					.'Memory Usage: '.round($result['mem'] / 1000, 2).' KB' : "";
+			$msg = $result['correct'] ? 'Correct!' : $result['err_msg'];
+			$stats = $result['correct'] ? "Runtime: ".round($result['time'], 3)."s, "
+					.'Memory Usage: '.round($result['mem'] / 1000, 2).' MB' : "";
 
 			showResult("Result: $msg", $stats, !$result['correct']);
 		}

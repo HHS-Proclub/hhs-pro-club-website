@@ -44,11 +44,17 @@ include('includes/header.php');
 $users = json_decode(file_get_contents('content/users.json'),true);
 $i = 1;
 foreach ($users as $username=>$user):
+	$safeUsername = htmlspecialchars($username);
+	$user['first'] = htmlspecialchars($user['first']);
+	$user['last'] = htmlspecialchars($user['last']);
+	$user['grade'] = htmlspecialchars($user['grade']);
+	$user['email'] = htmlspecialchars($user['email']);
+	$user['asb'] = htmlspecialchars($user['asb']);
 ?>
 
 <tr>
     <td><?php echo $i++; ?></td>
-    <td><?php echo $username; ?></td>
+    <td><?php echo $safeUsername; ?></td>
     <td><?php echo $user['first']; ?></td>
     <td><?php echo $user['last']; ?></td>
     <td><?php echo $user['grade']; ?></td>
@@ -58,15 +64,5 @@ foreach ($users as $username=>$user):
 
 <?php endforeach; ?>
 </table>
-
-
-
-<?php
-foreach ($users as $username=>$user):
-    echo $user['first'] . ' ' . $user['last']; ?>
-    <br>
-<?php
-endforeach;
-?>
 
 <?php include('includes/footer.php'); ?>

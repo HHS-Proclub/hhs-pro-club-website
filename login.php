@@ -33,7 +33,7 @@ include('includes/header.php');
 ?>
 
 <center>
-<form id="login-form" method="post">
+<form id="big-login-form" method="post">
 	<div class="row login-input">
 		<label><i class="fa fa-user fa-fw"></i></label>
 		<input type="text" id="username" name="username" placeholder="Username">
@@ -41,6 +41,9 @@ include('includes/header.php');
 	<div class="row login-input">
 		<label><i class="fa fa-lock fa-fw"></i></label>
 		<input type="password" id="password" name="password" placeholder="Password">
+	</div>
+	<div class="row login-input" style="height: 20px;">
+	  <a href="/forgotpw" style="float: left">Forgot password?</a>
 	</div>
 	<input type="submit" class="one btn" value="Login">
 </form>

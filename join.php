@@ -3,6 +3,19 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	header("Content-Type: application/json");
 
+	// check captcha
+	$curl = curl_init();
+	curl_setopt($curl, CURLOPT_POST, 1);
+	curl_setopt($curl, CURLOPT_POSTFIELDS, [
+		"secret" => "6LezEwEdAAAAAGZIaM82nOkfT54_tOEdPxO8I_lm",
+		"response" => $_POST["g-recaptcha-response"]
+	]);
+	curl_setopt($curl, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+	$result = json_decode(curl_exec($curl), true);
+	curl_close($curl);
+	if (!$result["success"]) die('{"status": "captcha"}');
+
 	// get users
 	$users = json_decode(file_get_contents("content/users.json"), true);
 	$new_user = $_POST;
@@ -18,8 +31,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	}
 
 	// add new user
-	$username = $new_user["username"];
+	$username = htmlspecialchars($new_user["username"]);
 	unset($new_user["username"]);
+	unset($new_user["g-recaptcha-response"]);
+	$new_user["username"] = htmlspecialchars($new_user["username"]);
+	$new_user["first"] = htmlspecialchars($new_user["first"]);
+	$new_user["last"] = htmlspecialchars($new_user["last"]);
+	$new_user["email"] = htmlspecialchars($new_user["email"]);
 	$new_user["password"] = sha1($new_user["password"]);
 	if (isset($new_user["asb"])) $new_user["asb"] = true;
 	$users[$username] = $new_user;
@@ -34,8 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$message = "
 Hey " . $new_user['first'] . ",\n
 Thanks for signing up! For future reference, your username is " . $username . ".\n
-Please also fill out the Member Survey at http://hhsprogramming.com/survey/ so we can get a better idea of what you're interested in.\n
-We look forward to seeing you around this year! Feel free to reply to this email if you have any questions, we'd love to answer them.\n
+We look forward to seeing you around this year! Feel free to reply to this email if you have any questions, we would love to answer them.\n
 - HHS Programming";
 	$headers = 'From: HHS Programming <hello@hhsprogramming.com>';
 	mail($to, $subject, $message, $headers);
@@ -94,6 +111,10 @@ include "includes/header.php";
 		<tr><td>Retype password:</td><td>
 			<input type="password" id="password-check" placeholder="Retype Password" required />
 		</td></tr>
+		<!-- to stop russian haxors -->
+		<tr><td>Captcha:</td><td>
+			<div class="g-recaptcha" data-sitekey="6LezEwEdAAAAABAQWhQ7S3jGFBubdmB1ndd8FF3T"></div>
+		</td></tr>
 	</table>
 	<br />
 	<input type="submit" class="btn" value="Join" />
@@ -101,5 +122,6 @@ include "includes/header.php";
 </center>
 
 <script src="/js/join.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <?php include 'includes/footer.php' ?>

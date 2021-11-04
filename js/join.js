@@ -20,19 +20,28 @@ form.onsubmit = function (e) {
 	var xhr = new XMLHttpRequest();
 	xhr.onload = function () {
 		try {
-			var result = JSON.parse(this.response);
+			var xhrResp = this.response;
+			var result = JSON.parse(xhrResp);
 			switch (result.status) {
 			case "email":
 				alert("Sorry, an account with this email already exists.");
 				break;
 			case "username":
-				alert("Sorry, this username has already been taken");
+				alert("Sorry, this username has already been taken.");
+				break;
+			case "captcha":
+			  alert("Sorry, the captcha is invalid (try refreshing the page).");
 				break;
 			case "success":
 				window.location = "/success.php";
 				break;
 			}
-		} catch (e) { alert("Server error"); }
+		} catch (e) {
+			alert("Server error");
+			console.log(e);
+			console.log(xhrResp);
+		}
+		grecaptcha.reset();
 	};
 
 	xhr.open("POST", "");

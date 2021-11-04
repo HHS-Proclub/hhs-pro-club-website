@@ -18,8 +18,8 @@ include('includes/header.php');
 		<br/>
 		<br/>
 
-		<a href="join.php" class="btn">Make an account</a>
-<!--		<a href="https://discord.gg/82Ef6eA" class="btn">Join our Discord</a> -->
+		<a href="http://bit.ly/hhs-proclub-2021" class="btn">Join our Email List</a>
+		<a href="https://discord.gg/82Ef6eA" class="btn">Join our Discord</a>
 		<br/>
 		<br/>
 <!--        <a href="news.php" class="btn">View all Workshops</a> -->

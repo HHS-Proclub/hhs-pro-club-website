@@ -19,8 +19,8 @@ t.semibold {
     <div class="row">
 	    <div class="box one-half">
 	    	<h2>Meetings</h2>
-	    	<t class="semibold">General Meetings</t> – Monday Lunch on Zoom (Biweekly) <br>
-            <t class="semibold">Girls Who Code</t> – Tuesday Lunch on Zoom (Biweekly)
+	    	<t class="semibold">General Meetings</t> – Tuesday Lunch in room I5 (weekly) <br>
+        <t class="semibold">Girls Who Code</t> – Monday Lunch in room I5 (weekly)
 	    </div>
 	    <div class="box one-half last-child">
 	    	<h2>Contact</h2>

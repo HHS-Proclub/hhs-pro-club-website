@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape of the Triangle</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Section with a view height of 100% -->
+    <section class="vh-100">
+        <div class="container h-100">
+
+            <!-- Shown when the webpage first loads -->
+            <div id="initialScreen" class="h-100">
+                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                    <h1 class="m-3 text-center">Escape of the Triangle</h1>
+                    <button type="submit" class="btn btn-success btn-green" id="newRoomButton">Create New Game</button>
+                    <div class="m-2">OR</div>
+                    <form class="d-flex flex-column align-items-center justify-content-center" onsubmit="event.preventDefault();">
+                        <input type="text" placeholder="Enter Game Code" id="roomCodeInput" class="green-field">
+                        <button type="submit" class="btn btn-success btn-green m-2" id="joinRoomButton">Join Game</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Asks the user for their username -->
+            <div id="nameScreen" class="h-100">
+                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                    <h1>Enter your username:</h1>
+                    <form class="d-flex flex-column align-items-center justify-content-center m-2" onsubmit="event.preventDefault();">
+                        <input type="text" placeholder="Username" id="usernameInput" class="green-field">
+                        <button type="submit" class="btn btn-success btn-green m-2" id="infoConfirmButton">Confirm</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Waiting for players -->
+            <div id="waitScreen" class="h-100">
+                <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                    <h2 id="lobbyGameCode">Game Code: 000000</h2>
+                    <h3 id="lobbyPlayerCount">Players: 0/4</h3>
+                    <div id="lobbyPlayerList"></div>
+                    <!--<p>This game is playable with 1-4 players, although groups of 3 or 4 are recommended.</p>-->
+                    <form class="d-flex flex-column align-items-center justify-content-center m-2" onsubmit="event.preventDefault();">
+                        <!-- Change type to "text" to allow starting level -->
+												<input type="text" placeholder="Starting Level" id="startingLevelInput" class="green-field">
+                        <button type="submit" class="btn btn-success btn-green m-2" id="lobbyStartButton">Start Game</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Main game screen -->
+            <div id="gameScreen" class="h-100">
+                <!-- Flex used to center the canvas -->
+                <div class="d-flex flex-row align-items-center justify-content-center w-100 h-100">
+                    <div id="leftGameScreen" class="d-flex flex-column align-items-center justify-content-center h-100">
+                        <!-- Main game canvas -->
+                        <canvas id="canvas" class=""></canvas>
+                        <div id="blockList" class="container d-flex flex-wrap align-items-center justify-content-center m-3 smallBlocks">
+                            <!-- Blocks are added here by cloning the below template -->
+                        </div>
+
+                        <template id="scriptBlockTemplate">
+                            <button class="scriptBlock btn d-flex align-items-center justify-content-center m-2">
+                                <div class="scriptBlockCode p-2">Move forward 1 step</div>
+                                <div class="scriptBlockUses p-2">2</div>
+                            </button>
+                        </template>
+                    </div>
+                    <div id="rightGameScreen" class="d-flex flex-column">
+                        <h4 id="levelNumberText">Level 0</h4>
+                        <p id="levelTitleText"></p>
+                        <p id="flavorText">"Where am I?" the triangle wondered. In a feat of dashing glory, the triangle transports to a new dimension... Help them get out of this mess!</p>
+                        <h5 id="tipsTitle">Tips</h5>
+                        <p id="tipsText">A bunch of tips should go here. Right now, it's just a bunch of useless text that serves no purpose whatsoever.</p>
+                        <h5>Blocks</h5>
+                        <div id="blockDiv">
+                            <div class="blockPlayerDiv"></div>
+                            <div class="blockPlayerDiv"></div>
+                            <div class="blockPlayerDiv"></div>
+                            <div class="blockPlayerDiv"></div>
+                            <div class="blockPlayerDiv"></div>
+                        </div>
+                        <h5 id="variableTitle">Variables</h5>
+                        <div id="variableDiv">
+                            
+                        </div>
+                        <div id="rightBottomTab">
+                            <div id="gamePlayerCount">Players: 0/4</div>
+                            <div id="gameCodeText">Game Code: 000000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="fullScreenDiv"></div>
+
+    <!-- socket.io JS files -->
+    <script src="https://cdn.socket.io/4.1.2/socket.io.min.js" integrity="sha384-toS6mmwu70G0fw54EGlWWeA4z3dyJ+dlXBtSURSKN4vyRFOcxd3Bzjj/AoOwY+Rg" crossorigin="anonymous"></script>
+
+    <!-- Frontend game script -->
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>

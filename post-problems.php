@@ -15,7 +15,8 @@ if (isset($_POST['pr']) && isset($_POST['title']) && isset($_POST['state'])) {
 	//move_uploaded_file($_FILES['outputFile']['tmp_name'], '/public_html/homesteadhacks/test-data2019/' . $prob . '.out');
     unset($_POST['inputFile']);
     unset($_POST['outputFile']);
-	foreach ($_POST as $key => $value) $_POST[$key] = str_replace("\r\n", "<br>", $_POST[$key]);
+	// Change this maybe!!!
+	foreach ($_POST as $key => $value) $_POST[$key] = $_POST[$key]; // str_replace("\r\n", "<br>", $_POST[$key]);
 	// $problems = json_decode(file_get_contents('content/problems2019.json'), true);
 	$problems = json_decode(file_get_contents('content/problems.json'), true);
 	//$problems = json_decode(file_get_contents('homesteadhacks/hackathonContent/problems.json'), true);
