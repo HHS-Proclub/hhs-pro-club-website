@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Armaan Gomes",
+		"position": "President",
+		"photo": "/img/armaan.png",
+		"description": ""
+	},
+	{
+		"name": "Aayush Gaywala",
+		"position": "Vice President",
+		"photo": "/img/empty.png",
+		"description": ""
+	},
+	{
+		"name": "Kevin Chang",
+		"position": "Workshops Director",
+		"photo": "/img/empty.png",
+		"description": ""
+	},
+	{
+		"name": "Akshay Giri",
+		"position": "Competitions Manager",
+		"photo": "/img/akshay.jpg",
+		"description": ""
+	},
+    {
+		"name": "Alicia Chu",
+		"position": "Events Director",
+		"photo": "/img/empty.png",
+		"description": ""
+	}
+	
+]
