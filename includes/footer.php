@@ -4,7 +4,7 @@
 
 <footer>
 	<div class="container">
-		&copy; HHS Programming Club 2014-2021
+		&copy; HHS Programming Club 2014-2025
 	</div>
 </footer>
 

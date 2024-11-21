@@ -24,7 +24,7 @@ t.semibold {
 	    </div>
 	    <div class="box one-half last-child">
 	    	<h2>Contact</h2>
-	    	Questions? Comments? Feel free to email us at <a href="mailto:officers@hhsprogramming.com">officers<span style="display:none">asdf</span>@hhsprogramming.com</a>.
+	    	Questions? Comments? Feel free to email us at <a href="mailto:homesteadprogramming@gmail.com">homesteadprogramming<span style="display:none">asdf</span>@gmail.com</a>.
 	    </div>
 	</div>
     
