@@ -28,23 +28,6 @@
 		"position": "Events Director",
 		"photo": "/img/empty.png",
 		"description": ""
-	},
-	{
-		"name": "Katia Bravo",
-		"position": "Hackathons Director",
-		"photo": "/img/katia.jpg",
-		"description": ""
-    },
-    {
-        "name": "Ishwar Suriyaprakash",
-        "position": "Competitions Director",
-        "photo": "/img/ishwar.jpg",
-        "description": ""
-    },
-		{
-			"name": "Alex Wang",
-			"position": "Events Director",
-			"photo": "/img/alex.jpg",
-			"description": ""
-		}
+	}
+	
 ]
