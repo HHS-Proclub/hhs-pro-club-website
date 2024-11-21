@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Raymond Feng",
+		"position": "President",
+		"photo": "raymond.jpg",
+		"description": ""
+	},
+	{
+		"name": "Kyle Fu",
+		"position": "Vice President",
+		"photo": "/img/kyle.jpg",
+		"description": ""
+	},
+	{
+		"name": "Nathaniel Thomas",
+		"position": "Co-Workshops Director",
+		"photo": "/img/nathaniel.jpg",
+		"description": ""
+	},
+	{
+		"name": "Andre Mao",
+		"position": "Co-Workshops Director",
+		"photo": "/img/andre.jpg",
+		"description": ""
+	},
+    {
+		"name": "Radhika Goel",
+		"position": "Secretary/Treasurer",
+		"photo": "/img/radhika.jpg",
+		"description": ""
+	},
+	{
+		"name": "Katia Bravo",
+		"position": "Hackathons Director",
+		"photo": "/img/katia.jpg",
+		"description": ""
+    },
+    {
+        "name": "Ishwar Suriyaprakash",
+        "position": "Competitions Director",
+        "photo": "/img/ishwar.jpg",
+        "description": ""
+    },
+		{
+			"name": "Alex Wang",
+			"position": "Events Director",
+			"photo": "/img/alex.jpg",
+			"description": ""
+		}
+]
