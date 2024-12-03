@@ -1,4 +1,4 @@
-{
+    {
     "Giantpizzahead": {
         "first": "Kyle",
         "last": "Fu",
@@ -427,7 +427,7 @@
         "level": "1",
         "email": "agomes673@student.fuhsd.org",
         "password": "f4e49ffe519d4feda8df43ca0078941c940e0213",
-		"officer": true
+                "officer": true
     },
     "reku": {
         "first": "Albert",
@@ -1004,6 +1004,17 @@
         "email": "kchang323@student.fuhsd.org",
         "password": "6043610cf949831124032aa21d75197c4e75dda5",
         "username": "",
-		"officer": true
+                "officer": true
+    },
+    "agirigod": {
+        "first": "Akshay",
+        "last": "Giri",
+        "grade": "10",
+        "level": "2",
+        "email": "agiri557@student.fuhsd.org",
+        "password": "2b8f633549e949fc06edb05659683651e64c38e1",
+        "username": "",
+                "officer": true
     }
+
 }
