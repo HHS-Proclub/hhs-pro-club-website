@@ -30,9 +30,13 @@ include('includes/header.php');
 		<?php
 		   $news_data = file_get_contents('content/news.json');
 		   $news = json_decode($news_data, true);
-
+		   usort($news, function($a, $b) {
+		   		$dateA = strtotime($a['year'] . '-' . $a['month'] . '-' . $a['date']);
+		        $dateB = strtotime($b['year'] . '-' . $b['month'] . '-' . $b['date']);
+		        return $dateB - $dateA; // Most recent dates first
+		   });
 		   $total = count($news);
-
+			
 		   $post = $news[0];
 		   echo '    <h3>' . $post['title'] . '</h3>';
 		   echo '    <h4>' . $post['month'] . '/' . $post['date'] . '/' . $post['year'] . '</h4>';
