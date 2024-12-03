@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$curl = curl_init();
 	curl_setopt($curl, CURLOPT_POST, 1);
 	curl_setopt($curl, CURLOPT_POSTFIELDS, [
-		"secret" => "6LdS1ZAqAAAAANqYh0eLgJ7AkHMV8azT-JgFiqZY",
+		"secret" => "6LeL1ZAqAAAAAMjXaJT0nqSrJ_qn7xSqsFrO1JBg",
 		"response" => $_POST["g-recaptcha-response"]
 	]);
 	curl_setopt($curl, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
@@ -113,7 +113,7 @@ include "includes/header.php";
 		</td></tr>
 		<!-- to stop russian haxors -->
 		<tr><td>Captcha:</td><td>
-			<div class="g-recaptcha" data-sitekey="6LdS1ZAqAAAAAMjhLu2j98I3I5Xop_Dx1ZVc5GYY"></div>
+			<div class="g-recaptcha" data-sitekey="6LeL1ZAqAAAAANiwZLVAJ2-O0zT6oKL1ruS6vMvh"></div>
 		</td></tr>
 	</table>
 	<br />
