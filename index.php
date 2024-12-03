@@ -18,7 +18,7 @@ include('includes/header.php');
 		<br/>
 		<br/>
 
-		<a href="http://bit.ly/hhs-proclub-2021" class="btn">Join our Email List</a>
+		<a href="http://bit.ly/hhscs2425" class="btn">Join our Email List</a>
 		<a href="https://discord.gg/82Ef6eA" class="btn">Join our Discord</a>
 		<br/>
 		<br/>

@@ -1,16 +1,87 @@
 [
+	{
+	    "title": "New Webiste!",
+	    "content": "From now on this is our new website! We will be constantly making changes, but feel free to explore",
+	    "year": "2021-9-17",
+	    "month": null,
+	    "date": null
+	},
     {
         "title": "Join Our Discord!",
         "content": "<a href=\"https:\/\/discord.gg\/82Ef6eA\">Link<\/a> to our Discord",
-        "year": "2024-11-19",
+        "year": "2024-9-17",
         "month": null,
         "date": null
     },
-    {
-        "title": "New Webiste!",
-        "content": "From now on this is our new website! We will be constantly making changes, but feel free to explore",
-        "year": "2021-10-26",
-        "month": null,
-        "date": null
-    }
+	{
+	   	"title": "First GM! Officers + Fun Acitivity",
+	    "content": "Come to I5 for our first GM \n Link: <a href=\"https:\/\/hhsproclub.com\/escapeofthetriangle\">Escape of the Triangle<\/a>",
+	    "year": "2024-9-17",
+	    "month": null,
+	    "date": null
+	},
+	{
+		"title": "Second GM! Python Turorial",
+		"content": "Come to I5 for our second GM \n Link: <a href=\"https:\/\/codepad.app\/edit\/9in24b9y\">Python Tutorial<\/a>",
+		"year": "2024-9-23",
+		"month": null,
+		"date": null
+	},
+	{
+		"title": "Third GM! Boids",
+		"content": "Come to I5 for our third GM \n Link: <a href=\"https:\/\/codepad.app\/edit\/pk7e1x28\">Boids<\/a>",
+		"year": "2024-10-1",
+		"month": null,
+		"date": null
+	},
+	{
+		"title": "Fourth GM! ants and salesmen",
+		"content": "Come to I5 for our fouth GM \n Link: <a href=\"https:\/\/codepad.app\/edit\/9ra7n9nn\">Python Tutorial<\/a>",
+		"year": "2024-10-8",
+		"month": null,
+		"date": null
+	},
+	{
+		"title": "Fifth GM! CyberFall",
+		"content": "Come to I5 for our fifth GM ",
+		"year": "2024-10-15",
+		"month": null,
+		"date": null
+	},
+	{
+		"title": "Sixth GM! Speech and Debate Colab",
+		"content": "Come to I5 for our sixth GM",
+		"year": "2024-10-22",
+		"month": null,
+		"date": null
+	},
+	{
+		"title": "Seventh GM! Clash of Code",
+		"content": "Come to I5 for our seventh GM",
+		"year": "2024-10-29",
+		"month": null,
+		"date": null
+	},
+	{
+		"title": "Eighth GM! Ray Tracing",
+		"content": "Come to I5 for our eighth GM \n Link: <a href=\"https:\/\/codepad.app\/edit\/4veg4u5q\">Ray Tracing<\/a>",
+		"year": "11-5-17",
+		"month": null,
+		"date": null
+	},
+	{
+		"title": "Ninth GM! Web Scraping",
+		"content": "Come to I5 for our ninth GM",
+		"year": "11-12-17",
+		"month": null,
+		"date": null
+	},
+	{
+		"title": "Tenth GM! Holdiay Greeting Card",
+		"content": "Come to I5 for our tenth GM \n Link: <a href=\"https:\/\/codepad.app\/edit\/9ptirww1\">Holiday Greeting Card<\/a>",
+		"year": "12-3-17",
+		"month": null,
+		"date": null
+	}
+
 ]
