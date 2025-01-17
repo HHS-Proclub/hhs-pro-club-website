@@ -36,21 +36,51 @@ function showResult($result, $description = "", $error = false) {
 
 // stores grading results in db
 function storeResult($prob, $email, $lang, $correct, $err_msg = "", $time = NULL, $mem = NULL) {
-	$results = json_decode(file_get_contents(RESULTS_DB), true);
-	if (!isset($results[$prob])) $results[$prob] = [];
+    $results = json_decode(file_get_contents(RESULTS_DB), true);
 
-	$result = [
-		"lang" => $lang,
-		"correct" => $correct,
-		"timestamp" => date("c")
-	];
+    if (!isset($results[$prob])) {
+        // If there is no result for this problem, create a new entry for the problem.
+        $results[$prob] = [];
+    }
 
-	if (!empty($err_msg)) $result["err_msg"] = $err_msg;
-	if (!is_null($time)) $result["time"] = $time;
-	if (!is_null($mem)) $result["mem"] = $mem;
+    // Check if the user has already made a submission
+    if (isset($results[$prob][$email])) {
+        // Get the previous submission data
+        $previousResult = $results[$prob][$email];
 
-	$results[$prob][$email] = $result;
-	file_put_contents(RESULTS_DB, json_encode($results, JSON_PRETTY_PRINT));
+        // Determine the current score (true/false, but we'll use a numeric value for comparison)
+        $currentScore = $correct ? 1 : 0;
+        $previousScore = isset($previousResult['correct']) && $previousResult['correct'] ? 1 : 0;
+
+        // Get the current and previous times
+        $currentTime = $time;
+        $previousTime = isset($previousResult['time']) ? $previousResult['time'] : PHP_INT_MAX; // Use a large value if no previous time exists
+
+        // Compare: higher score or same score but better time (lower is better)
+        if ($currentScore > $previousScore || ($currentScore == $previousScore && $currentTime < $previousTime)) {
+            $results[$prob][$email] = [
+                "lang" => $lang,
+                "correct" => $correct,
+                "timestamp" => date("c"), // We still store a timestamp for reference
+                "err_msg" => $err_msg,
+                "time" => $currentTime,
+                "mem" => $mem
+            ];
+        }
+    } else {
+        // If the user hasn't made a previous submission, store the result normally
+        $results[$prob][$email] = [
+            "lang" => $lang,
+            "correct" => $correct,
+            "timestamp" => date("c"),
+            "err_msg" => $err_msg,
+            "time" => $time,
+            "mem" => $mem
+        ];
+    }
+
+    // Save the updated results back to the JSON file
+    file_put_contents(RESULTS_DB, json_encode($results, JSON_PRETTY_PRINT));
 }
 
 // returns any previous grading result from db

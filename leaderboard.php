@@ -119,7 +119,14 @@ table {
 <?php if (!isset($competition) || $competition['leaderboard']): ?>
 
 <table id="leaderboard">
-	<thead><tr><td>Rank</td><td>Name</td><td>Points</td></tr></thead>
+	<thead>
+		<tr>
+			<td>Rank</td>
+			<td>Name</td>
+			<td>Points</td>
+			<td>Total Time (ms)</td>
+		</tr>
+	</thead>
 	<tbody></tbody>
 </table>
 

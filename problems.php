@@ -66,21 +66,22 @@ foreach ($problems as $id => $problem) {
 												}
                     }
                 ?>
-			<div class="problem-footer">
-				<?php if (isset($_GET['getAll'])){ ?>
-					<a href="/problem?problem=<?php echo $id; ?>&getAll=1" class="btn" style="<?php if($completed) echo 'background-color: lightgray;'; ?>">
-                         <?php if($completed) echo 'Completed (' . $score . '/' . $maxScore . ')';
-                        else if ($submitted) echo 'Solve Challenge (' . $score . '/' . $maxScore . ')';
-												else echo 'Solve Challenge'; ?>
-					</a>
-				<?php } else { ?>
-					<a href="/problem?problem=<?php echo !empty($_GET['year']) ? $_GET['year'] . '/' : ''; ?><?php echo $id; ?>" class="btn" style="<?php if($completed) echo 'background-color: lightgray;'; ?>">
-					<?php if($completed) echo 'Completed (' . $score . '/' . $maxScore . ')';
-					      else if ($submitted) echo 'Solve Challenge (' . $score . '/' . $maxScore . ')';
-                else echo 'Solve Challenge'; ?>
-					</a>
-				<?php } ?>
-			</div>
+				<div class="problem-footer">
+				    <?php if (isset($_GET['getAll'])) { ?>
+				        <a href="/problem?problem=<?php echo $id; ?>&getAll=1" class="btn">
+				            <?php if ($completed) echo 'Completed (' . $score . '/' . $maxScore . ')';
+				            else if ($submitted) echo 'Solve Challenge (' . $score . '/' . $maxScore . ')';
+				            else echo 'Solve Challenge'; ?>
+				        </a>
+				    <?php } else { ?>
+				        <a href="/problem?problem=<?php echo $id; ?>&getAll=1" class="btn">
+				            <?php if ($completed) echo 'Completed (' . $score . '/' . $maxScore . ')';
+				            else if ($submitted) echo 'Solve Challenge (' . $score . '/' . $maxScore . ')';
+				            else echo 'Solve Challenge'; ?>
+				        </a>
+				    <?php } ?>
+				</div>
+
 		</div>
 <?php
 	}
