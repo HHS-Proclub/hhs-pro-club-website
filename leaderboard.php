@@ -35,6 +35,7 @@ if (isset($_GET["data"])) {
                     if (isset($result["time"])) {
                         $leaderboard[$email]["total_time"] += $result["time"]*1000;
                     }
+					$leaderboard[$email]["total_time"] = round($leaderboard[$email]["total_time"], 1);
                 }
             } else {
                 // Ideone
@@ -49,6 +50,7 @@ if (isset($_GET["data"])) {
                         if (isset($result["time"])) {
                             $leaderboard[$email]["total_time"] += $result["time"]*1000;
                         }
+						$leaderboard[$email]["total_time"] = round($leaderboard[$email]["total_time"], 1);
                     }
                 }
             }
