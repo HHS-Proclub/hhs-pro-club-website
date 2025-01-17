@@ -10,94 +10,94 @@ if (isset($competitions[$_GET["state"]])) {
 
 // output leaderboard data as JSON
 if (isset($_GET["data"])) {
-	header("Content-type: application/json");
+    header("Content-type: application/json");
 
-	$problems = json_decode(file_get_contents("content/problems.json"), true);
-	$results = json_decode(file_get_contents("content/problem-results.json"), true);
-	$users = json_decode(file_get_contents("content/users.json"), true);
-	$useroffsets = json_decode(file_get_contents("content/useroffsets.json"), true);
-	
-	$leaderboard = [];
-	$json = [];
+    $problems = json_decode(file_get_contents("content/problems.json"), true);
+    $results = json_decode(file_get_contents("content/problem-results.json"), true);
+    $users = json_decode(file_get_contents("content/users.json"), true);
+    $useroffsets = json_decode(file_get_contents("content/useroffsets.json"), true);
+    
+    $leaderboard = [];
+    $json = [];
 
-	// tally up points
-	foreach ($problems as $id => $problem) {
-		if (($problem["state"] === ($_GET["state"] ?: "up") || $problem["state"] === "hidden") && $results[$id]) {
-			if (array_key_exists("version", $problem) && $problem["version"] == 2) {
-				// JudgeLite
-				$points = $problem["maxScore"];
-				foreach ($results[$id] as $email => $result) {
-					if (!array_key_exists($email, $leaderboard)) {
-						$leaderboard[$email] = array("points" => 0, "timestamp" => 0);
-					}
-					$leaderboard[$email]["points"] += $result["score"];
-					$leaderboard[$email]["timestamp"] = max(strtotime($result["timestamp"]),
-					    $leaderboard[$email]["timestamp"]);
-				}
-			} else {
-				// Ideone
-			  $points = 100;
-				foreach ($results[$id] as $email => $result) if ($result["correct"]) {
-					if (!array_key_exists($email, $leaderboard)) {
-						$leaderboard[$email] = array("points" => 0, "timestamp" => 0);
-					}
-					$leaderboard[$email]["points"] += $points;
-					$leaderboard[$email]["timestamp"] = max(strtotime($result["timestamp"]),
-							$leaderboard[$email]["timestamp"]);
-				}
-			}
-		}
-	}
+    // tally up points and total time
+    foreach ($problems as $id => $problem) {
+        if (($problem["state"] === ($_GET["state"] ?: "up") || $problem["state"] === "hidden") && $results[$id]) {
+            if (array_key_exists("version", $problem) && $problem["version"] == 2) {
+                // JudgeLite
+                $points = $problem["maxScore"];
+                foreach ($results[$id] as $email => $result) {
+                    if (!array_key_exists($email, $leaderboard)) {
+                        $leaderboard[$email] = array("points" => 0, "timestamp" => 0, "total_time" => 0);
+                    }
+                    $leaderboard[$email]["points"] += $result["score"];
+                    $leaderboard[$email]["timestamp"] = max(strtotime($result["timestamp"]), $leaderboard[$email]["timestamp"]);
+                    if (isset($result["time"])) {
+                        $leaderboard[$email]["total_time"] += $result["time"];
+                    }
+                }
+            } else {
+                // Ideone
+                $points = 100;
+                foreach ($results[$id] as $email => $result) {
+                    if ($result["correct"]) {
+                        if (!array_key_exists($email, $leaderboard)) {
+                            $leaderboard[$email] = array("points" => 0, "timestamp" => 0, "total_time" => 0);
+                        }
+                        $leaderboard[$email]["points"] += $points;
+                        $leaderboard[$email]["timestamp"] = max(strtotime($result["timestamp"]), $leaderboard[$email]["timestamp"]);
+                        if (isset($result["time"])) {
+                            $leaderboard[$email]["total_time"] += $result["time"];
+                        }
+                    }
+                }
+            }
+        }
+    }
 
-	foreach ($useroffsets as $member => $offset){
-		if (!array_key_exists($member, $leaderboard)) {
-			$leaderboard[$member] = array("points" => 0, "timestamp" => 0);
-		}
-		$leaderboard[$member]["points"] += $offset["points"];
-	}
+    foreach ($useroffsets as $member => $offset){
+        if (!array_key_exists($member, $leaderboard)) {
+            $leaderboard[$member] = array("points" => 0, "timestamp" => 0, "total_time" => 0);
+        }
+        $leaderboard[$member]["points"] += $offset["points"];
+    }
 
-	// sort by points first, then timestamp
-	uasort($leaderboard, function ($a, $b) {
-		$result = $b["points"] - $a["points"];
-		if (!$result) $result = $a["timestamp"] - $b["timestamp"];
-		return $result;
-	});
+    // sort by points first, then total time (lower is better), then timestamp
+    uasort($leaderboard, function ($a, $b) {
+        $result = $b["points"] - $a["points"];
+        if (!$result) $result = $a["total_time"] - $b["total_time"]; // Compare by total time if points are equal
+        if (!$result) $result = $a["timestamp"] - $b["timestamp"];
+        return $result;
+    });
 
-	// construct array of name => point mappings
-	// TODO: can we directly rename keys?
-	
-	foreach ($leaderboard as $email => $stats) {
-		// TODO: how to array_walk()?
-		if (isset($competition)) {
-			$name = $email;
-		} else {
+    // construct array of name => point mappings
+    foreach ($leaderboard as $email => $stats) {
+        if (isset($competition)) {
+            $name = $email;
+        } else {
+            foreach ($users as $user) if (strcmp($user["email"], $email) === 0){
+                break;
+            }
 
-			foreach ($users as $user) if (strcmp($user["email"], $email) === 0){
-				
-				break;
-			} 
+            // skip officers
+            $name = "$user[first] $user[last]";
+            if ($user["email"] != $email) $name = $email;
+        }
 
-			// skip officers
-			// TODO: how to unset shit
-			// if (!isset($_GET['officers']) && $user["officer"]) continue;
-			
-			$name = "$user[first] $user[last]";
+        $json[] = [
+            "name" => $name,
+            "points" => $stats["points"],
+            "total_time" => $stats["total_time"] // Add the total time column
+        ];
+    }
 
-			if ($user["email"] != $email) $name = $email;
-		}
-
-		$json[] = ["name" => $name,
-		           "points" => $stats["points"]];
-	}
-	
-	if (isset($_GET['name'])) {
-		foreach ($json as $row)
-			if ($row['name'] == $_GET['name'])
-				exit(json_encode($row));
-	}
-	else {
-		exit(json_encode($json));
-	}
+    if (isset($_GET['name'])) {
+        foreach ($json as $row)
+            if ($row['name'] == $_GET['name'])
+                exit(json_encode($row));
+    } else {
+        exit(json_encode($json));
+    }
 }
 
 $pagetitle = (isset($competition) ? $competition['name'] . ' ' : '') . "Leaderboard";
