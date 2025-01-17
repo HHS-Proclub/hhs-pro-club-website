@@ -33,7 +33,7 @@ if (isset($_GET["data"])) {
                     $leaderboard[$email]["points"] += $result["score"];
                     $leaderboard[$email]["timestamp"] = max(strtotime($result["timestamp"]), $leaderboard[$email]["timestamp"]);
                     if (isset($result["time"])) {
-                        $leaderboard[$email]["total_time"] += $result["time"];
+                        $leaderboard[$email]["total_time"] += $result["time"]*1000;
                     }
                 }
             } else {
@@ -47,7 +47,7 @@ if (isset($_GET["data"])) {
                         $leaderboard[$email]["points"] += $points;
                         $leaderboard[$email]["timestamp"] = max(strtotime($result["timestamp"]), $leaderboard[$email]["timestamp"]);
                         if (isset($result["time"])) {
-                            $leaderboard[$email]["total_time"] += $result["time"];
+                            $leaderboard[$email]["total_time"] += $result["time"]*1000;
                         }
                     }
                 }
@@ -145,7 +145,7 @@ table {
 					   return '&#'+i.charCodeAt(0)+';';
 				});
 				leaderboard.innerHTML += "<tr><td>" + (i + 1) + "</td><td>" + encodedName + "</td><td>"
-						+ data[i].points + "</td>";
+				            + data[i].points + "</td><td>" + data[i].total_time + "</td>"; // Show total_time
 			}
 		};
 
