@@ -1,24 +1,23 @@
 <?php
 
 session_start();
-if (!isset($_SESSION["user"]) || empty($_SESSION["user"]["officer"])) {
-    die("Sorry, you do not have permission to view this page.");
-}
-
 if (isset($_POST['title']) && isset($_POST['day']) && isset($_POST['content'])) {
-    // Split the 'day' field into day, month, and year
-    list($day, $month, $year) = preg_split('[/.-]', $_POST['day']);
+    // Ensure the date is in the correct format
+    $date_parts = explode('-', $_POST['day']); // 'YYYY-MM-DD' format from <input type="date">
+    
+    if (count($date_parts) === 3) {
+        list($year, $month, $day) = $date_parts; // Properly extract year, month, and day
+    } else {
+        die("Invalid date format.");
+    }
 
     // Create the news entry
     $news_entry = [
         'title' => $_POST['title'],        // Title of the news post
-		'content' => $_POST['content'],    // Content of the news post
-		'year' => intval($year),           // Extracted year
-		'month' => intval($month),         // Extracted month
+        'content' => $_POST['content'],    // Content of the news post
+        'year' => intval($year),           // Extracted year
+        'month' => intval($month),         // Extracted month
         'date' => intval($day)             // Extracted day
-        
-           
-
     ];
 
     // Read the existing JSON file
@@ -29,14 +28,13 @@ if (isset($_POST['title']) && isset($_POST['day']) && isset($_POST['content'])) 
     array_unshift($news, $news_entry);
 
     // Write the updated array back to the JSON file
-    $news_f = fopen("content/news.json", "r+");
-    fwrite($news_f, json_encode($news, JSON_PRETTY_PRINT));
-    fclose($news_f);
+    file_put_contents('content/news.json', json_encode($news, JSON_PRETTY_PRINT));
 
     // Redirect to the news page after saving
     header("Location: /news");
     exit;
 }
+
 
 // Page metadata
 $pagetitle = 'Post News';
